@@ -1,4 +1,4 @@
-# Real-O-Mat
+# Vybersiolomouc.cz
 
 ## Development
 
