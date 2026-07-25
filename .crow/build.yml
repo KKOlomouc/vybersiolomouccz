@@ -1,0 +1,13 @@
+name: build
+
+when:
+  - event: push
+  - event: manual
+
+steps:
+  - name: build-site
+    image: node:25
+    commands:
+      - npm install -g pnpm@latest-11
+      - pnpm install
+      - pnpm build
