@@ -1,14 +1,20 @@
+// @ts-check
+import { defineConfig } from 'astro/config'
+
 import vue from '@astrojs/vue'
-import tailwindcss from '@tailwindcss/vite'   // add
+import tailwindcss from '@tailwindcss/vite'
 import Icons from 'unplugin-icons/vite'
 
+// https://astro.build/config
 export default defineConfig({
   output: 'static',
   integrations: [vue()],
   vite: {
     plugins: [
-      tailwindcss(),                            // uncomment/enable
-      Icons({ compiler: 'vue3' }),
+      tailwindcss(),
+      Icons({
+        compiler: 'vue3',
+      }),
     ],
   },
 })
