@@ -3,6 +3,7 @@ import { defineConfig } from 'astro/config'
 
 import vue from '@astrojs/vue'
 import Icons from 'unplugin-icons/vite'
+import tailwindcss from '@tailwindcss/vite';
 
 // https://astro.build/config
 export default defineConfig({
@@ -10,7 +11,7 @@ export default defineConfig({
   integrations: [vue()],
   vite: {
     plugins: [
-      // tailwindcss(),
+      tailwindcss(),
       Icons({
         compiler: 'vue3',
       }),

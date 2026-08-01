@@ -1,7 +1,9 @@
 ---
 import Content from '../layouts/Content.astro'
 import { getCollection } from 'astro:content'
-import { Markdown } from '@astropub/md'
+import MarkdownIt from 'markdown-it'
+const md = new MarkdownIt()
+import { Heading } from 'accessible-astro-components'
 
 const items = (await getCollection('faq')).map((q) => q.data)
 ---
@@ -12,10 +14,8 @@ const items = (await getCollection('faq')).map((q) => q.data)
     {
       items.map((x) => (
         <>
-          <h3>
-            <Markdown.Inline of={x.question} />
-          </h3>
-          <Markdown of={x.answer} />
+        <Heading level="h3" set:html={md.render(x.question)}></Heading>
+        <p set:html={md.render(x.answer)}></p>
         </>
       ))
     }
