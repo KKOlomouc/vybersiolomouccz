@@ -6,14 +6,14 @@ const emit = defineEmits(['done'])
 
 <template>
   <div class="bg-white p-4 md:p-8">
-    <h2 class="!text-lg">Wie funktioniert der Real-O-Mat?</h2>
+    <h2 class="text-lg!">Wie funktioniert der Real-O-Mat?</h2>
     <p>
       Der Real-O-Mat hat das Abstimmungsverhalten der Fraktionen und Gruppen im
       Bundestag zu 20 politischen Forderungen ausgewertet. Sie haben für oder
       gegen Anträge und Gesetzentwürfe gestimmt oder sich enthalten.
     </p>
 
-    <h2 class="mt-4 !text-lg">Wie werden die Positionen bewertet?</h2>
+    <h2 class="mt-4 text-lg!">Wie werden die Positionen bewertet?</h2>
     <p>
       Eine Zustimmung entspricht der Option „ja, finde ich auch“. Eine Ablehnung
       und Enthaltung wird nach Begründung der Fraktion in Beschlussempfehlungen
@@ -21,7 +21,7 @@ const emit = defineEmits(['done'])
       mir nicht aus“ geteilt.
     </p>
 
-    <h2 class="mt-8 !text-lg">Beispiel</h2>
+    <h2 class="mt-8 text-lg!">Beispiel</h2>
     <p>
       „Bürgergeldempfänger*innen, die wiederholt eine existenzsichernde Arbeit
       ablehnen, soll für zwei Monate der komplette Regelsatz des Bürgergelds

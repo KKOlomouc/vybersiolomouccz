@@ -120,7 +120,7 @@ onMounted(focusFirstButton)
           >
             <component :is="icon" />
           </AnswerButton>
-          <div class="!ms-auto self-center @max-md:pt-4">
+          <div class="ms-auto! self-center @max-md:pt-4">
             <button @click="$emit('skipQuestion')" class="btn-outline">
               These überspringen
               <IconForward aria-hidden="true" class="ms-1" />

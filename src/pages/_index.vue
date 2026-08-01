@@ -180,12 +180,12 @@ onMounted(() => updateBeforeUnload())
     class="mt-4 flex motion-safe:transition-all"
     v-if="[Stage.Weights, Stage.Results].includes(currentStage)"
   >
-    <button @click="previousStage" class="btn-text !text-white">
+    <button @click="previousStage" class="btn-text text-white!">
       <IconBack aria-hidden="true" class="me-1" />
       Zurück
     </button>
 
-    <button @click="confirmReset" class="btn-text ms-auto !text-white">
+    <button @click="confirmReset" class="btn-text ms-auto text-white!">
       <IconRestart aria-hidden="true" class="me-1" />
       Neustarten
     </button>
