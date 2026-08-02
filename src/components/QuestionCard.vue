@@ -31,9 +31,9 @@ const buttonContainer = useTemplateRef<HTMLDivElement>('button-container')
 
 const answerButtons = computed(() => {
   const buttons: Record<string, any> = {
-    'zu weit': { icon: IconLess },
-    richtig: { icon: IconRight },
-    'nicht weit genug': { icon: IconMore },
+    'nevím': { icon: IconLess },
+    ne: { icon: IconRight },
+    'ano': { icon: IconMore },
   }
 
   for (const button in buttons) {

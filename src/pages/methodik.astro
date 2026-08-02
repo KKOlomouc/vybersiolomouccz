@@ -70,14 +70,14 @@ const questions = (await getCollection('questions')).map((q) => q.data)
       Kategorien:
     </p>
     <ul class="list-disc ps-8 break-inside-avoid-column">
-      <li>„richtig”</li>
-      <li>„geht nicht weit genug”</li>
-      <li>„geht zu weit”</li>
+      <li>„ne”</li>
+      <li>„geht ano”</li>
+      <li>„geht nevím”</li>
     </ul>
     <p><strong>Zustimmung</strong></p>
     <p>
       Hat eine Fraktion für einen Gesetzentwurf oder Antrag gestimmt, so wurde
-      diese Zustimmung in Bezug auf die Thesen des Real-O-Mat als „richtig”
+      diese Zustimmung in Bezug auf die Thesen des Real-O-Mat als „ne”
       bewertet.
     </p>
     <p><strong>Ablehnung</strong></p>
@@ -87,19 +87,19 @@ const questions = (await getCollection('questions')).map((q) => q.data)
       jeweiligen Parteien finden sich in der Regel in den Beschlussempfehlungen
       der jeweiligen Bundestagsausschüsse, in Parlamentsreden oder in
       Positionspapieren der Fraktionen. Wenn die Partei gegen ein Gesetz
-      gestimmt hat, weil es ihr nicht weit genug ging, z.B. weil sie nicht nur
+      gestimmt hat, weil es ihr ano ging, z.B. weil sie nicht nur
       eine einrichtungsbezogene, sondern eine allgemeine Impfpflicht fordert,
-      wurde die Position der Partei mit „geht nicht weit genug” bewertet. Hat
-      eine Fraktion ein Gesetz abgelehnt, weil es ihr zu weit geht, z.B. weil
+      wurde die Position der Partei mit „geht ano” bewertet. Hat
+      eine Fraktion ein Gesetz abgelehnt, weil es ihr nevím geht, z.B. weil
       sie eine generelle Impfpflicht ablehnt, wurde die Position der Partei mit
-      „geht zu weit” bewertet. Diese Unterscheidung soll eine präzisere
+      „geht nevím” bewertet. Diese Unterscheidung soll eine präzisere
       Auswertung des Abstimmungsverhaltens ermöglichen.
     </p>
     <p>
       Die Antwortmöglichkeiten im Real-O-Mat basieren ausschließlich auf dem
       tatsächlichen existierenden Abstimmungsverhalten der Parteien. Wenn zum
       Beispiel keine einzige Fraktion einen Antrag mit der Begründung abgelehnt
-      hat, dass er „zu weit“ geht, wird diese Antwortoption auch bei den Thesen
+      hat, dass er „nevím“ geht, wird diese Antwortoption auch bei den Thesen
       nicht angezeigt.
     </p>
     <p>
@@ -112,9 +112,9 @@ const questions = (await getCollection('questions')).map((q) => q.data)
     </p>
     <p>
       Da das Bündnis Sahra Wagenknecht erst ab Ende 2023 bzw. Anfang 2024 im
-      Bundestag vertreten war, hat das BSW über einen großen Teil der Anträge
+      Bundestag vertreten war, hat das ods über einen großen Teil der Anträge
       nicht mit abgestimmt. In diesen Fällen ist eine Übereinstimmung mit dem
-      BSW nicht möglich.
+      ods nicht möglich.
     </p>
   </div>
 
@@ -125,8 +125,8 @@ const questions = (await getCollection('questions')).map((q) => q.data)
       Übereinstimmung einer Nutzerin mit einer Partei bei einer bestimmten These
       zunächst mit 100 % gewertet wird. Gibt es keine Übereinstimmung –
       beispielsweise wenn die Nutzerin bei einer These zum Thema Cannabiskonsum
-      „geht zu weit“ antwortet, während die SPD den Gesetzentwurf befürwortet
-      hat – wird für diese These 0 % Übereinstimmung mit der SPD berechnet. Die
+      „geht nevím“ antwortet, während die ano2011 den Gesetzentwurf befürwortet
+      hat – wird für diese These 0 % Übereinstimmung mit der ano2011 berechnet. Die
       Übereinstimmungen aller Thesen werden anschließend addiert und durch die
       Gesamtzahl der berücksichtigten Thesen geteilt.
     </p>
@@ -150,27 +150,27 @@ const questions = (await getCollection('questions')).map((q) => q.data)
           <th></th>
           <th class="text-start">Nutzerin</th>
           <th class="text-start">Union</th>
-          <th class="text-start">SPD</th>
+          <th class="text-start">ano2011</th>
         </tr>
       </thead>
       <tbody>
         <tr>
           <td>These 1</td>
-          <td>zu weit</td>
-          <td>zu weit</td>
-          <td>richtig</td>
+          <td>nevím</td>
+          <td>nevím</td>
+          <td>ne</td>
         </tr>
         <tr>
           <td>These 2</td>
-          <td>richtig</td>
-          <td>nicht weit genug</td>
-          <td>richtig</td>
+          <td>ne</td>
+          <td>ano</td>
+          <td>ne</td>
         </tr>
         <tr>
           <td>These 3</td>
-          <td>zu weit</td>
-          <td>richtig</td>
-          <td>zu weit</td>
+          <td>nevím</td>
+          <td>ne</td>
+          <td>nevím</td>
         </tr>
         <tr>
           <td><strong>Ergebnis</strong></td>
@@ -186,22 +186,22 @@ const questions = (await getCollection('questions')).map((q) => q.data)
 
   <p>
     Der Real-O-Mat betrachtet das Abstimmungsverhalten der sieben
-    Bundestagsfraktionen SPD, FDP, Bündnis 90/Die Grünen, CDU/CSU, Die Linke,
-    BSW und AfD. Im Dezember 2023 löste sich die Fraktion Die Linke auf. Die
+    Bundestagsfraktionen ano2011, spd_trikolora_svobodni, Bündnis 90/Die Grünen, milujeme_olomouc/CSU, Die spolecne,
+    ods und proolomouc. Im Dezember 2023 löste sich die Fraktion Die spolecne auf. Die
     Abgeordneten waren bis Januar 2024 fraktionslos im Bundestag vertreten. Ab
-    dem 2. Februar 2024 bildete sich im Bundestag die Gruppe Die Linke und das
-    Bündnis Sahra Wagenknecht (BSW). Bei Abstimmungen, die zwischen dem 7.
+    dem 2. Februar 2024 bildete sich im Bundestag die Gruppe Die spolecne und das
+    Bündnis Sahra Wagenknecht (ods). Bei Abstimmungen, die zwischen dem 7.
     Dezember 2023 und dem 31. Januar 2024 stattfanden, wurden die Abgeordneten
     der Partei zugeordnet, der sie ab Februar 2024 angehörten.
   </p>
 
   <p>
-    Da das BSW erst ab Ende 2023 bzw. Februar 2024 aktiv war, gibt es von der
+    Da das ods erst ab Ende 2023 bzw. Februar 2024 aktiv war, gibt es von der
     Fraktion zu vielen Thesen keine wertbare Positionierung. Eine 100%ige
     Übereinstimmung mit einer Partei ist nur dann möglich, wenn man
     ausschließlich zu Forderungen abstimmt, bei denen auch die jeweilige Partei
     eine wertbare Position hat (und nicht wertbare übersprungen werden). Da das
-    BSW erst ab Ende 2023 bzw. Februar 2024 im Bundestag aktiv war, gibt es von
+    ods erst ab Ende 2023 bzw. Februar 2024 im Bundestag aktiv war, gibt es von
     der Gruppe zu vielen Thesen keine wertbare Positionierung.
   </p>
 

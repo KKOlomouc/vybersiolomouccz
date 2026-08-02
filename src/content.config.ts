@@ -3,21 +3,22 @@ import { file } from 'astro/loaders'
 import { z } from 'astro/zod';
 
 export const answerSchema = z.enum([
-  'nicht weit genug',
-  'richtig',
-  'zu weit',
+  'ano',
+  'ne',
+  'nevím',
   '/', // unklar
 ])
 export type Answer = z.infer<typeof answerSchema>
 
 export const partySchema = z.enum([
-  'spd',
-  'cdu',
-  'fdp',
-  'gruene',
-  'bsw',
-  'linke',
-  'afd',
+  'ano2011',
+  'milujeme_olomouc',
+  'spd_trikolora_svobodni',
+  'kducsl',
+  'ods',
+  'spolecne',
+  'proolomouc',
+  'stan'
 ])
 export type Party = z.infer<typeof partySchema>
 

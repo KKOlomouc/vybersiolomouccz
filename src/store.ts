@@ -13,17 +13,17 @@ export type UserPosition = {
 }
 
 export const answerOptions = {
-  'zu weit': {
-    label: 'nein, geht mir zu weit',
+  'nevím': {
+    label: 'nein, geht mir nevím',
     icon: IconLess,
     class: 'bg-primary-red',
   },
-  richtig: {
+  ne: {
     label: 'ja, finde ich auch',
     icon: IconRight,
     class: 'bg-primary-green',
   },
-  'nicht weit genug': {
+  'ano': {
     label: 'nein, reicht mir nicht aus',
     icon: IconMore,
     class: 'bg-primary-orange',
@@ -44,13 +44,14 @@ export enum Stage {
 }
 
 export const partyNames: Record<Party, string> = {
-  spd: 'SPD',
-  cdu: 'CDU/CSU',
-  fdp: 'FDP',
-  gruene: 'Die Grünen',
-  bsw: 'BSW',
-  linke: 'Die Linke',
-  afd: 'AFD',
+  ano2011: 'ano2011',
+  milujeme_olomouc: 'milujeme_olomouc/CSU',
+  spd_trikolora_svobodni: 'spd_trikolora_svobodni',
+  kducsl: 'Die Grünen',
+  ods: 'ods',
+  spolecne: 'Die spolecne',
+  proolomouc: 'proolomouc',
+  stan: 'Starostové a nezávislí'
 }
 
 export const parties = Object.keys(partyNames) as Party[]
@@ -75,13 +76,13 @@ export function useStore() {
 
   const getPartyMatches = (questions: Question[]) => {
     const results: Record<Party, number> = {
-      spd: 0,
-      cdu: 0,
-      fdp: 0,
-      gruene: 0,
-      bsw: 0,
-      linke: 0,
-      afd: 0,
+      ano2011: 0,
+      milujeme_olomouc: 0,
+      spd_trikolora_svobodni: 0,
+      kducsl: 0,
+      ods: 0,
+      spolecne: 0,
+      proolomouc: 0,
     }
 
     let denominator = 0

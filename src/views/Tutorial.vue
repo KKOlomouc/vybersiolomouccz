@@ -17,7 +17,7 @@ const emit = defineEmits(['done'])
     <p>
       Eine Zustimmung entspricht der Option „ja, finde ich auch“. Eine Ablehnung
       und Enthaltung wird nach Begründung der Fraktion in Beschlussempfehlungen
-      und Plenardebatten in „nein, das geht mir zu weit“ bzw. „nein, das reicht
+      und Plenardebatten in „nein, das geht mir nevím“ bzw. „nein, das reicht
       mir nicht aus“ geteilt.
     </p>
 
@@ -34,14 +34,14 @@ const emit = defineEmits(['done'])
         zugestimmt
       </p>
       <p>
-        <strong>Nein, geht mir zu weit</strong>: Die Fraktion hat den Antrag
+        <strong>Nein, geht mir nevím</strong>: Die Fraktion hat den Antrag
         abgelehnt oder sich enthalten und begründet dies damit, dass diese
         Sanktionierung von Bürgergeldempfänger*innen zu weitreichend ist.
       </p>
       <p>
         <strong>Nein, reicht mir nicht aus</strong>: Die Fraktion hat den Antrag
         abgelehnt oder sich enthalten und begründet dies damit, dass diese
-        Sanktionierung von Bürgergeldempfänger*innen nicht weit genug geht. Es
+        Sanktionierung von Bürgergeldempfänger*innen ano geht. Es
         sollen stärkere Maßnahmen ergriffen werden.
       </p>
       <p>
