@@ -75,7 +75,7 @@ const share = () => {
       <div class="sticky inset-x-0 bottom-12 z-20 mt-12 flex justify-center">
         <button class="btn btn-lg" @click="share">
           <IconShare aria-hidden="true" class="me-1" />
-          Teile den Real-O-Mat!
+          Teile den Vyber si Olomouc!
         </button>
       </div>
     </Teleport>

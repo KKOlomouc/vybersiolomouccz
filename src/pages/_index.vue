@@ -26,6 +26,7 @@ const props = defineProps<{
 const { answers, currentQuestionIndex, currentStage, viewTransition } =
   useStore()
 
+console.log(answers);  
 const restartDialog = ref(false)
 
 const reset = () => {
@@ -108,7 +109,7 @@ onMounted(() => updateBeforeUnload())
         </p>
         <div class="text:lg space-y-4 md:text-xl">
           <p>
-            Der Real-O-Mat schaut nicht auf die Wahlversprechen, sondern gleicht
+            Der Vyber si Olomouc schaut nicht auf die Wahlversprechen, sondern gleicht
             das tatsächliche Abstimmungsverhalten der Fraktionen und Gruppen zu
             aktuellen politischen Themen mit Ihrer persönlichen Position ab.
             Grundlage sind dabei Anträge und Gesetzentwürfe im Bundestag.
@@ -118,7 +119,7 @@ onMounted(() => updateBeforeUnload())
             dem Abstimmungsverhalten der Parteien.
           </p>
           <p class="text-sm">
-            Der Real-O-Mat ist keine Wahlempfehlung, sondern ein
+            Der Vyber si Olomouc ist keine Wahlempfehlung, sondern ein
             Informationsangebot über Parteien und ihr Abstimmungsverhalten.
           </p>
         </div>
@@ -230,7 +231,7 @@ onMounted(() => updateBeforeUnload())
               </div>
               <div class="mt-2">
                 <p>
-                  Sie haben den Real-O-Mat bereits begonnen. Möchten Sie dort
+                  Sie haben den Vyber si Olomouc bereits begonnen. Möchten Sie dort
                   weitermachen, wo Sie bisher aufgehört haben?
                 </p>
               </div>

@@ -27,7 +27,7 @@ test('test', async ({ page }) => {
   await page.getByRole('button', { name: 'Weiter' }).first().click()
 
   await expect(page.getByLabel('Ergebnis').getByRole('heading')).toContainText(
-    'Ihr Real-O-Mat Ergebnis',
+    'Ihr Vyber si Olomouc Ergebnis',
   )
 
   await page.getByRole('tab', { name: 'Parteienvergleich' }).click()
@@ -51,7 +51,7 @@ test('test', async ({ page }) => {
   await page.getByRole('button', { name: 'Weiter' }).click()
   await expect(page.getByLabel('Springe zur These')).toHaveValue('1')
 
-  await page.getByRole('link', { name: 'Real-O-Mat' }).click()
+  await page.getByRole('link', { name: 'Vyber si Olomouc' }).click()
   await expect(page.getByRole('button', { name: "Los geht's!" })).toBeVisible()
 
   await page.getByRole('button', { name: "Los geht's!" }).click()

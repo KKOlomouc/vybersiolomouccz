@@ -21,11 +21,11 @@ interface Props {
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width" />
     <title>
-      {Astro.props.title ? `${Astro.props.title} – Real-O-Mat` : 'Real-O-Mat'}
+      {Astro.props.title ? `${Astro.props.title} – Vyber si Olomouc` : 'Vyber si Olomouc'}
     </title>
     <link rel="icon" href={Favicon.src} type="image/png" />
     <meta name="description" content={shareText} />
-    <meta property="og:title" content="Real-O-Mat" />
+    <meta property="og:title" content="Vyber si Olomouc" />
     <meta property="og:description" content={shareText} />
     <meta property="og:type" content="website" />
     <meta property="og:url" content={publicUrl} />
@@ -34,7 +34,7 @@ interface Props {
 
   <body class="bg-purple-50">
     <!-- Matomo Image Tracker-->
-    {
+    <!-- {
       import.meta.env.PROD && (
         <img
           referrerpolicy="no-referrer-when-downgrade"
@@ -43,7 +43,7 @@ interface Props {
           alt=""
         />
       )
-    }
+    } -->
 
     <GradientBackground />
 
@@ -60,9 +60,9 @@ interface Props {
         <div class="container mx-auto py-12 px-4 text-gray-600">
           <nav class="flex max-md:flex-col items-center">
             <div>
-              <a href="https://fragdenstaat.de" target="_blank">
+              <!-- <a href="https://fragdenstaat.de" target="_blank">
                 <img src={logo.src} alt="Ein Projekt von FragDenStaat" />
-              </a>
+              </a> -->
             </div>
             <ul
               class="flex flex-col items-center md:flex-row gap-4 max-md:mt-8 md:gap-12 md:ms-auto"

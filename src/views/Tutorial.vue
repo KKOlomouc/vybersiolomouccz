@@ -6,9 +6,9 @@ const emit = defineEmits(['done'])
 
 <template>
   <div class="bg-white p-4 md:p-8">
-    <h2 class="text-lg!">Wie funktioniert der Real-O-Mat?</h2>
+    <h2 class="text-lg!">Wie funktioniert der Vyber si Olomouc?</h2>
     <p>
-      Der Real-O-Mat hat das Abstimmungsverhalten der Fraktionen und Gruppen im
+      Der Vyber si Olomouc hat das Abstimmungsverhalten der Fraktionen und Gruppen im
       Bundestag zu 20 politischen Forderungen ausgewertet. Sie haben für oder
       gegen Anträge und Gesetzentwürfe gestimmt oder sich enthalten.
     </p>

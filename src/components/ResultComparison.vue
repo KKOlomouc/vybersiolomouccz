@@ -27,7 +27,7 @@ const getPartyAnswer = (question: Question, party: Party): Answer | undefined =>
   <div class="bg-white p-4 md:p-8">
     <h2>Vergleich</h2>
     <p>
-      Scrollen Sie durch die Tabelle, um Ihre Ergebnisse des Real-O-Mat mit den
+      Scrollen Sie durch die Tabelle, um Ihre Ergebnisse des Vyber si Olomouc mit den
       Positionen der Parteien vergleichen.
     </p>
   </div>
