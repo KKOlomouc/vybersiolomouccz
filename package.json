@@ -13,6 +13,7 @@
     "test:e2e:headed": "playwright test --headed"
   },
   "dependencies": {
+    "@astrojs/markdown-remark": "^5",
     "@astrojs/vue": "^7.0.1",
     "@fontsource-variable/montserrat": "^5.1.1",
     "@headlessui/vue": "^1.7.23",

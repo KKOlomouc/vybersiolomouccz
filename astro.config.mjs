@@ -2,6 +2,7 @@
 import { defineConfig } from 'astro/config'
 
 import vue from '@astrojs/vue'
+import tailwindcss from '@tailwindcss/vite'
 import Icons from 'unplugin-icons/vite'
 import tailwindcss from '@tailwindcss/vite';
 
