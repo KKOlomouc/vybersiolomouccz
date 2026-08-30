@@ -9,7 +9,7 @@ test('test', async ({ page }) => {
   await page.getByRole('button', { name: 'Weiter' }).click()
 
   await page.getByRole('button', { name: 'ja, finde ich auch' }).click()
-  await page.getByRole('button', { name: 'These überspringen' }).click()
+  await page.getByRole('button', { name: 'Přeskočit otázku' }).click()
 
   await expect(page.getByText('3 /')).toBeVisible()
 
@@ -26,13 +26,13 @@ test('test', async ({ page }) => {
 
   await page.getByRole('button', { name: 'Weiter' }).first().click()
 
-  await expect(page.getByLabel('Ergebnis').getByRole('heading')).toContainText(
-    'Ihr Vyber si Olomouc Ergebnis',
+  await expect(page.getByLabel('Výsledek').getByRole('heading')).toContainText(
+    'Ihr Vyber si Olomouc Výsledek',
   )
 
-  await page.getByRole('tab', { name: 'Parteienvergleich' }).click()
+  await page.getByRole('tab', { name: 'Přehled odpovědí' }).click()
   await expect(
-    page.getByLabel('Parteienvergleich').getByRole('heading'),
+    page.getByLabel('Přehled odpovědí').getByRole('heading'),
   ).toContainText('Vergleich')
 
   await expect(
@@ -42,8 +42,8 @@ test('test', async ({ page }) => {
     page.locator('tr:nth-child(2) > td:nth-child(2) span'),
   ).toHaveText('Position nicht wertbar')
 
-  await page.getByRole('tab', { name: 'Begründungen' }).click()
-  await expect(page.getByLabel('Begründungen').locator('h2')).toContainText(
+  await page.getByRole('tab', { name: 'Komentáře kandidujících' }).click()
+  await expect(page.getByLabel('Komentáře kandidujících').locator('h2')).toContainText(
     'Begründung der Thesen',
   )
   await expect(page.getByLabel('Springe zur These')).toHaveValue('0')

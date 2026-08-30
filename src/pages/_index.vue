@@ -102,30 +102,24 @@ onMounted(() => updateBeforeUnload())
     <div v-if="currentStage === Stage.Intro">
       <div class="bg-white p-8 md:p-16 md:text-center">
         <p class="mb-4 text-xl font-medium md:text-2xl">
-          Alle Parteien, die in der letzten Legislaturperiode im Bundestag
-          saßen, haben zuvor viele Versprechen gemacht. Auf dieser Basis haben
-          wir sie gewählt. Aber: Was bleibt davon übrig und wie haben sie
-          wirklich gehandelt?
+          Není Vám jedno, jak bude vypadat Olomouc za čtyři roky? Nám také ne a proto jsme se zástupců politických stran zeptali, zda podpoří kroky, které mohou přispět k tomu, že uprostřed všech krizí bude Olomouc obyvatelná a snad i v něčem lepší než dnes.
         </p>
         <div class="text:lg space-y-4 md:text-xl">
           <p>
-            Der Vyber si Olomouc schaut nicht auf die Wahlversprechen, sondern gleicht
-            das tatsächliche Abstimmungsverhalten der Fraktionen und Gruppen zu
-            aktuellen politischen Themen mit Ihrer persönlichen Position ab.
-            Grundlage sind dabei Anträge und Gesetzentwürfe im Bundestag.
+            Zodpovězením několika otázek můžete porovnat, nakolik se Vaše přání, požadavky a představy potkávají s názory kandidátstva. 
           </p>
-          <p>
+<!--           <p>
             Jetzt sind Sie an der Reihe: Vergleichen Sie Ihre Standpunkte mit
             dem Abstimmungsverhalten der Parteien.
           </p>
           <p class="text-sm">
             Der Vyber si Olomouc ist keine Wahlempfehlung, sondern ein
             Informationsangebot über Parteien und ihr Abstimmungsverhalten.
-          </p>
+          </p> -->
         </div>
         <button class="btn btn-lg start-button mt-8" @click="start">
           <IconForward aria-hidden="true" class="me-1" />
-          Los geht's!
+          Jdu na to
         </button>
 
         <div class="mt-8 flex items-end md:justify-center">
@@ -145,7 +139,7 @@ onMounted(() => updateBeforeUnload())
             FragDenStaat ist gemeinnützig und
             <a
               class="text-purple-600 underline hover:text-purple-700"
-              href="https://fragdenstaat.de/spenden/?pk_campaign=realomat"
+              href="https://fragdenstaat.de/spenden/?pk_campaign=vybersiolomouc"
               >spendenfinanziert.</a
             >
           </p>
@@ -183,12 +177,12 @@ onMounted(() => updateBeforeUnload())
   >
     <button @click="previousStage" class="btn-text text-white!">
       <IconBack aria-hidden="true" class="me-1" />
-      Zurück
+      Zpět
     </button>
 
     <button @click="confirmReset" class="btn-text ms-auto text-white!">
       <IconRestart aria-hidden="true" class="me-1" />
-      Neustarten
+      Začít znovu
     </button>
   </div>
 

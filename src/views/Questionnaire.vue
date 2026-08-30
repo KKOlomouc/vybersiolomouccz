@@ -90,7 +90,7 @@ const previousQuestion = () => {
     <div class="mt-4 flex">
       <button @click="previousQuestion" class="btn-text">
         <IconBack aria-hidden="true" class="me-1" />
-        Zurück
+       Zpět
       </button>
       <button
         @click="emit('reset')"

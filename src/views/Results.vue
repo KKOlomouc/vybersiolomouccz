@@ -42,19 +42,19 @@ const share = () => {
         <Tab as="template" v-slot="{ selected }">
           <button class="tab-button" :class="{ selected: selected }">
             <IconChart aria-hidden="true" />
-            Ergebnis
+            Výsledek
           </button>
         </Tab>
         <Tab as="template" v-slot="{ selected }">
           <button class="tab-button" :class="{ selected: selected }">
             <IconScale aria-hidden="true" />
-            Parteienvergleich
+            Přehled odpovědí
           </button>
         </Tab>
         <Tab as="template" v-slot="{ selected }">
           <button class="tab-button" :class="{ selected: selected }">
             <IconComment aria-hidden="true" />
-            Begründungen
+            Komentáře kandidujících
           </button>
         </Tab>
       </TabList>

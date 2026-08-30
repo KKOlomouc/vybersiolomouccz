@@ -51,7 +51,7 @@ const props = defineProps<{
         class="btn-text justify-self-start"
       >
         <IconBack aria-hidden="true" class="me-1" />
-        Zurück
+       Zpět
       </button>
       <div class="text-center">
         <select

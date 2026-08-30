@@ -6,11 +6,9 @@ const emit = defineEmits(['done'])
 
 <template>
   <div class="bg-white p-4 md:p-8">
-    <h2 class="text-lg!">Wie funktioniert der Vyber si Olomouc?</h2>
+    <h2 class="text-lg!">Jak funguje web Vyber si Olomouc?</h2>
     <p>
-      Der Vyber si Olomouc hat das Abstimmungsverhalten der Fraktionen und Gruppen im
-      Bundestag zu 20 politischen Forderungen ausgewertet. Sie haben für oder
-      gegen Anträge und Gesetzentwürfe gestimmt oder sich enthalten.
+      Jde o předvolební kalkulačku - zaměřili jsme se jak na aktuální lokální kauzy, tak na témata, která odhalují hodnotové ukotvení kandidátstva.
     </p>
 
     <h2 class="mt-4 text-lg!">Wie werden die Positionen bewertet?</h2>
@@ -52,7 +50,7 @@ const emit = defineEmits(['done'])
 
     <button class="btn mt-4" @click="$emit('done')">
       <IconForward aria-hidden="true" class="me-1" />
-      Weiter
+      Pokračovat
     </button>
   </div>
 </template>

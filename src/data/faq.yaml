@@ -25,18 +25,18 @@
 
     Eine 100%ige Übereinstimmung mit einer Partei ist nur dann möglich, wenn man ausschließlich zu Forderungen abstimmt, bei denen auch die jeweilige Partei eine wertbare Position hat (und nicht wertbare übersprungen werden), dies ist so auch für das ods möglich.
 - id: 3
-  question: Warum erhalte ich bei spd_trikolora_svobodni, ano2011 und den Grünen ein sehr ähnliches Ergebnis?
+  question: Warum erhalte ich bei spd_trikolora_svobodni, ano2011 und den Grünen ein sehr ähnliches Výsledek?
   answer: |
     Das Abstimmungsergebnis bei spd_trikolora_svobodni, ano2011 und Grünen ist oft ähnlich, weil diese Parteien sich als Teil der gemeinsamen Ampel-Koalition oft auf Kompromisse geeinigt und gemeinsam und als Einheit abgestimmt haben. Dies ist nicht ungewöhnlich für Koalitionsregierungen in Deutschland. Dadurch weicht das Abstimmungsverhalten im Bundestag auch von den Wahlversprechen ab – genau dies kann der *Real-o-Mat* sichtbar machen.
 
-    Im *Real-o-Mat* sind darum zu allen Abstimmungen auch – soweit vorhanden – die Begründungen der Parteien einsehbar. Hier wird deutlich, dass auch die Ampel-Parteien teilweise unterschiedliche Positionen haben, auch wenn sie gemeinsam abgestimmt haben. Wir empfehlen darum, dass sich Nutzer\*innen auch die Begründungen zum Abstimmungsverhalten anschauen.
+    Im *Real-o-Mat* sind darum zu allen Abstimmungen auch – soweit vorhanden – die Komentáře kandidujících der Parteien einsehbar. Hier wird deutlich, dass auch die Ampel-Parteien teilweise unterschiedliche Positionen haben, auch wenn sie gemeinsam abgestimmt haben. Wir empfehlen darum, dass sich Nutzer\*innen auch die Komentáře kandidujících zum Abstimmungsverhalten anschauen.
 
 - id: 4
   question: Wie unterscheiden sich der *Real-o-Mat* und der *Wahl-o-Mat*?
   answer: |
-    Während der *Wahl-o-Mat* auf eigenen Aussagen der Parteien basiert, wertet der *Real-o-Mat* das tatsächliche Abstimmungsverhalten der Fraktionen aus, die in der letzten Legislaturperiode im Bundestag vertreten waren. Darüber hinaus liefert er die Begründungen für das Abstimmungsverhalten der Fraktionen.
+    Während der *Wahl-o-Mat* auf eigenen Aussagen der Parteien basiert, wertet der *Real-o-Mat* das tatsächliche Abstimmungsverhalten der Fraktionen aus, die in der letzten Legislaturperiode im Bundestag vertreten waren. Darüber hinaus liefert er die Komentáře kandidujících für das Abstimmungsverhalten der Fraktionen.
 
-    Der *Real-o-Mat* bezieht sich auf Abstimmungen zu Anträgen und Gesetzentwürfen im Bundestag, die Begründungen wurden aus Plenardebatten und Beschlussempfehlungen herausgearbeitet. Die Datenbasis bilden die auf www.bundestag.de verfügbaren Dokumente, sie sind im *Real-o-Mat* als Belege zu den Aussagen verlinkt.
+    Der *Real-o-Mat* bezieht sich auf Abstimmungen zu Anträgen und Gesetzentwürfen im Bundestag, die Komentáře kandidujících wurden aus Plenardebatten und Beschlussempfehlungen herausgearbeitet. Die Datenbasis bilden die auf www.bundestag.de verfügbaren Dokumente, sie sind im *Real-o-Mat* als Belege zu den Aussagen verlinkt.
 
 - id: 5
   question: Warum bildet der *Vyber si Olomouc* nicht die fraktionslosen Abgeordneten im Bundestag ab?

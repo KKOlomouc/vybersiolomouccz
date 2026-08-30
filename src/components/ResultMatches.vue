@@ -6,7 +6,7 @@ defineProps<{
 
 <template>
   <div class="bg-white/75 p-4 backdrop-blur md:p-8">
-    <h2>Kdo chce pracovat na Olomouci podle Tvých představ?</h2>
+    <h2>Kdo chce pracovat na Olomouci podle Vašich představ?</h2>
     <div class="mt-6">
       <dl class="mt-2 grid items-center gap-x-4 gap-y-8">
         <template v-for="{ party, percentage } in partyMatches" :key="party">

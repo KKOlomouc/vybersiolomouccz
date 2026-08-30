@@ -32,10 +32,10 @@ const setWeight = (questionId: string, e: Event) => {
   <div class="bg-white p-4" v-if="answerCount < 5">
     <h2>Sie haben leider zu wenig Fragen beantwortet.</h2>
     <p class="mt-4">
-      Beantworten Sie mindestens fünf Fragen, um Ihr Ergebnis zu sehen.
+      Beantworten Sie mindestens fünf Fragen, um Ihr Výsledek zu sehen.
     </p>
     <button @click="emit('previous')" class="btn mt-4">
-      Zurück zu den Fragen
+     Zpět zu den Fragen
     </button>
   </div>
   <form @submit.prevent="emit('done')" v-else>

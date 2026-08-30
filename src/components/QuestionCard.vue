@@ -9,6 +9,7 @@ import IconLess from '~icons/material-symbols/stat-minus-2-rounded'
 import IconMore from '~icons/material-symbols/stat-2-rounded'
 import IconRight from '~icons/material-symbols/check-rounded'
 import IconEdit from '~icons/material-symbols/edit-rounded'
+//import IconUnknown from '~icons/material-symbols/stat-unknown-med-rounded'
 
 const props = defineProps<{
   questionsCount: number
@@ -31,9 +32,9 @@ const buttonContainer = useTemplateRef<HTMLDivElement>('button-container')
 
 const answerButtons = computed(() => {
   const buttons: Record<string, any> = {
-    'nevím': { icon: IconLess },
-    ne: { icon: IconRight },
-    'ano': { icon: IconMore },
+    'ano': { icon: IconRight },
+    ne: { icon: IconLess },
+    'nevím': { icon: IconEdit },
   }
 
   for (const button in buttons) {
@@ -122,7 +123,7 @@ onMounted(focusFirstButton)
           </AnswerButton>
           <div class="ms-auto! self-center @max-md:pt-4">
             <button @click="$emit('skipQuestion')" class="btn-outline">
-              These überspringen
+              Přeskočit otázku
               <IconForward aria-hidden="true" class="ms-1" />
             </button>
           </div>
