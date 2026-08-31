@@ -38,7 +38,7 @@ const reset = () => {
 }
 
 const confirmReset = () => {
-  if (window.confirm('Wirklich von vorne beginnen?')) {
+  if (window.confirm('Opravdu začít znovu?')) {
     reset()
   }
 }
