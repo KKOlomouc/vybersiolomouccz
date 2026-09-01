@@ -1,9 +1,9 @@
 - name: Mladí Zelení
   slug: mz
   logo: ../assets/logos/mz.png
-- name: Abgeordnetenwatch
+- name: Klimatická koalice Olomouc
   slug: aw
-  logo: ../assets/logos/aw.svg
+  logo: ../assets/logos/kko.svg
 - name: Deutsche Umwelthilfe
   slug: duh
   logo: ../assets/logos/duh.svg
