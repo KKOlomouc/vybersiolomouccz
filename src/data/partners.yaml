@@ -1,6 +1,6 @@
-- name: Amadeu Antonio Stiftung
-  slug: aas
-  logo: ../assets/logos/aas.svg
+- name: Mladí Zelení
+  slug: mz
+  logo: ../assets/logos/mz.png
 - name: Abgeordnetenwatch
   slug: aw
   logo: ../assets/logos/aw.svg
@@ -16,21 +16,3 @@
 - name: Der Paritätische Gesamtverband
   slug: paritaetische
   logo: ../assets/logos/paritaet.svg
-- name: Sanktionsfrei
-  slug: sanktionsfrei
-  logo: ../assets/logos/sanktionsfrei.svg
-- name: Sea-Eye
-  slug: sea-eye
-  logo: ../assets/logos/sea-eye.svg
-- name: SeaWatch
-  slug: seawatch
-  logo: ../assets/logos/seawatch.svg
-- name: Volksverpetzer
-  slug: volksverpetzer
-  logo: ../assets/logos/volksverpetzer.png
-- name: Wikimedia Deutschland
-  slug: wmde
-  logo: ../assets/logos/wmde.svg
-- name: Open Knowledge Foundation Deutschland
-  slug: okfde
-  logo: ../assets/logos/okfde.svg
