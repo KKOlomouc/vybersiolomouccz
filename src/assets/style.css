@@ -120,3 +120,18 @@ h2 {
   --popper-theme-padding: calc(var(--spacing) * 4);
   --popper-theme-box-shadow: var(--box-shadow-sm);
 }
+
+.bg-right {
+  background: url('bg-right.svg') right / 5% repeat-y, repeating-linear-gradient(45deg, oklch(92.3% 0.003 48.717) 0, oklch(92.3% 0.003 48.717) 1px, oklch(98.5% 0 none) 0, oklch(98.5% 0 none) 50%);
+  background-size: 5%, 10px 10px;
+
+/*   background-image: url('bg-right.svg');
+  background-repeat: repeat-y;
+  background-position: right;
+  background-size: 5%;
+
+  background-color: #E5E5F7;
+opacity: 0.3;
+background: radial-gradient(#444CF7 15%, transparent 16%) 0 0, radial-gradient(#444CF7 15%, transparent 16%) 5px 5px, radial-gradient(#444CF733 15%, transparent 20%) 0 1px, radial-gradient(#444CF733 15%, transparent 20%) 5px 6px;
+background-size: 10px 10px; */
+}

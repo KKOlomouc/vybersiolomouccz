@@ -32,7 +32,7 @@ interface Props {
     <meta property="og:image" content={OgImage.src} />
   </head>
 
-  <body class="bg-purple-50">
+  <body class="bg-right">
     <!-- Matomo Image Tracker-->
     <!-- {
       import.meta.env.PROD && (
@@ -45,7 +45,7 @@ interface Props {
       )
     } -->
 
-    <GradientBackground />
+    <!-- <GradientBackground /> -->
 
     <div class="flex flex-col min-h-screen pb-12">
       <SiteHeader isApp={!!Astro.props.isApp} client:load />
@@ -56,7 +56,7 @@ interface Props {
     </div>
 
     <footer>
-      <div class="bg-gray-50">
+      <div class="border-gray-50 border-t-3 container mx-auto px-3">
         <div class="container mx-auto py-12 px-4 text-gray-600">
           <nav class="flex max-md:flex-col items-center">
             <div>
