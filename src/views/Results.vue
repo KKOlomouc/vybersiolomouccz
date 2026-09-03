@@ -96,7 +96,7 @@ const share = () => {
 }
 
 .tab-button.selected {
-  @apply bg-white text-purple-800;
+  @apply bg-white text-red-500;
 }
 
 .tab-button:not(.selected) {
