@@ -122,8 +122,8 @@ h2 {
 }
 
 .bg-right {
-  background: url('bg-right.svg') right / 5% repeat-y, repeating-linear-gradient(45deg, oklch(92.3% 0.003 48.717) 0, oklch(92.3% 0.003 48.717) 1px, oklch(98.5% 0 none) 0, oklch(98.5% 0 none) 50%);
-  background-size: 5%, 10px 10px;
+  background: url('bg-right2.svg') right / 25px repeat-y, repeating-linear-gradient(45deg, oklch(92.3% 0.003 48.717) 0, oklch(92.3% 0.003 48.717) 1px, oklch(98.5% 0 none) 0, oklch(98.5% 0 none) 50%);
+  background-size: 25px, 10px 10px;
 
 /*   background-image: url('bg-right.svg');
   background-repeat: repeat-y;
