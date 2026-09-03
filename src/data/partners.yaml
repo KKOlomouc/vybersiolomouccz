@@ -7,12 +7,3 @@
 - name: OÁZA
   slug: oaza
   logo: ../assets/logos/Oaza-bezBTV_logo_horizontalni-bile.webp
-- name: ECCHR
-  slug: ecchr
-  logo: ../assets/logos/ecchr.svg
-- name: Leave No One Behind
-  slug: lnob
-  logo: ../assets/logos/lnob.png
-- name: Der Paritätische Gesamtverband
-  slug: paritaetische
-  logo: ../assets/logos/paritaet.svg
