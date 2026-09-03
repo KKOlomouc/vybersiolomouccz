@@ -4,9 +4,9 @@
 - name: Klimatická koalice Olomouc
   slug: aw
   logo: ../assets/logos/kko.svg
-- name: Deutsche Umwelthilfe
-  slug: duh
-  logo: ../assets/logos/duh.svg
+- name: OÁZA
+  slug: oaza
+  logo: ../assets/logos/Oaza-bezBTV_logo_horizontalni-bile.webp
 - name: ECCHR
   slug: ecchr
   logo: ../assets/logos/ecchr.svg
