@@ -47,44 +47,44 @@ interface Props {
 
     <!-- <GradientBackground /> -->
 
-    <div class="flex flex-col min-h-screen pb-12">
-      <SiteHeader isApp={!!Astro.props.isApp} client:load />
-
-      <main class="container mx-auto px-4 z-10 flex-1">
-        <slot />
-      </main>
-    </div>
-
-    <footer>
-      <div class="border-gray-50 border-t-3 container mx-auto px-3">
-        <div class="container mx-auto py-12 px-4 text-gray-600">
-          <nav class="flex max-md:flex-col items-center">
-            <div>
-              <!-- <a href="https://fragdenstaat.de" target="_blank">
-                <img src={logo.src} alt="Ein Projekt von FragDenStaat" />
-              </a> -->
-            </div>
-            <ul
-              class="flex flex-col items-center md:flex-row gap-4 max-md:mt-8 md:gap-12 md:ms-auto"
-            >
-              <li>
-                <a href="/methodik/">Metodika</a>
-              </li>
-              <li>
-                <a href="/faq/">FAQ</a>
-              </li>
-              <!-- <li>
-                <a href="https://fragdenstaat.de/impressum" target="_blank">
-                  Impressum
-                </a>
-              </li> -->
-              <li>
-                <a href="/datenschutz">Ochrana osobních dat</a>
-              </li>
-            </ul>
-          </nav>
-        </div>
+    <div class="border-container">
+      <div class="flex flex-col min-h-screen pb-12">
+        <SiteHeader isApp={!!Astro.props.isApp} client:load />
+        <main class="container mx-auto px-4 z-10 flex-1">
+          <slot />
+        </main>
       </div>
-    </footer>
+      <footer>
+        <div class="border-gray-50 border-t-3 container mx-auto px-3">
+          <div class="container mx-auto py-12 px-4 text-gray-600">
+            <nav class="flex max-md:flex-col items-center">
+              <div>
+                <!-- <a href="https://fragdenstaat.de" target="_blank">
+                  <img src={logo.src} alt="Ein Projekt von FragDenStaat" />
+                </a> -->
+              </div>
+              <ul
+                class="flex flex-col items-center md:flex-row gap-4 max-md:mt-8 md:gap-12 md:ms-auto"
+              >
+                <li>
+                  <a href="/methodik/">Metodika</a>
+                </li>
+                <li>
+                  <a href="/faq/">FAQ</a>
+                </li>
+                <!-- <li>
+                  <a href="https://fragdenstaat.de/impressum" target="_blank">
+                    Impressum
+                  </a>
+                </li> -->
+                <li>
+                  <a href="/datenschutz">Ochrana osobních dat</a>
+                </li>
+              </ul>
+            </nav>
+          </div>
+        </div>
+      </footer>
+    </div>
   </body>
 </html>

@@ -121,9 +121,21 @@ h2 {
   --popper-theme-box-shadow: var(--box-shadow-sm);
 }
 
+:root {
+  background-color: rgba(255, 165, 165, 0.1);
+  background-image:
+    linear-gradient(90deg, rgba(255, 165, 165, 0.1) 50%, transparent 50%),
+    linear-gradient(rgba(255, 165, 165, 0.1) 50%, transparent 50%);
+  background-size: 1rem 1rem;
+}
+
+.border-container {
+  padding-right: 1rem;
+}
+
 .bg-right {
-  background: url('bg-right2.svg') right / 25px repeat-y, repeating-linear-gradient(45deg, oklch(92.3% 0.003 48.717) 0, oklch(92.3% 0.003 48.717) 1px, oklch(98.5% 0 none) 0, oklch(98.5% 0 none) 50%);
-  background-size: 25px, 10px 10px;
+  /* background: url('bg-right2.svg') right / 1rem repeat-y; */
+  background: repeating-linear-gradient(180deg, #f41e1f, #f41e1f 0.5rem, #ffffff 0.5rem, #ffffff 1rem) right / 0.5rem repeat-y;
 
 /*   background-image: url('bg-right.svg');
   background-repeat: repeat-y;
