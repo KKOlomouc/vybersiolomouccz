@@ -4,6 +4,12 @@
 - name: Klimatická koalice Olomouc
   slug: aw
   logo: ../assets/logos/kko.svg
-- name: OÁZA
+- name: Komunitní prostor Oáza
   slug: oaza
   logo: ../assets/logos/Oaza-bezBTV_logo_horizontalni-bile.webp
+- name: Iniciativa nájemníků a nájemnic
+  slug: inn
+  logo: ../assets/logos/inn.png  
+- name: eFko
+  slug: efko
+  logo: ../assets/logos/efko.jpg    
