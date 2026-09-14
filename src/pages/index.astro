@@ -2,6 +2,7 @@
 import { Image } from 'astro:assets'
 import { getCollection } from 'astro:content'
 import Layout from '../layouts/Layout.astro'
+import VueCountdown from '@chenfengyuan/vue-countdown'
 const partners = await getCollection('partners')
 ---
 
@@ -11,6 +12,16 @@ const partners = await getCollection('partners')
         <p class="mb-4 text-xl font-medium md:text-2xl">
     Milé a milí kandidující v letošních volbách do Zastupitelstva města Olomouce, vítáme Vás na webu, který si klade za cíl  pomoci olomouckým občankám a občanům vybrat si takové zástupce a zástupkyně, kteří nejen mají podobný pohled na to, jak by se naše město mělo v následujícím volebním období rozvíjet, ale jsou také ochotni se k podpoře konkrétních opatření veřejně zavázat.</p>
     </div>
+    <div class="bg-white p-8 md:p-16 md:text-center mt-6">
+      <h2>Kdy náš volební kompas spustíme pro voličstvo?</h2>
+      <p class="mb-4 text-xl font-medium md:text-2xl">
+        Už v neděli 20.9., přímo na této stránce!
+      </p>
+    </div>
+<!-- <vue-countdown :time="2 * 24 * 60 * 60 * 1000" v-slot="{ days, hours, minutes, seconds }">
+  Time Remaining：{{ days }} days, {{ hours }} hours, {{ minutes }} minutes, {{ seconds }} seconds.
+</vue-countdown> -->
+
     <div class="mt-8 bg-white/50 p-8 text-center backdrop-blur-sm">
       <h2 class="text-lg mb-4">Na projektu se podílí:</h2>
     <ul
