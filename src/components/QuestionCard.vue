@@ -50,6 +50,13 @@ const hasAnswer = computed(
   () => answers.value[props.currentQuestion.id] !== undefined,
 )
 
+const detectLinks = (text: string) => {
+  const urlRegex = /(https?:\/\/[^\s\(\)]+)/g
+    return text.replace(urlRegex, (url) => {
+      return `<a href="${url}" target="_blank" rel="noopener noreferrer">${url}</a>`
+    })
+}
+
 const focusFirstButton = () => {
   buttonContainer.value?.querySelector?.('button')?.focus()
 }
@@ -84,6 +91,10 @@ onMounted(focusFirstButton)
           <h2 class="my-4 text-xl font-medium max-md:hyphens-auto @md:text-4xl">
             {{ currentQuestion.thesis }}
           </h2>
+          <details class="my-4">
+              <summary>Informace o této otázce</summary>
+              <p class="mt-1 mb-2" v-html="detectLinks(line)" v-for="line in currentQuestion.thesisContext.split('\n')" />
+          </details>
         </div>
       </Transition>
     </div>
