@@ -69,6 +69,7 @@ const questionSchema = z.object({
   id: z.string(),
   index: z.number(),
   thesis: z.string(),
+  thesisContext: z.string(),
   category: z.string(),
   answers: z.array(positionSchema),
 })

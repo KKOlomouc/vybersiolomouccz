@@ -1,6 +1,9 @@
 - id: question-0
   index: 0
-  thesis: Prosadíte vybudování protipovodňové ochrany Chomoutova?
+  thesis: |
+    Souhlasíte s tím, aby byla zahájena výstavba protipovodňové ochrany Chomoutova podle studie firmy AQUA PROCON (dimenzovaná na 10–20letou vodu) a zároveň byla zahájena příprava na vybudování protipovodňových opatření poskytující podobnou ochranu jako v dříve budovaných etapách PPO (na úrovni stoleté vody) i v případě, že se na ně nepodaří získat státní dotace?
+  thesisContext: |
+    Chomoutov byl při povodni v roce 2024 zasažen a město proto hledá řešení jeho protipovodňové ochrany. Zpracované studie se liší mírou ochrany, náklady i náročností přípravy (viz odkazovaný materiál). Investiční náklady na opatření proti 10–20leté vodě jsou odhadovány na 77 milionů, zatímco opatření proti stoleté vodě jsou dvě: za 0,4 nebo 1,3 miliardy. Aby fungovala protipovodňová ochrana města Olomouce proti stoleté povodni, je potřeba dokončit všechny části kolem řeky Moravy. Kromě ochrany Chomoutova je třeba dokončit realizaci etapy Černovír – most na ul. Komenského. https://olomouc.eu/administrace/repository/gallery/articles/30_/30382/ppo-chomoutov-mmol-odb-ochrany.pdf
   category: Klima a energetika
   answers:
     - party: ano2011
@@ -138,7 +141,11 @@
 - id: question-1
   index: 1
   thesis: |
-    Budete zavádět opatření pro zadržování srážkové vody ve spojení s péčí o zeleň, jako základní principy Modrozelené infrastruktury pro boj s negativními dopady klimatických změn ve městě, i za cenu úbytku parkovacích míst?
+    Souhlasíte s tím, aby v odůvodněných případech byla omezena parkovací místa ve prospěch zeleně, stromů a opatření pro zadržování dešťové vody, jako základní principy Modrozelené infrastruktury pro boj s negativními dopady klimatických změn ve městě?
+  thesisContext: |
+    Modrozelená infrastruktura znamená využívat zeleň a přírodní prvky také k ochlazování města a zadržování dešťové vody. Patří sem například stromy, zelené plochy, propustné povrchy nebo opatření, která umožňují dešťové vodě zůstat tam, kde spadne. V praxi může někdy znamenat i jinou podobu veřejného prostoru nebo méně prostoru pro auta. 
+    Podrobné informace naleznete v dokumentu Hospodaření se srážkovými vodami – cesta k modrozelené infrastruktuře. https://www.olomouc.eu/administrace/repository/gallery/articles/23_/23422/hdv_cesta_k_mzi.cs.pdf
+    Na webových stránkách města se dozvíte: “Dokument je určen odborné i laické veřejnosti a měl by se stát základním městským předpisem pro boj s negativními dopady klimatických změn na území města Olomouce. https://www.olomouc.eu/o-meste/uzemni-planovani/koncepce-metodiky/modrozelena-infrastruktura
   category: Klima a energetika
   answers:
     - party: ano2011
@@ -275,7 +282,10 @@
       comment: praesent blandit lacinia erat vestibulum sed magna at nunc commodo placerat
 - id: question-2
   index: 2
-  thesis: Podpoříte, aby se Energetické společenství Olomouc (ESO) nejpozději do jednoho roku otevřelo i pro místní firmy, neziskové organizace, a domácnosti, které chtějí zelenou energii odebírat nebo sdílet?
+  thesis: |
+    Souhlasíte s rozšířením Energetického společenství Olomouc (ESO) tak, aby se do něj mohly zapojit také místní firmy, neziskové organizace nebo domácnosti, které chtějí sdílet nebo odebírat energii z obnovitelných zdrojů?
+  thesisContext: |
+    Energetické společenství umožňuje lidem, firmám nebo organizacím sdílet mezi sebou elektřinu, například z místních solárních elektráren. Otázka se týká toho, zda se má tato možnost v Olomouci otevřít širšímu okruhu místních odběratelů.  
   category: Klima a energetika
   answers:
     - party: ano2011
@@ -412,7 +422,11 @@
       comment: interdum in ante vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae duis faucibus accumsan
 - id: question-3
   index: 3
-  thesis: Zavazujete se ke snížení emisí skleníkových plynů minimálně o 40 % do roku 2030 (oproti roku 2010) v souladu se  schválenou Adaptační a mitigační strategií města Olomouce (SECAP), která zahrnuje využívání obnovitelných zdrojů energie, zateplování domů, výsadbu lesů, podporu veřejné dopravy, chůze a cyklistiky?
+  thesis: |
+    Souhlasíte, aby město pokračovalo ve snižování emisí skleníkových plynů minimálně o 40 % do roku 2030 (oproti roku 2010), v souladu se schválenou Adaptační a mitigační strategií města Olomouce (SECAP), která zahrnuje využívání obnovitelných zdrojů energie, zateplování domů, výsadbu lesů, podporu veřejné dopravy, chůze a cyklistiky?
+  thesisContext: |
+    Statutární město Olomouc se oficiálně zapojilo do iniciativy Pakt starostů a primátorů dne 16. 11. 2020. Signatáři Paktu se zavazují ke splnění a překročení cíle Evropské unie o snížení emisí CO2 do roku 2030 o 40 %. Toho se má docílit např. zvýšením energetické účinnosti a používáním obnovitelných zdrojů energie na území, jež město spravuje. Údaje o plnění plánu má město vyhodnocovat každé 2 roky v dokumentu “Akční plán pro udržitelnou energii a klima (SECAP – Sustainable Energy and Climate Action Plan)”. Město Olomouc doposud snížilo emise o 25,5 %. Město má tudíž poslední 4 roky, aby srazilo emise CO2 o dalších 14,5 % a naplnilo tak vlastní závazky.
+    https://www.olomouc.eu/administrace/repository/gallery/articles/24_/24763/adaptacni-a-mitigacni-strategie-20241213.cs.pdf?srsltid=AfmBOooOrDe73NbghvcjgT4beFMyKfEu7odYw_DR8JfPwoDy6vbZBOo5
   category: Klima a energetika
   answers:
     - party: ano2011
@@ -549,7 +563,10 @@
       comment: laoreet ut rhoncus aliquet pulvinar sed nisl nunc rhoncus dui vel sem sed sagittis nam congue risus semper porta
 - id: question-4
   index: 4
-  thesis: Prosadíte investici ve výši alespoň 500 mil. Kč do výstavby souvislé sítě cyklostezek ve městě i za cenu, že nevzniknou 1-2 parkovací domy?
+  thesis: |
+    Chcete, aby se investovalo alespoň 500 mil. Kč do výstavby souvislé sítě cyklostezek ve městě i za cenu, že nevzniknou 2 parkovací domy?
+  thesisContext: |
+    Infrastruktura pro cyklisty začne pořádně fungovat až tehdy, pokud je souvislá bez přerušovaných úseků. Často je potřeba větších investic pro přetvoření celého uličního prostoru, včetně přeložek inženýrských sítí, výsadby stromů apod. Olomouc stále ani zdaleka nemá souvislou hlavní síť infrastruktury pro cyklisty. Plánuje však za stovky milionů Kč parkovací domy pro relativně málo automobilů. Za stejnou cenu lze vybudovat komfortní infrastrukturu pro cyklisty na všech důležitých trasách ve městě.
   category: Doprava a veřejná infrastruktura
   answers:
     - party: ano2011
@@ -686,7 +703,10 @@
       comment: curae donec pharetra magna vestibulum aliquet ultrices erat tortor sollicitudin
 - id: question-5
   index: 5
-  thesis: "Zavedete po volbách novou parkovací zónu C (širší centrum města mimo sídliště) v následujícím režimu: rezident za první automobil platí 600 Kč ročně, za druhý už několik tisíc; dojíždějící bude platit 20 Kč/hod, kdy 1 hodina denně je zdarma?"
+  thesis: |
+    Chcete, aby byla zrušena naplánovaná nová parkovací zóna C (širší centrum města mimo sídliště) v následujícím režimu: rezident za první automobil platí 600 Kč ročně, za druhý už několik tisíc; dojíždějící bude platit 20 Kč/hod, kdy 1 hodina denně je zdarma?
+  thesisContext: |
+    V širším centru města Olomouce je parkování zdarma. V pracovní dny jsou kolem placené zóny (a mnohdy dál) zcela obsazená parkovací místa dojíždějícími. Pokud je parkování zcela zdarma, může to vést k nehospodárnému využívání prostoru. Mnoho automobilů je využíváno méně často, některá by mohla být odstavena na soukromém pozemku vlastníků apod. Zpoplatněním parkování je cenný veřejný prostor využíván více efektivně. Město na opravy a údržbu místních komunikací nezískává ze státního rozpočtu žádné zvláštní peníze. Přes 40 % domácností v Olomouci nevlastní automobil. I tyto domácnosti doplácejí na parkování těch, kteří automobil vlastní. Platba rezidentního parkování v řádu stokorun ročně tak přispívá k férovějšímu hospodaření s veřejnými penězi. Rezidenti jsou zvýhodněni před dojíždějícími, kteří musí platit mnohem vyšší cenu za krátkodobé parkování.  
   category: Doprava a veřejná infrastruktura
   answers:
     - party: ano2011
@@ -823,7 +843,15 @@
       comment: faucibus cursus urna ut tellus nulla ut erat id mauris vulputate elementum nullam varius nulla facilisi cras non
 - id: question-6
   index: 6
-  thesis: "Prosadíte v městské hromadné dopravě alespoň dvě z následujících opatření? \na) Jízdné pro žáky a studenty středních škol s trvalým pobytem v Olomouci zdarma.\nb) Levnější krátkodobou jízdenku (např. 15 minut za 15 Kč).\nc) Zvýšení frekvence denních i nočních spojů.\n"
+  thesis: |
+    Chcete v městské hromadné dopravě alespoň dvě z následujících opatření? 
+    a) Bezplatné jízdné pro žactvo a studentstvo ZŠ a SŠ s trvalým pobytem v Olomouci.
+    b) Levnější krátkodobou jízdenku (např. 15 minut za 15 Kč).
+    c) Zvýšení frekvence denních i nočních spojů
+  thesisContext: |
+    ad a) Mnoho krajských měst v Česku má jízdné pro žáky zcela zdarma nebo téměř zdarma. Je to nejen motivace k tomu, aby žáci využívali MHD, ale také přesně zacílená sociální podpora ze strany města na konkrétní účel. Pro mnohé domácnosti představuje současná výše jízdného zásadní výdaj.
+    ad b) Téměř všechna krajská města v Česku nabízí nejen standardní jízdenku, ale i levnější na kratší jízdu. Cena 25 Kč například za 3 zastávky neodpovídá poskytnuté službě.
+    ad c) Zvláště okrajové části města mají zhoršenou dostupnost městskou hromadnou dopravou. Často se jedná i o hodinové intervaly během dne a samozřejmě večer. Taková forma dopravní obsluhy není atraktivní a nemůže konkurovat automobilové dopravě.
   category: Doprava a veřejná infrastruktura
   answers:
     - party: ano2011
@@ -961,10 +989,15 @@
 - id: question-7
   index: 7
   thesis: |
-    Prosadíte alespoň dvě z následujících opatření pro komfortní život ve veřejném prostoru, aby lidé mohli trávit více času venku?
-    a) Zřízení nových veřejných WC s přístupem k vodě.
+    Chcete alespoň dvě z následujících opatření pro komfortní život ve veřejném prostoru, abyste mohli trávit více času venku?
+    a) Zřízení nových veřejných WC s přístupem k pitné vodě zdarma.
     b) Zachování stávajících laviček ve městě a vybudování nových tam, kde nyní žádné nejsou a zároveň jejich umístění nic nebrání (např. v parcích).
-    c) Zřízení opatření pro usnadnění pěšího pohybu ve městě i pro lidi se specifickými potřebami (matky s kočárky, důchodci, osoby s TP, ZTP atp.).
+    c) Zřízení opatření pro usnadnění pěšího pohybu ve městě i pro lidi se specifickými potřebami (rodiče s kočárky, senioři, osoby s TP, ZTP atp.).
+  thesisContext: |
+    ad a) Příkladem dobré praxe může být Francie, kde ve městech i na vesnicích fungují věřejná WC zdrama. ""Právo na přístup k toaletám je součástí lidského práva na hygienu. Je součástí práva na bezpečnou pitnou vodu. ... V sázce je také inkluzivnost veřejných prostor. Některé kategorie populace jsou náchylnější k naléhavým potřebám: senioři, mladší lidé, těhotné ženy, lidé s nemocemi nebo poruchami doprovázenými inkontinencí… Absence bezplatných veřejných toalet tak zbavuje část populace práva na volný pohyb, zejména při cestách dále od domova. ... Veřejné toalety, kromě toho, že musí být přístupné a bezplatné, musí být také viditelné a instalované na strategických trasách po celém městě."" (https://www.francioli-citygie.com/fr/blog/la-gratuite-des-toilettes-publiques-en-france-etat-des-lieux)
+    Je důstojné i hygienické, když lidé mohou vykonat potřebu na veřeném WC zdrama, než aby museli vybírat mezi zaplacením 10-20 Kč nebo znečištěním veřejného prostoru. Chce-li radnice zachovat město čisté a zároveň podporovat zdraví věřejnosti, udělá službu lidem tím, že budou moci trávit více času venku, bez obav, kde vykonají potřebu.
+    ad b) Radnice v minulosti odstraňovala lavičky z toho důvodu, že je využívali také lidé bez domova. To však problém neřeší. Lidí bez domova tímto krokem neubude, navíc obsadí jiné lavičky v jiné lokalitě. Lavičky jsou důležité pro starší lidi, kteří při pohybu pěšky městem potřebují odpočinek. Jsou ale také důležité pro zútulnění a socializaci města, pro vytváření příležitostí pro pobyt venku. Problémy s lidmi, kteří narušují veřejný pořádek je potřeba řešit spíše důslednou sociální prací, ne rušením laviček.
+    ad c) Většina lidí má během svého života dočasné nebo travalé omezení pro pěší pohyb ve městě. Při pohybu s kočárkem, při dočasném zranění, při trvalém fyzickém hendikepu nebo ve stáří. Fyzické bariéry omezují nebo dokonce znemožnují některým lidem pohyb po městě. Komfort chůze ale také ztěžují semafory s příliš dlouhou čekací dobou, nerovná dlažba, dlouhé obchozí trasy, příliš úzké chodníky apod. Je prokázáno, že lidé častěji chodí pěšky, když jsou k tomu ideální podmínky.
   category: Doprava a veřejná infrastruktura
   answers:
     - party: ano2011
@@ -1101,7 +1134,9 @@
       comment: mattis egestas metus aenean fermentum donec ut mauris eget massa tempor convallis nulla neque libero convallis eget
 - id: question-8
   index: 8
-  thesis: Podpoříte, aby město nejpozději do konce volebního období zprovoznilo alespoň jeden objekt ve svém vlastnictví jako kreativní centrum s cenově dostupnými sdílenými ateliéry, dílnami a zkušebnami?
+  thesis: Chcete, aby město zprovoznilo alespoň jeden objekt ve svém vlastnictví jako kreativní centrum s cenově dostupnými sdílenými ateliéry, dílnami a zkušebnami?
+  thesisContext: |
+    Umělci, řemeslníci, hudebníci a další tvůrci potřebují dostupné prostory, které často nemohou provozovat samostatně. Městské strategické dokumenty nadále počítají s využitím nevyužívaných městských budov a podporou sdílených ateliérů, dílen a zkušeben. Otázka se proto týká vzniku dlouhodobého zázemí v objektu města.
   category: Místní kultura a komunitní život
   answers:
     - party: ano2011
@@ -1239,7 +1274,9 @@
 - id: question-9
   index: 9
   thesis: |
-    Podpoříte, aby do konce volebního období vzniklo alespoň jedno stálé kulturně-komunitní centrum mimo centrum města, přednostně v hustě obydlené části s nedostatečným kulturním zázemím?
+    Chcete, aby vzniklo alespoň jedno stálé kulturně-komunitní centrum mimo centrum města, přednostně v hustě obydlené části s nedostatečným kulturním zázemím?
+  thesisContext: |
+    Kulturní nabídka Olomouce se soustřeďuje především do centra. Strategie rozvoje kultury a kreativního průmyslu města Olomouce upozorňuje, že v některých hustě obydlených částech chybějí prostory pro kulturní akce (koncerty, divadlo), setkávání obyvatel a sousedské aktivity. Kulturně-komunitní centrum může zahrnovat menší sál, klubovny, knihovnu nebo prostory využitelné místními spolky a obyvateli.
   category: Infrastruktura pro kulturu
   answers:
     - party: ano2011
@@ -1376,7 +1413,9 @@
       comment: ut dolor morbi vel lectus in quam fringilla rhoncus mauris
 - id: question-10
   index: 10
-  thesis: 'Budete prosazovat, aby podíl neinvestičních výdajů města určených na kulturu během příštího volebního období zůstal stejný nebo rostl? '
+  thesis: Chcete, aby se podíl neinvestičních výdajů města určených na kulturu snížil a raději byly podpořeny jiné oblasti?
+  thesisContext: |
+    Neinvestiční výdaje na kulturu nejsou určeny na výstavbu či rekonstrukce budov. Zajišťují každodenní fungování kulturních institucí a podporují nezávislé organizace, festivaly, knihovny i kulturní aktivity v městských částech. Přispívají tak k dostupnosti kultury, kvalitě života a atraktivitě Olomouce pro obyvatele i návštěvníky. Jejich snížení by mohlo vést k omezení programu, zvýšení vstupného nebo zániku některých kulturních aktivit.
   category: Strategie rozvoje kultury
   answers:
     - party: ano2011
@@ -1513,8 +1552,857 @@
       comment: ultrices phasellus id sapien in sapien iaculis congue vivamus metus
 - id: question-11
   index: 11
-  thesis: Zasadíte se o rozšíření možností amatérského sportování formou výstavby nových sportovišť a zlepšení přístupu k stávajícím městským a školním sportovištím ve všech městských částech?
+  thesis: Je pro vás důležité rozšíření možností amatérského sportování formou výstavby nových sportovišť a zlepšení přístupu ke stávajícím městským a školním sportovištím ve všech městských částech?
+  thesisContext: |
+    Strategický plán města upozorňuje na nerovnoměrné rozmístění sportovišť, jejich zastaralost a nedostatek dostupných venkovních ploch. Rozšíření přístupu by mohlo znamenat výstavbu nových hřišť, rekonstrukci stávajících sportovišť nebo otevření školních areálů; město by přitom muselo zajistit jejich správu, údržbu a bezpečnost.  
   category: Neprofesionální sport
+  answers:
+    - party: ano2011
+      answer: ne
+      comment: Lorem elit tempor do elit sit sit
+    - party: kducsl
+      answer: ne
+      comment: ut sit et Lorem et et ipsum dolore ut
+    - party: koruna_ceska
+      answer: ne
+      comment: ipsum do Lorem labore dolore tempor labore magna et
+    - party: levice
+      answer: ano
+      comment: cras pellentesque volutpat dui maecenas tristique est et tempus semper est quam pharetra magna ac consequat metus sapien ut
+    - party: milujeme_olomouc
+      answer: ano
+      comment: malesuada in imperdiet et commodo vulputate justo in blandit ultrices enim lorem ipsum dolor
+    - party: ods
+      answer: ano
+      comment: at turpis a pede posuere nonummy integer non velit donec diam neque vestibulum eget vulputate ut ultrices vel augue
+    - party: proolomouc
+      answer: ne
+      comment: in quam fringilla rhoncus mauris enim leo rhoncus sed vestibulum sit amet cursus id turpis
+    - party: spd_trikolora_svobodni
+      answer: ano
+      comment: ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia
+    - party: spolecne
+      answer: ano
+      comment: justo aliquam quis turpis eget elit sodales scelerisque mauris sit amet eros
+    - party: stan
+      answer: ano
+      comment: consequat in consequat ut nulla sed accumsan felis ut at dolor quis odio consequat varius integer
+    - party: nico_breitenberg
+      answer: ano
+      comment: eu orci mauris lacinia sapien quis libero nullam sit amet turpis elementum ligula vehicula consequat morbi a ipsum integer a
+    - party: shanna_west
+      answer: ne
+      comment: vulputate vitae nisl aenean lectus pellentesque eget nunc donec quis orci eget orci vehicula condimentum curabitur in
+    - party: aleen_purdy
+      answer: ne
+      comment: bibendum felis sed interdum venenatis turpis enim blandit mi in porttitor pede justo eu massa donec dapibus
+    - party: freeman_brakus
+      answer: ne
+      comment: justo morbi ut odio cras mi pede malesuada in imperdiet et commodo
+    - party: candida_carroll
+      answer: ne
+      comment: convallis nunc proin at turpis a pede posuere nonummy integer non velit donec diam neque vestibulum eget vulputate ut
+    - party: emery_heaney
+      answer: ne
+      comment: a pede posuere nonummy integer non velit donec diam neque vestibulum eget vulputate ut ultrices vel augue
+    - party: murl_bernhard
+      answer: ano
+      comment: ligula vehicula consequat morbi a ipsum integer a nibh in quis justo maecenas rhoncus aliquam lacus morbi quis tortor
+    - party: myrna_reynolds
+      answer: ne
+      comment: ultrices phasellus id sapien in sapien iaculis congue vivamus metus arcu adipiscing molestie
+    - party: kip_murphy
+      answer: ano
+      comment: elementum in hac habitasse platea dictumst morbi vestibulum velit id pretium iaculis diam erat fermentum justo nec
+    - party: jeremy_boyle
+      answer: ano
+      comment: nisi vulputate nonummy maecenas tincidunt lacus at velit vivamus vel
+    - party: bertrand_o_conner
+      answer: ne
+      comment: at velit eu est congue elementum in hac habitasse platea dictumst morbi vestibulum velit id pretium iaculis diam erat fermentum
+    - party: shawna_dickinson
+      answer: ano
+      comment: pretium iaculis justo in hac habitasse platea dictumst etiam faucibus cursus urna ut tellus nulla ut
+    - party: ashlynn_kris
+      answer: ano
+      comment: pede ac diam cras pellentesque volutpat dui maecenas tristique est
+    - party: vada_kuphal
+      answer: ano
+      comment: luctus ultricies eu nibh quisque id justo sit amet sapien dignissim vestibulum vestibulum ante ipsum primis in faucibus orci
+    - party: arno_gaylord
+      answer: ne
+      comment: mus vivamus vestibulum sagittis sapien cum sociis natoque penatibus et magnis dis parturient
+    - party: sam_king
+      answer: ne
+      comment: amet nulla quisque arcu libero rutrum ac lobortis vel dapibus at diam nam tristique
+    - party: katelin_upton
+      answer: ne
+      comment: sapien in sapien iaculis congue vivamus metus arcu adipiscing molestie hendrerit at vulputate vitae nisl aenean
+    - party: gregoria_feest
+      answer: ne
+      comment: justo morbi ut odio cras mi pede malesuada in imperdiet et commodo vulputate justo
+    - party: nicklaus_lemke
+      answer: ano
+      comment: cubilia curae donec pharetra magna vestibulum aliquet ultrices erat tortor sollicitudin mi sit
+    - party: diamond_koch
+      answer: ne
+      comment: molestie hendrerit at vulputate vitae nisl aenean lectus pellentesque eget nunc donec quis orci eget orci vehicula condimentum curabitur
+    - party: darian_hettinger
+      answer: ano
+      comment: auctor gravida sem praesent id massa id nisl venenatis lacinia aenean sit amet justo morbi ut odio cras mi
+    - party: eldon_wunsch
+      answer: ano
+      comment: ac enim in tempor turpis nec euismod scelerisque quam turpis adipiscing
+    - party: nicole_orn
+      answer: ne
+      comment: amet lobortis sapien sapien non mi integer ac neque duis
+    - party: jerrod_bruen
+      answer: ano
+      comment: mauris lacinia sapien quis libero nullam sit amet turpis elementum ligula vehicula consequat morbi
+    - party: marjorie_mclaughlin
+      answer: ano
+      comment: accumsan tellus nisi eu orci mauris lacinia sapien quis libero
+    - party: nicola_grimes
+      answer: ano
+      comment: augue vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae donec pharetra
+    - party: mya_mante
+      answer: ano
+      comment: neque duis bibendum morbi non quam nec dui luctus rutrum nulla tellus in sagittis dui vel nisl
+    - party: griffin_braun
+      answer: ne
+      comment: turpis nec euismod scelerisque quam turpis adipiscing lorem vitae mattis nibh ligula nec sem duis aliquam convallis nunc
+    - party: damian_pfeffer
+      answer: ne
+      comment: odio justo sollicitudin ut suscipit a feugiat et eros vestibulum ac est lacinia nisi venenatis tristique fusce congue
+    - party: ruth_lowe
+      answer: ne
+      comment: sed justo pellentesque viverra pede ac diam cras pellentesque volutpat
+    - party: nicole_swaniawski
+      answer: ne
+      comment: lacus purus aliquet at feugiat non pretium quis lectus suspendisse potenti in eleifend
+    - party: alaina_tromp
+      answer: ano
+      comment: eu sapien cursus vestibulum proin eu mi nulla ac enim in tempor turpis nec euismod scelerisque quam turpis
+    - party: dennis_stroman
+      answer: ne
+      comment: sed lacus morbi sem mauris laoreet ut rhoncus aliquet pulvinar sed nisl nunc rhoncus dui vel sem sed sagittis
+    - party: payton_shields
+      answer: ano
+      comment: mattis pulvinar nulla pede ullamcorper augue a suscipit nulla elit ac nulla sed vel enim sit amet nunc viverra
+- id: question-12
+  index: 12
+  thesis: Souhlasíte s tím, aby město mělo jasná a veřejně dostupná pravidla, která určují, kdy a jak se může veřejnost zapojit do rozhodování o důležitých investicích a rozvoji města?
+  thesisContext: |
+    Participace znamená, že se lidé mohou zapojit do rozhodování města, které se jich týká. Manuál by měl předem jasně říct, kdy, jak a v jaké fázi se mohou občané zapojit – například při plánování větších investic nebo změn veřejného prostoru.    
+  category: Eknomika a participace
+  answers:
+      - party: ano2011
+        answer: ne
+        comment: Lorem elit tempor do elit sit sit
+      - party: kducsl
+        answer: ne
+        comment: ut sit et Lorem et et ipsum dolore ut
+      - party: koruna_ceska
+        answer: ne
+        comment: ipsum do Lorem labore dolore tempor labore magna et
+      - party: levice
+        answer: ano
+        comment: cras pellentesque volutpat dui maecenas tristique est et tempus semper est quam pharetra magna ac consequat metus sapien ut
+      - party: milujeme_olomouc
+        answer: ano
+        comment: malesuada in imperdiet et commodo vulputate justo in blandit ultrices enim lorem ipsum dolor
+      - party: ods
+        answer: ano
+        comment: at turpis a pede posuere nonummy integer non velit donec diam neque vestibulum eget vulputate ut ultrices vel augue
+      - party: proolomouc
+        answer: ne
+        comment: in quam fringilla rhoncus mauris enim leo rhoncus sed vestibulum sit amet cursus id turpis
+      - party: spd_trikolora_svobodni
+        answer: ano
+        comment: ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia
+      - party: spolecne
+        answer: ano
+        comment: justo aliquam quis turpis eget elit sodales scelerisque mauris sit amet eros
+      - party: stan
+        answer: ano
+        comment: consequat in consequat ut nulla sed accumsan felis ut at dolor quis odio consequat varius integer
+      - party: nico_breitenberg
+        answer: ano
+        comment: eu orci mauris lacinia sapien quis libero nullam sit amet turpis elementum ligula vehicula consequat morbi a ipsum integer a
+      - party: shanna_west
+        answer: ne
+        comment: vulputate vitae nisl aenean lectus pellentesque eget nunc donec quis orci eget orci vehicula condimentum curabitur in
+      - party: aleen_purdy
+        answer: ne
+        comment: bibendum felis sed interdum venenatis turpis enim blandit mi in porttitor pede justo eu massa donec dapibus
+      - party: freeman_brakus
+        answer: ne
+        comment: justo morbi ut odio cras mi pede malesuada in imperdiet et commodo
+      - party: candida_carroll
+        answer: ne
+        comment: convallis nunc proin at turpis a pede posuere nonummy integer non velit donec diam neque vestibulum eget vulputate ut
+      - party: emery_heaney
+        answer: ne
+        comment: a pede posuere nonummy integer non velit donec diam neque vestibulum eget vulputate ut ultrices vel augue
+      - party: murl_bernhard
+        answer: ano
+        comment: ligula vehicula consequat morbi a ipsum integer a nibh in quis justo maecenas rhoncus aliquam lacus morbi quis tortor
+      - party: myrna_reynolds
+        answer: ne
+        comment: ultrices phasellus id sapien in sapien iaculis congue vivamus metus arcu adipiscing molestie
+      - party: kip_murphy
+        answer: ano
+        comment: elementum in hac habitasse platea dictumst morbi vestibulum velit id pretium iaculis diam erat fermentum justo nec
+      - party: jeremy_boyle
+        answer: ano
+        comment: nisi vulputate nonummy maecenas tincidunt lacus at velit vivamus vel
+      - party: bertrand_o_conner
+        answer: ne
+        comment: at velit eu est congue elementum in hac habitasse platea dictumst morbi vestibulum velit id pretium iaculis diam erat fermentum
+      - party: shawna_dickinson
+        answer: ano
+        comment: pretium iaculis justo in hac habitasse platea dictumst etiam faucibus cursus urna ut tellus nulla ut
+      - party: ashlynn_kris
+        answer: ano
+        comment: pede ac diam cras pellentesque volutpat dui maecenas tristique est
+      - party: vada_kuphal
+        answer: ano
+        comment: luctus ultricies eu nibh quisque id justo sit amet sapien dignissim vestibulum vestibulum ante ipsum primis in faucibus orci
+      - party: arno_gaylord
+        answer: ne
+        comment: mus vivamus vestibulum sagittis sapien cum sociis natoque penatibus et magnis dis parturient
+      - party: sam_king
+        answer: ne
+        comment: amet nulla quisque arcu libero rutrum ac lobortis vel dapibus at diam nam tristique
+      - party: katelin_upton
+        answer: ne
+        comment: sapien in sapien iaculis congue vivamus metus arcu adipiscing molestie hendrerit at vulputate vitae nisl aenean
+      - party: gregoria_feest
+        answer: ne
+        comment: justo morbi ut odio cras mi pede malesuada in imperdiet et commodo vulputate justo
+      - party: nicklaus_lemke
+        answer: ano
+        comment: cubilia curae donec pharetra magna vestibulum aliquet ultrices erat tortor sollicitudin mi sit
+      - party: diamond_koch
+        answer: ne
+        comment: molestie hendrerit at vulputate vitae nisl aenean lectus pellentesque eget nunc donec quis orci eget orci vehicula condimentum curabitur
+      - party: darian_hettinger
+        answer: ano
+        comment: auctor gravida sem praesent id massa id nisl venenatis lacinia aenean sit amet justo morbi ut odio cras mi
+      - party: eldon_wunsch
+        answer: ano
+        comment: ac enim in tempor turpis nec euismod scelerisque quam turpis adipiscing
+      - party: nicole_orn
+        answer: ne
+        comment: amet lobortis sapien sapien non mi integer ac neque duis
+      - party: jerrod_bruen
+        answer: ano
+        comment: mauris lacinia sapien quis libero nullam sit amet turpis elementum ligula vehicula consequat morbi
+      - party: marjorie_mclaughlin
+        answer: ano
+        comment: accumsan tellus nisi eu orci mauris lacinia sapien quis libero
+      - party: nicola_grimes
+        answer: ano
+        comment: augue vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae donec pharetra
+      - party: mya_mante
+        answer: ano
+        comment: neque duis bibendum morbi non quam nec dui luctus rutrum nulla tellus in sagittis dui vel nisl
+      - party: griffin_braun
+        answer: ne
+        comment: turpis nec euismod scelerisque quam turpis adipiscing lorem vitae mattis nibh ligula nec sem duis aliquam convallis nunc
+      - party: damian_pfeffer
+        answer: ne
+        comment: odio justo sollicitudin ut suscipit a feugiat et eros vestibulum ac est lacinia nisi venenatis tristique fusce congue
+      - party: ruth_lowe
+        answer: ne
+        comment: sed justo pellentesque viverra pede ac diam cras pellentesque volutpat
+      - party: nicole_swaniawski
+        answer: ne
+        comment: lacus purus aliquet at feugiat non pretium quis lectus suspendisse potenti in eleifend
+      - party: alaina_tromp
+        answer: ano
+        comment: eu sapien cursus vestibulum proin eu mi nulla ac enim in tempor turpis nec euismod scelerisque quam turpis
+      - party: dennis_stroman
+        answer: ne
+        comment: sed lacus morbi sem mauris laoreet ut rhoncus aliquet pulvinar sed nisl nunc rhoncus dui vel sem sed sagittis
+      - party: payton_shields
+        answer: ano
+        comment: mattis pulvinar nulla pede ullamcorper augue a suscipit nulla elit ac nulla sed vel enim sit amet nunc viverra  
+- id: question-13
+  index: 13
+  thesis: Souhlasíte s výstavbou nové multifunkční haly v Olomouci na Velkomoravské ul. i za nyní sjednaných podmínek?
+  thesisContext: |
+    Celkové náklady na stavbu haly se odhadují na 2,574 miliardy Kč. Za současných podmínek se město zavázalo přispívat částkou 35,1 milionu Kč ročně na dalších 30 let (celkem cca 1 miliarda Kč). Olomoucký kraj schválil podporu ve výši 16 milionů Kč ročně. Obě tyto částky se budou každoročně zvyšovat o inflaci. Celkově by tak samosprávy měly za 30 let vyplatit na dotacích přibližně 2,1 miliardy korun. Soukromý investor (Redstone) zabezpečí financování projektu pomocí vlastního kapitálu, bankovních úvěrů a vloží do projektu pozemky v hodnotě 265 milionů korun. Investor bude halu také stavět, vlastnit a po celou dobu provozovat a udržovat na vlastní náklady. Kritika poukazuje na to, že město (i kraj) po 30 letech splácení nebudou vlastnit vůbec nic (hala zůstane soukromá). Navíc třicetiletý finanční závazek s inflací představuje obrovské riziko pro budoucí rozpočty města.    
+  category: Eknomika a participace
+  answers:
+    - party: ano2011
+      answer: ne
+      comment: Lorem elit tempor do elit sit sit
+    - party: kducsl
+      answer: ne
+      comment: ut sit et Lorem et et ipsum dolore ut
+    - party: koruna_ceska
+      answer: ne
+      comment: ipsum do Lorem labore dolore tempor labore magna et
+    - party: levice
+      answer: ano
+      comment: cras pellentesque volutpat dui maecenas tristique est et tempus semper est quam pharetra magna ac consequat metus sapien ut
+    - party: milujeme_olomouc
+      answer: ano
+      comment: malesuada in imperdiet et commodo vulputate justo in blandit ultrices enim lorem ipsum dolor
+    - party: ods
+      answer: ano
+      comment: at turpis a pede posuere nonummy integer non velit donec diam neque vestibulum eget vulputate ut ultrices vel augue
+    - party: proolomouc
+      answer: ne
+      comment: in quam fringilla rhoncus mauris enim leo rhoncus sed vestibulum sit amet cursus id turpis
+    - party: spd_trikolora_svobodni
+      answer: ano
+      comment: ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia
+    - party: spolecne
+      answer: ano
+      comment: justo aliquam quis turpis eget elit sodales scelerisque mauris sit amet eros
+    - party: stan
+      answer: ano
+      comment: consequat in consequat ut nulla sed accumsan felis ut at dolor quis odio consequat varius integer
+    - party: nico_breitenberg
+      answer: ano
+      comment: eu orci mauris lacinia sapien quis libero nullam sit amet turpis elementum ligula vehicula consequat morbi a ipsum integer a
+    - party: shanna_west
+      answer: ne
+      comment: vulputate vitae nisl aenean lectus pellentesque eget nunc donec quis orci eget orci vehicula condimentum curabitur in
+    - party: aleen_purdy
+      answer: ne
+      comment: bibendum felis sed interdum venenatis turpis enim blandit mi in porttitor pede justo eu massa donec dapibus
+    - party: freeman_brakus
+      answer: ne
+      comment: justo morbi ut odio cras mi pede malesuada in imperdiet et commodo
+    - party: candida_carroll
+      answer: ne
+      comment: convallis nunc proin at turpis a pede posuere nonummy integer non velit donec diam neque vestibulum eget vulputate ut
+    - party: emery_heaney
+      answer: ne
+      comment: a pede posuere nonummy integer non velit donec diam neque vestibulum eget vulputate ut ultrices vel augue
+    - party: murl_bernhard
+      answer: ano
+      comment: ligula vehicula consequat morbi a ipsum integer a nibh in quis justo maecenas rhoncus aliquam lacus morbi quis tortor
+    - party: myrna_reynolds
+      answer: ne
+      comment: ultrices phasellus id sapien in sapien iaculis congue vivamus metus arcu adipiscing molestie
+    - party: kip_murphy
+      answer: ano
+      comment: elementum in hac habitasse platea dictumst morbi vestibulum velit id pretium iaculis diam erat fermentum justo nec
+    - party: jeremy_boyle
+      answer: ano
+      comment: nisi vulputate nonummy maecenas tincidunt lacus at velit vivamus vel
+    - party: bertrand_o_conner
+      answer: ne
+      comment: at velit eu est congue elementum in hac habitasse platea dictumst morbi vestibulum velit id pretium iaculis diam erat fermentum
+    - party: shawna_dickinson
+      answer: ano
+      comment: pretium iaculis justo in hac habitasse platea dictumst etiam faucibus cursus urna ut tellus nulla ut
+    - party: ashlynn_kris
+      answer: ano
+      comment: pede ac diam cras pellentesque volutpat dui maecenas tristique est
+    - party: vada_kuphal
+      answer: ano
+      comment: luctus ultricies eu nibh quisque id justo sit amet sapien dignissim vestibulum vestibulum ante ipsum primis in faucibus orci
+    - party: arno_gaylord
+      answer: ne
+      comment: mus vivamus vestibulum sagittis sapien cum sociis natoque penatibus et magnis dis parturient
+    - party: sam_king
+      answer: ne
+      comment: amet nulla quisque arcu libero rutrum ac lobortis vel dapibus at diam nam tristique
+    - party: katelin_upton
+      answer: ne
+      comment: sapien in sapien iaculis congue vivamus metus arcu adipiscing molestie hendrerit at vulputate vitae nisl aenean
+    - party: gregoria_feest
+      answer: ne
+      comment: justo morbi ut odio cras mi pede malesuada in imperdiet et commodo vulputate justo
+    - party: nicklaus_lemke
+      answer: ano
+      comment: cubilia curae donec pharetra magna vestibulum aliquet ultrices erat tortor sollicitudin mi sit
+    - party: diamond_koch
+      answer: ne
+      comment: molestie hendrerit at vulputate vitae nisl aenean lectus pellentesque eget nunc donec quis orci eget orci vehicula condimentum curabitur
+    - party: darian_hettinger
+      answer: ano
+      comment: auctor gravida sem praesent id massa id nisl venenatis lacinia aenean sit amet justo morbi ut odio cras mi
+    - party: eldon_wunsch
+      answer: ano
+      comment: ac enim in tempor turpis nec euismod scelerisque quam turpis adipiscing
+    - party: nicole_orn
+      answer: ne
+      comment: amet lobortis sapien sapien non mi integer ac neque duis
+    - party: jerrod_bruen
+      answer: ano
+      comment: mauris lacinia sapien quis libero nullam sit amet turpis elementum ligula vehicula consequat morbi
+    - party: marjorie_mclaughlin
+      answer: ano
+      comment: accumsan tellus nisi eu orci mauris lacinia sapien quis libero
+    - party: nicola_grimes
+      answer: ano
+      comment: augue vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae donec pharetra
+    - party: mya_mante
+      answer: ano
+      comment: neque duis bibendum morbi non quam nec dui luctus rutrum nulla tellus in sagittis dui vel nisl
+    - party: griffin_braun
+      answer: ne
+      comment: turpis nec euismod scelerisque quam turpis adipiscing lorem vitae mattis nibh ligula nec sem duis aliquam convallis nunc
+    - party: damian_pfeffer
+      answer: ne
+      comment: odio justo sollicitudin ut suscipit a feugiat et eros vestibulum ac est lacinia nisi venenatis tristique fusce congue
+    - party: ruth_lowe
+      answer: ne
+      comment: sed justo pellentesque viverra pede ac diam cras pellentesque volutpat
+    - party: nicole_swaniawski
+      answer: ne
+      comment: lacus purus aliquet at feugiat non pretium quis lectus suspendisse potenti in eleifend
+    - party: alaina_tromp
+      answer: ano
+      comment: eu sapien cursus vestibulum proin eu mi nulla ac enim in tempor turpis nec euismod scelerisque quam turpis
+    - party: dennis_stroman
+      answer: ne
+      comment: sed lacus morbi sem mauris laoreet ut rhoncus aliquet pulvinar sed nisl nunc rhoncus dui vel sem sed sagittis
+    - party: payton_shields
+      answer: ano
+      comment: mattis pulvinar nulla pede ullamcorper augue a suscipit nulla elit ac nulla sed vel enim sit amet nunc viverra
+- id: question-14
+  index: 14
+  thesis: Souhlasíte s tím, aby při sestavování městského rozpočtu bylo upřednostňováno financování soukromých investičních projektů před veřejnými službami (např. školství, kultura, zdravotnictví, sociální služby a také opravy, údržba, úklid města apod.)?
+  thesisContext: |
+    Zadlužení statutárního města Olomouce činilo na konci minulého roku 1,61 miliardy korun, což z něj dlouhodobě dělá nejzadluženější město v Olomouckém kraji a jedno z nejzatíženějších velkých měst v ČR. V přímém porovnání s nejlépe hospodařícími statutárními městy v ČR, nedaleký Prostějov dlouhodobě nemá žádné dluhy a své investice dokáže financovat ze svého rozpočtu a finančních rezerv. Naproti tomu finanční kondice města Olomouce má sestupný trend směrem k většímu zadlužování a zaostává v mnoha oblastech. Další investice do soukromých projektů proto neúměrně zatíží olomoucký rozpočet na úkor běžného provozu města (opravy, údržba, úklid) a poskytování veřejných služeb (např. v oblasti školství, kultury, zdravotnictví, sociálních služeb, bezpečnosti apod.). Příkladem špatné praxe z minulosti je výrazné zadlužení výstavbou a následným financováním Aquaparku Olomouc. Tento projekt byl realizován formou partnerství veřejného a soukromého sektoru (tzv. PPP projekt), který se pro město ukázal jako dlouhodobě nevýhodný. Výstavba aquaparku schválená v roce 2007 a dokončená v roce 2009 stála zhruba 497 milionů Kč. Na stavbu byl využit úvěr ve výši 335 milionů Kč. Město muselo každoročně soukromému partnerovi vyplácet takzvané služebné (splátku za úvěr a provoz). Tato částka původně činila necelých 30 milionů Kč ročně, později však kvůli ztrátovosti aquaparku a finančním potížím narostla až na 45 milionů Kč ročně. Vzhledem k nevýhodnosti smluv se město Olomouc rozhodlo postupně odkoupit podíly od soukromých firem (Atzwanger, Gemo a Skanska), aby získalo nad areálem plnou kontrolu. V roce 2017 se Olomouc stala stoprocentním vlastníkem, přičemž za samotný odkup akcií zaplatila celkem přes 200 milionů Kč. Spolu se schodkovým provozem a investicemi stála tato atrakce město celkově více než miliardu korun (téměř 2/3 současného dluhu).    
+  category: Eknomika a participace
+  answers:
+    - party: ano2011
+      answer: ne
+      comment: Lorem elit tempor do elit sit sit
+    - party: kducsl
+      answer: ne
+      comment: ut sit et Lorem et et ipsum dolore ut
+    - party: koruna_ceska
+      answer: ne
+      comment: ipsum do Lorem labore dolore tempor labore magna et
+    - party: levice
+      answer: ano
+      comment: cras pellentesque volutpat dui maecenas tristique est et tempus semper est quam pharetra magna ac consequat metus sapien ut
+    - party: milujeme_olomouc
+      answer: ano
+      comment: malesuada in imperdiet et commodo vulputate justo in blandit ultrices enim lorem ipsum dolor
+    - party: ods
+      answer: ano
+      comment: at turpis a pede posuere nonummy integer non velit donec diam neque vestibulum eget vulputate ut ultrices vel augue
+    - party: proolomouc
+      answer: ne
+      comment: in quam fringilla rhoncus mauris enim leo rhoncus sed vestibulum sit amet cursus id turpis
+    - party: spd_trikolora_svobodni
+      answer: ano
+      comment: ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia
+    - party: spolecne
+      answer: ano
+      comment: justo aliquam quis turpis eget elit sodales scelerisque mauris sit amet eros
+    - party: stan
+      answer: ano
+      comment: consequat in consequat ut nulla sed accumsan felis ut at dolor quis odio consequat varius integer
+    - party: nico_breitenberg
+      answer: ano
+      comment: eu orci mauris lacinia sapien quis libero nullam sit amet turpis elementum ligula vehicula consequat morbi a ipsum integer a
+    - party: shanna_west
+      answer: ne
+      comment: vulputate vitae nisl aenean lectus pellentesque eget nunc donec quis orci eget orci vehicula condimentum curabitur in
+    - party: aleen_purdy
+      answer: ne
+      comment: bibendum felis sed interdum venenatis turpis enim blandit mi in porttitor pede justo eu massa donec dapibus
+    - party: freeman_brakus
+      answer: ne
+      comment: justo morbi ut odio cras mi pede malesuada in imperdiet et commodo
+    - party: candida_carroll
+      answer: ne
+      comment: convallis nunc proin at turpis a pede posuere nonummy integer non velit donec diam neque vestibulum eget vulputate ut
+    - party: emery_heaney
+      answer: ne
+      comment: a pede posuere nonummy integer non velit donec diam neque vestibulum eget vulputate ut ultrices vel augue
+    - party: murl_bernhard
+      answer: ano
+      comment: ligula vehicula consequat morbi a ipsum integer a nibh in quis justo maecenas rhoncus aliquam lacus morbi quis tortor
+    - party: myrna_reynolds
+      answer: ne
+      comment: ultrices phasellus id sapien in sapien iaculis congue vivamus metus arcu adipiscing molestie
+    - party: kip_murphy
+      answer: ano
+      comment: elementum in hac habitasse platea dictumst morbi vestibulum velit id pretium iaculis diam erat fermentum justo nec
+    - party: jeremy_boyle
+      answer: ano
+      comment: nisi vulputate nonummy maecenas tincidunt lacus at velit vivamus vel
+    - party: bertrand_o_conner
+      answer: ne
+      comment: at velit eu est congue elementum in hac habitasse platea dictumst morbi vestibulum velit id pretium iaculis diam erat fermentum
+    - party: shawna_dickinson
+      answer: ano
+      comment: pretium iaculis justo in hac habitasse platea dictumst etiam faucibus cursus urna ut tellus nulla ut
+    - party: ashlynn_kris
+      answer: ano
+      comment: pede ac diam cras pellentesque volutpat dui maecenas tristique est
+    - party: vada_kuphal
+      answer: ano
+      comment: luctus ultricies eu nibh quisque id justo sit amet sapien dignissim vestibulum vestibulum ante ipsum primis in faucibus orci
+    - party: arno_gaylord
+      answer: ne
+      comment: mus vivamus vestibulum sagittis sapien cum sociis natoque penatibus et magnis dis parturient
+    - party: sam_king
+      answer: ne
+      comment: amet nulla quisque arcu libero rutrum ac lobortis vel dapibus at diam nam tristique
+    - party: katelin_upton
+      answer: ne
+      comment: sapien in sapien iaculis congue vivamus metus arcu adipiscing molestie hendrerit at vulputate vitae nisl aenean
+    - party: gregoria_feest
+      answer: ne
+      comment: justo morbi ut odio cras mi pede malesuada in imperdiet et commodo vulputate justo
+    - party: nicklaus_lemke
+      answer: ano
+      comment: cubilia curae donec pharetra magna vestibulum aliquet ultrices erat tortor sollicitudin mi sit
+    - party: diamond_koch
+      answer: ne
+      comment: molestie hendrerit at vulputate vitae nisl aenean lectus pellentesque eget nunc donec quis orci eget orci vehicula condimentum curabitur
+    - party: darian_hettinger
+      answer: ano
+      comment: auctor gravida sem praesent id massa id nisl venenatis lacinia aenean sit amet justo morbi ut odio cras mi
+    - party: eldon_wunsch
+      answer: ano
+      comment: ac enim in tempor turpis nec euismod scelerisque quam turpis adipiscing
+    - party: nicole_orn
+      answer: ne
+      comment: amet lobortis sapien sapien non mi integer ac neque duis
+    - party: jerrod_bruen
+      answer: ano
+      comment: mauris lacinia sapien quis libero nullam sit amet turpis elementum ligula vehicula consequat morbi
+    - party: marjorie_mclaughlin
+      answer: ano
+      comment: accumsan tellus nisi eu orci mauris lacinia sapien quis libero
+    - party: nicola_grimes
+      answer: ano
+      comment: augue vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae donec pharetra
+    - party: mya_mante
+      answer: ano
+      comment: neque duis bibendum morbi non quam nec dui luctus rutrum nulla tellus in sagittis dui vel nisl
+    - party: griffin_braun
+      answer: ne
+      comment: turpis nec euismod scelerisque quam turpis adipiscing lorem vitae mattis nibh ligula nec sem duis aliquam convallis nunc
+    - party: damian_pfeffer
+      answer: ne
+      comment: odio justo sollicitudin ut suscipit a feugiat et eros vestibulum ac est lacinia nisi venenatis tristique fusce congue
+    - party: ruth_lowe
+      answer: ne
+      comment: sed justo pellentesque viverra pede ac diam cras pellentesque volutpat
+    - party: nicole_swaniawski
+      answer: ne
+      comment: lacus purus aliquet at feugiat non pretium quis lectus suspendisse potenti in eleifend
+    - party: alaina_tromp
+      answer: ano
+      comment: eu sapien cursus vestibulum proin eu mi nulla ac enim in tempor turpis nec euismod scelerisque quam turpis
+    - party: dennis_stroman
+      answer: ne
+      comment: sed lacus morbi sem mauris laoreet ut rhoncus aliquet pulvinar sed nisl nunc rhoncus dui vel sem sed sagittis
+    - party: payton_shields
+      answer: ano
+      comment: mattis pulvinar nulla pede ullamcorper augue a suscipit nulla elit ac nulla sed vel enim sit amet nunc viverra
+- id: question-15
+  index: 15
+  thesis: Souhlasíte se systémovou pomocí lidem bez domova? Může jít například o zapojení městských bytů (v případě, že by jimi město disponovalo) do programu Housing First, zavedení chráněných pracovních míst (např. u TSMO s denní výplatou) nebo navýšení financí pro terénní a zdravotní péči.
+  thesisContext: |
+    Získání stabilního bytu v rámci Housing First odstraní každodenní boj o přežití a vytvoří bezpečné zázemí nutné pro řešení dluhů, závislostí či psychických potíží. Trvalá adresa a sociální doprovod lidem navíc umožní vyřídit ztracené doklady, čerpat sociální dávky a hledat dlouhodobé zaměstnání. 
+    Drobné práce u technických služeb s denní výplatou zajistí okamžitý legální příjem, posílí sebeúctu a nahradí potřebu žebrání. 
+    Dostupná terénní a zdravotní péče léčí zanedbaná onemocnění bez předsudků včas a předchází úmrtím na podchlazení během zimy. Tato provázaná opatření společně vytvářejí funkční systém, který lidi posouvá od pouhého přežívání k trvalému návratu do běžné společnosti.  
+  category: Bydlení a sociální politika
+  answers:
+    - party: ano2011
+      answer: ne
+      comment: Lorem elit tempor do elit sit sit
+    - party: kducsl
+      answer: ne
+      comment: ut sit et Lorem et et ipsum dolore ut
+    - party: koruna_ceska
+      answer: ne
+      comment: ipsum do Lorem labore dolore tempor labore magna et
+    - party: levice
+      answer: ano
+      comment: cras pellentesque volutpat dui maecenas tristique est et tempus semper est quam pharetra magna ac consequat metus sapien ut
+    - party: milujeme_olomouc
+      answer: ano
+      comment: malesuada in imperdiet et commodo vulputate justo in blandit ultrices enim lorem ipsum dolor
+    - party: ods
+      answer: ano
+      comment: at turpis a pede posuere nonummy integer non velit donec diam neque vestibulum eget vulputate ut ultrices vel augue
+    - party: proolomouc
+      answer: ne
+      comment: in quam fringilla rhoncus mauris enim leo rhoncus sed vestibulum sit amet cursus id turpis
+    - party: spd_trikolora_svobodni
+      answer: ano
+      comment: ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia
+    - party: spolecne
+      answer: ano
+      comment: justo aliquam quis turpis eget elit sodales scelerisque mauris sit amet eros
+    - party: stan
+      answer: ano
+      comment: consequat in consequat ut nulla sed accumsan felis ut at dolor quis odio consequat varius integer
+    - party: nico_breitenberg
+      answer: ano
+      comment: eu orci mauris lacinia sapien quis libero nullam sit amet turpis elementum ligula vehicula consequat morbi a ipsum integer a
+    - party: shanna_west
+      answer: ne
+      comment: vulputate vitae nisl aenean lectus pellentesque eget nunc donec quis orci eget orci vehicula condimentum curabitur in
+    - party: aleen_purdy
+      answer: ne
+      comment: bibendum felis sed interdum venenatis turpis enim blandit mi in porttitor pede justo eu massa donec dapibus
+    - party: freeman_brakus
+      answer: ne
+      comment: justo morbi ut odio cras mi pede malesuada in imperdiet et commodo
+    - party: candida_carroll
+      answer: ne
+      comment: convallis nunc proin at turpis a pede posuere nonummy integer non velit donec diam neque vestibulum eget vulputate ut
+    - party: emery_heaney
+      answer: ne
+      comment: a pede posuere nonummy integer non velit donec diam neque vestibulum eget vulputate ut ultrices vel augue
+    - party: murl_bernhard
+      answer: ano
+      comment: ligula vehicula consequat morbi a ipsum integer a nibh in quis justo maecenas rhoncus aliquam lacus morbi quis tortor
+    - party: myrna_reynolds
+      answer: ne
+      comment: ultrices phasellus id sapien in sapien iaculis congue vivamus metus arcu adipiscing molestie
+    - party: kip_murphy
+      answer: ano
+      comment: elementum in hac habitasse platea dictumst morbi vestibulum velit id pretium iaculis diam erat fermentum justo nec
+    - party: jeremy_boyle
+      answer: ano
+      comment: nisi vulputate nonummy maecenas tincidunt lacus at velit vivamus vel
+    - party: bertrand_o_conner
+      answer: ne
+      comment: at velit eu est congue elementum in hac habitasse platea dictumst morbi vestibulum velit id pretium iaculis diam erat fermentum
+    - party: shawna_dickinson
+      answer: ano
+      comment: pretium iaculis justo in hac habitasse platea dictumst etiam faucibus cursus urna ut tellus nulla ut
+    - party: ashlynn_kris
+      answer: ano
+      comment: pede ac diam cras pellentesque volutpat dui maecenas tristique est
+    - party: vada_kuphal
+      answer: ano
+      comment: luctus ultricies eu nibh quisque id justo sit amet sapien dignissim vestibulum vestibulum ante ipsum primis in faucibus orci
+    - party: arno_gaylord
+      answer: ne
+      comment: mus vivamus vestibulum sagittis sapien cum sociis natoque penatibus et magnis dis parturient
+    - party: sam_king
+      answer: ne
+      comment: amet nulla quisque arcu libero rutrum ac lobortis vel dapibus at diam nam tristique
+    - party: katelin_upton
+      answer: ne
+      comment: sapien in sapien iaculis congue vivamus metus arcu adipiscing molestie hendrerit at vulputate vitae nisl aenean
+    - party: gregoria_feest
+      answer: ne
+      comment: justo morbi ut odio cras mi pede malesuada in imperdiet et commodo vulputate justo
+    - party: nicklaus_lemke
+      answer: ano
+      comment: cubilia curae donec pharetra magna vestibulum aliquet ultrices erat tortor sollicitudin mi sit
+    - party: diamond_koch
+      answer: ne
+      comment: molestie hendrerit at vulputate vitae nisl aenean lectus pellentesque eget nunc donec quis orci eget orci vehicula condimentum curabitur
+    - party: darian_hettinger
+      answer: ano
+      comment: auctor gravida sem praesent id massa id nisl venenatis lacinia aenean sit amet justo morbi ut odio cras mi
+    - party: eldon_wunsch
+      answer: ano
+      comment: ac enim in tempor turpis nec euismod scelerisque quam turpis adipiscing
+    - party: nicole_orn
+      answer: ne
+      comment: amet lobortis sapien sapien non mi integer ac neque duis
+    - party: jerrod_bruen
+      answer: ano
+      comment: mauris lacinia sapien quis libero nullam sit amet turpis elementum ligula vehicula consequat morbi
+    - party: marjorie_mclaughlin
+      answer: ano
+      comment: accumsan tellus nisi eu orci mauris lacinia sapien quis libero
+    - party: nicola_grimes
+      answer: ano
+      comment: augue vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae donec pharetra
+    - party: mya_mante
+      answer: ano
+      comment: neque duis bibendum morbi non quam nec dui luctus rutrum nulla tellus in sagittis dui vel nisl
+    - party: griffin_braun
+      answer: ne
+      comment: turpis nec euismod scelerisque quam turpis adipiscing lorem vitae mattis nibh ligula nec sem duis aliquam convallis nunc
+    - party: damian_pfeffer
+      answer: ne
+      comment: odio justo sollicitudin ut suscipit a feugiat et eros vestibulum ac est lacinia nisi venenatis tristique fusce congue
+    - party: ruth_lowe
+      answer: ne
+      comment: sed justo pellentesque viverra pede ac diam cras pellentesque volutpat
+    - party: nicole_swaniawski
+      answer: ne
+      comment: lacus purus aliquet at feugiat non pretium quis lectus suspendisse potenti in eleifend
+    - party: alaina_tromp
+      answer: ano
+      comment: eu sapien cursus vestibulum proin eu mi nulla ac enim in tempor turpis nec euismod scelerisque quam turpis
+    - party: dennis_stroman
+      answer: ne
+      comment: sed lacus morbi sem mauris laoreet ut rhoncus aliquet pulvinar sed nisl nunc rhoncus dui vel sem sed sagittis
+    - party: payton_shields
+      answer: ano
+      comment: mattis pulvinar nulla pede ullamcorper augue a suscipit nulla elit ac nulla sed vel enim sit amet nunc viverra
+- id: question-16
+  index: 16
+  thesis: Souhlasíte se systematickým rozšiřováním bytového fondu (například výkup, výstavba nemovitostí nebo zvýhodněné odkoupení bytů z developerských projektů) za účelem poskytování cenově dostupného nájemního, sociálního i bezbariérového bydlení?
+  thesisContext: |
+    Rozšíření městského bytového fondu zajistí mladým lidem a rodinám dosažitelné startovací nájmy bez nutnosti platit přemrštěné komerční ceny na soukromém trhu a pomůže udržet v Olomouci klíčové profese, jako jsou zdravotníci, učitelé či řidiči MHD, kterým město nabídne stabilní a cenově předvídatelné zázemí. Seniorům a lidem se zdravotním znevýhodněním poskytne bezpečné a bezbariérové byty s přiměřeným nájmem, který je neuvrhne do chudoby, přičemž větší nabídka obecních bytů navíc vytvoří zdravou konkurenci na realitním trhu a pomůže tlumit prudký růst tržního nájemného v celém městě. Zranitelným obyvatelům a lidem v krizových situacích tak město zaručí spolehlivou záchrannou síť, která zabrání propadu na ubytovny a umožní jim dlouhodobě důstojný život. Vzhledem k nedostatku bezbariérového a dostupného bydlení, kvůli němuž mnoho seniorů zůstává „uvězněno“ ve svých bytech bez výtahu, může zastupitelstvo schválit systematický plán rekonstrukcí obecního fondu na bezbariérové byty a podpořit výstavbu mezigeneračních komunitních domů, což zabrání sociální izolaci starších lidí a umožní jim žít důstojně.
+  category: Bydlení a sociální politika
+  answers:
+    - party: ano2011
+      answer: ne
+      comment: Lorem elit tempor do elit sit sit
+    - party: kducsl
+      answer: ne
+      comment: ut sit et Lorem et et ipsum dolore ut
+    - party: koruna_ceska
+      answer: ne
+      comment: ipsum do Lorem labore dolore tempor labore magna et
+    - party: levice
+      answer: ano
+      comment: cras pellentesque volutpat dui maecenas tristique est et tempus semper est quam pharetra magna ac consequat metus sapien ut
+    - party: milujeme_olomouc
+      answer: ano
+      comment: malesuada in imperdiet et commodo vulputate justo in blandit ultrices enim lorem ipsum dolor
+    - party: ods
+      answer: ano
+      comment: at turpis a pede posuere nonummy integer non velit donec diam neque vestibulum eget vulputate ut ultrices vel augue
+    - party: proolomouc
+      answer: ne
+      comment: in quam fringilla rhoncus mauris enim leo rhoncus sed vestibulum sit amet cursus id turpis
+    - party: spd_trikolora_svobodni
+      answer: ano
+      comment: ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia
+    - party: spolecne
+      answer: ano
+      comment: justo aliquam quis turpis eget elit sodales scelerisque mauris sit amet eros
+    - party: stan
+      answer: ano
+      comment: consequat in consequat ut nulla sed accumsan felis ut at dolor quis odio consequat varius integer
+    - party: nico_breitenberg
+      answer: ano
+      comment: eu orci mauris lacinia sapien quis libero nullam sit amet turpis elementum ligula vehicula consequat morbi a ipsum integer a
+    - party: shanna_west
+      answer: ne
+      comment: vulputate vitae nisl aenean lectus pellentesque eget nunc donec quis orci eget orci vehicula condimentum curabitur in
+    - party: aleen_purdy
+      answer: ne
+      comment: bibendum felis sed interdum venenatis turpis enim blandit mi in porttitor pede justo eu massa donec dapibus
+    - party: freeman_brakus
+      answer: ne
+      comment: justo morbi ut odio cras mi pede malesuada in imperdiet et commodo
+    - party: candida_carroll
+      answer: ne
+      comment: convallis nunc proin at turpis a pede posuere nonummy integer non velit donec diam neque vestibulum eget vulputate ut
+    - party: emery_heaney
+      answer: ne
+      comment: a pede posuere nonummy integer non velit donec diam neque vestibulum eget vulputate ut ultrices vel augue
+    - party: murl_bernhard
+      answer: ano
+      comment: ligula vehicula consequat morbi a ipsum integer a nibh in quis justo maecenas rhoncus aliquam lacus morbi quis tortor
+    - party: myrna_reynolds
+      answer: ne
+      comment: ultrices phasellus id sapien in sapien iaculis congue vivamus metus arcu adipiscing molestie
+    - party: kip_murphy
+      answer: ano
+      comment: elementum in hac habitasse platea dictumst morbi vestibulum velit id pretium iaculis diam erat fermentum justo nec
+    - party: jeremy_boyle
+      answer: ano
+      comment: nisi vulputate nonummy maecenas tincidunt lacus at velit vivamus vel
+    - party: bertrand_o_conner
+      answer: ne
+      comment: at velit eu est congue elementum in hac habitasse platea dictumst morbi vestibulum velit id pretium iaculis diam erat fermentum
+    - party: shawna_dickinson
+      answer: ano
+      comment: pretium iaculis justo in hac habitasse platea dictumst etiam faucibus cursus urna ut tellus nulla ut
+    - party: ashlynn_kris
+      answer: ano
+      comment: pede ac diam cras pellentesque volutpat dui maecenas tristique est
+    - party: vada_kuphal
+      answer: ano
+      comment: luctus ultricies eu nibh quisque id justo sit amet sapien dignissim vestibulum vestibulum ante ipsum primis in faucibus orci
+    - party: arno_gaylord
+      answer: ne
+      comment: mus vivamus vestibulum sagittis sapien cum sociis natoque penatibus et magnis dis parturient
+    - party: sam_king
+      answer: ne
+      comment: amet nulla quisque arcu libero rutrum ac lobortis vel dapibus at diam nam tristique
+    - party: katelin_upton
+      answer: ne
+      comment: sapien in sapien iaculis congue vivamus metus arcu adipiscing molestie hendrerit at vulputate vitae nisl aenean
+    - party: gregoria_feest
+      answer: ne
+      comment: justo morbi ut odio cras mi pede malesuada in imperdiet et commodo vulputate justo
+    - party: nicklaus_lemke
+      answer: ano
+      comment: cubilia curae donec pharetra magna vestibulum aliquet ultrices erat tortor sollicitudin mi sit
+    - party: diamond_koch
+      answer: ne
+      comment: molestie hendrerit at vulputate vitae nisl aenean lectus pellentesque eget nunc donec quis orci eget orci vehicula condimentum curabitur
+    - party: darian_hettinger
+      answer: ano
+      comment: auctor gravida sem praesent id massa id nisl venenatis lacinia aenean sit amet justo morbi ut odio cras mi
+    - party: eldon_wunsch
+      answer: ano
+      comment: ac enim in tempor turpis nec euismod scelerisque quam turpis adipiscing
+    - party: nicole_orn
+      answer: ne
+      comment: amet lobortis sapien sapien non mi integer ac neque duis
+    - party: jerrod_bruen
+      answer: ano
+      comment: mauris lacinia sapien quis libero nullam sit amet turpis elementum ligula vehicula consequat morbi
+    - party: marjorie_mclaughlin
+      answer: ano
+      comment: accumsan tellus nisi eu orci mauris lacinia sapien quis libero
+    - party: nicola_grimes
+      answer: ano
+      comment: augue vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae donec pharetra
+    - party: mya_mante
+      answer: ano
+      comment: neque duis bibendum morbi non quam nec dui luctus rutrum nulla tellus in sagittis dui vel nisl
+    - party: griffin_braun
+      answer: ne
+      comment: turpis nec euismod scelerisque quam turpis adipiscing lorem vitae mattis nibh ligula nec sem duis aliquam convallis nunc
+    - party: damian_pfeffer
+      answer: ne
+      comment: odio justo sollicitudin ut suscipit a feugiat et eros vestibulum ac est lacinia nisi venenatis tristique fusce congue
+    - party: ruth_lowe
+      answer: ne
+      comment: sed justo pellentesque viverra pede ac diam cras pellentesque volutpat
+    - party: nicole_swaniawski
+      answer: ne
+      comment: lacus purus aliquet at feugiat non pretium quis lectus suspendisse potenti in eleifend
+    - party: alaina_tromp
+      answer: ano
+      comment: eu sapien cursus vestibulum proin eu mi nulla ac enim in tempor turpis nec euismod scelerisque quam turpis
+    - party: dennis_stroman
+      answer: ne
+      comment: sed lacus morbi sem mauris laoreet ut rhoncus aliquet pulvinar sed nisl nunc rhoncus dui vel sem sed sagittis
+    - party: payton_shields
+      answer: ano
+      comment: mattis pulvinar nulla pede ullamcorper augue a suscipit nulla elit ac nulla sed vel enim sit amet nunc viverra
+- id: question-17
+  index: 18
+  thesis: Souhlasíte s komplexním rozvojem péče o seniory, který zahrnuje rozšiřování i výstavbu domovů pro seniory (soběstačné i nesoběstačné) a zároveň posílení dostupnosti navazujících sociálních služeb (pečovatelská služba, mobilní hospic apod.) a jiné formy podpory (např. Senior Taxi)?
+  thesisContext: |
+    V Olomouci nejsou dostupné například následující možnosti podpory starších osob:
+    Starší osoby v současné době v Olomouci mohou čelit například:
+    Nedostatek míst v domovech pro seniory a lidi s demencí:
+    V Olomouci kriticky chybí lůžka v domovech se zvláštním režimem, kvůli čemuž rodiny marně hledají péči pro nesoběstačné příbuzné. Město může na vlastních pozemcích, ve spolupráci se Státním fondem podpory investic (SFPI) a krajem, vybudovat nové kapacity. To zajistí odbornou péči a odlehčí rodinám, které dnes pečují na hranici svých sil.
+    Chybějící odlehčovací služby pro pečující rodiny:
+    Rodinám pečujícím doma scházejí služby pro odpočinek a prevenci vyhoření. Město může rozšířit terénní i pobytové odlehčovací služby účelovými dotacemi pro organizace, jako je Charita či Maltézská pomoc. Pečujícím to poskytne nezbytný čas na regeneraci a udržení vlastního zdraví.
+    Absence dotované dopravy pro starší lidi (Senior Taxi):
+    Seniorům a lidem se sníženou mobilitou chybí bezpečná doprava k lékařům či na úřady. Město může prostřednictvím Dopravního podniku zavést plošně dotovanou službu Senior Taxi za symbolické jízdné. Seniorům to umožní zachovat si nezávislost a zůstat aktivní součástí společnosti.
+    Chybějící krizová podpora a poradenství pro osamělé seniory:
+    Osaměle žijícím seniorům chybí okamžitá pomoc a jejich rodinám přehledné místo pro radu. Radnice může zavést bezplatné SOS náramky napojené na dispečink Městské policie a na Odboru sociálních věcí zřídit kontaktní centrum pro psychologické a právní poradenství. To zvýší bezpečí seniorů a uleví vystresovaným rodinám.
+    Chybějící dlouhodobá koncepční garance:
+    Sociální péči často chybí stabilní směřování. Zvolení zástupci mohou tyto kroky garantovat jejich zanesením do priorit Střednědobého plánu rozvoje sociálních služeb a financovat je kombinací městského rozpočtu, dotací MPSV a fondů EU. Olomouc se tak promění v město, které se o své nejstarší obyvatele stará komplexně a s respektem.
+  category: Bydlení a sociální politika
   answers:
     - party: ano2011
       answer: ne
