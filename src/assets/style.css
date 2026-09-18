@@ -61,6 +61,14 @@
   @apply cursor-not-allowed text-gray-600;
 }
 
+.btn.ano {
+  @apply bg-primary-green;
+}
+
+.btn.ne {
+  @apply bg-primary-red;
+}
+
 button {
   @apply cursor-pointer;
 }

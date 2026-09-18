@@ -5,8 +5,7 @@ import type { Answer, Question } from '../content.config'
 import AnswerIndicator from './AnswerIndicator.vue'
 import AnswerButton from './AnswerButton.vue'
 import IconForward from '~icons/material-symbols/arrow-forward'
-import IconLess from '~icons/material-symbols/stat-minus-2-rounded'
-import IconMore from '~icons/material-symbols/stat-2-rounded'
+import IconNo from '~icons/material-symbols/close-rounded'
 import IconRight from '~icons/material-symbols/check-rounded'
 import IconEdit from '~icons/material-symbols/edit-rounded'
 //import IconUnknown from '~icons/material-symbols/stat-unknown-med-rounded'
@@ -33,7 +32,7 @@ const buttonContainer = useTemplateRef<HTMLDivElement>('button-container')
 const answerButtons = computed(() => {
   const buttons: Record<string, any> = {
     'ano': { icon: IconRight },
-    ne: { icon: IconLess },
+    'ne': { icon: IconNo },
     'nevím': { icon: IconEdit },
   }
 

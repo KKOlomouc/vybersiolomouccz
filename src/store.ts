@@ -1,8 +1,7 @@
 import { computed, ref } from 'vue'
 import { useStorage } from '@vueuse/core'
 import type { Answer, Party, Question } from './content.config.ts'
-import IconLess from '~icons/material-symbols/stat-minus-2-rounded'
-import IconMore from '~icons/material-symbols/stat-2-rounded'
+import IconNo from '~icons/material-symbols/close-rounded'
 import IconRight from '~icons/material-symbols/check-rounded'
 import IconUnknown from './components/IconUnknown.vue'
 
@@ -15,7 +14,7 @@ export type UserPosition = {
 export const answerOptions = {
   'ano': {
     label: 'ano',
-    icon: IconMore,
+    icon: IconRight,
     class: 'bg-primary-green',
   },
   'nevím': {
@@ -25,7 +24,7 @@ export const answerOptions = {
   },
   ne: {
     label: 'ne',
-    icon: IconRight,
+    icon: IconNo,
     class: 'bg-primary-red',
   },
   '/': {
