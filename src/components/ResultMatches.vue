@@ -9,9 +9,9 @@ defineProps<{
     <h2>Kdo chce pracovat na Olomouci podle Vašich představ?</h2>
     <div class="mt-6">
       <dl class="mt-2 grid items-center gap-x-4 gap-y-8">
-        <template v-for="{ party, percentage } in partyMatches" :key="party">
+        <template v-for="({ party, percentage }, index) in partyMatches" :key="party">
           <dt class="font-medium whitespace-nowrap md:text-xl">
-            {{ party }}
+            {{index + 1}}. {{ party }}
           </dt>
           <dd class="flex items-center space-x-4">
             <div class="flex-1">
