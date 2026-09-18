@@ -1,15 +1,24 @@
 - name: Mladí Zelení
   slug: mz
   logo: ../assets/logos/mz.png
+  link: https://mladi-zeleni.cz/
+
 - name: Klimatická koalice Olomouc
   slug: aw
   logo: ../assets/logos/kko.svg
+  link: https://klimatickakoaliceolomouc.cz/
+
 - name: Komunitní prostor Oáza
   slug: oaza
   logo: ../assets/logos/Oaza-bezBTV_logo_horizontalni-bile.webp
+  link: https://oazaolomouc.cz/
+
 - name: Iniciativa nájemníků a nájemnic
   slug: inn
-  logo: ../assets/logos/inn.png  
+  logo: ../assets/logos/inn.png
+  link: https://iniciativanajemniku.cz/
+
 - name: eFko
   slug: efko
-  logo: ../assets/logos/efko.jpg    
+  logo: ../assets/logos/efko.jpg
+  link: https://www.instagram.com/_.efko?igsh=MWVsd29zYmhzZWxzaA==

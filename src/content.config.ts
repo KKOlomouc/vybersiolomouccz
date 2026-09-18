@@ -97,6 +97,7 @@ const partners = defineCollection({
     z.object({
       name: z.string(),
       logo: image(),
+      link: z.url().optional(),
     }),
 })
 export type PartnersSchema = typeof partners.schema
