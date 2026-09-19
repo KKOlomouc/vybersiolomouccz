@@ -36,10 +36,9 @@ const props = defineProps<{
 
 <template>
   <div class="bg-white p-4 md:p-8">
-    <h2>Begründung der Thesen</h2>
+    <h2>Komentáře k odpovědím</h2>
     <p class="mb-6">
-      Wie begründen die Parteien ihre Positionen? Wählen Sie eine These aus und
-      finden Sie heraus, warum die Parteien zustimmen oder ablehnen.
+        Jak kandidátstvo zdůvodňují své postoje? Podívejte se na komentáře ke konkrétním otázkám.
     </p>
 
     <hr class="border-gray-200" />
@@ -51,13 +50,13 @@ const props = defineProps<{
         class="btn-text justify-self-start"
       >
         <IconBack aria-hidden="true" class="me-1" />
-       Zpět
+       Předchozí
       </button>
       <div class="text-center">
         <select
           class="w-24 rounded-md border-gray-300 bg-purple-100 px-4 py-1 shadow-sm outline-none focus:ring-3 focus:ring-purple-600/50 motion-safe:transition"
           v-model="currentQuestionIndex"
-          aria-label="Springe zur These"
+          aria-label="Přejít na otázku"
           @change="transitionName = undefined"
         >
           <option
@@ -65,7 +64,7 @@ const props = defineProps<{
             :key="index"
             :value="index"
           >
-            These {{ index + 1 }}: {{ question.thesis }}
+            Otázka {{ index + 1 }}: {{ question.thesis }}
           </option>
         </select>
       </div>
@@ -74,7 +73,7 @@ const props = defineProps<{
         class="btn-text justify-self-end"
         :disabled="currentQuestionIndex === props.questions.length - 1"
       >
-        Weiter
+        Další
         <IconForward aria-hidden="true" class="me-1" />
       </button>
     </nav>
@@ -107,7 +106,7 @@ const props = defineProps<{
             </DisclosureButton>
             <DisclosurePanel class="flex-1 rounded-b-lg bg-purple-50 p-4">
               <div class="comment" v-if="comment" v-html="comment" />
-              <em v-else>keine Begründung angegeben</em>
+              <em v-else>Žádný komentář</em>
             </DisclosurePanel>
           </Disclosure>
         </ul>

@@ -29,7 +29,7 @@ export const answerOptions = {
     class: 'bg-primary-red',
   },
   '/': {
-    label: 'Position nicht wertbar',
+    label: 'nezodpovězeno',
     icon: IconUnknown,
     class: 'bg-gray-600',
   },

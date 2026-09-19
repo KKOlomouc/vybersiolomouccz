@@ -25,10 +25,9 @@ const getPartyAnswer = (question: Question, party: Party): Answer | undefined =>
 
 <template>
   <div class="bg-white p-4 md:p-8">
-    <h2>Vergleich</h2>
+    <h2>Srovnání</h2>
     <p>
-      Scrollen Sie durch die Tabelle, um Ihre Ergebnisse des Vyber si Olomouc mit den
-      Positionen der Parteien vergleichen.
+        Podívejte se do tabulky, jak se Vaše odpovědi shodují s odpověďmi kandidátstva.
     </p>
   </div>
 
@@ -36,8 +35,8 @@ const getPartyAnswer = (question: Question, party: Party): Answer | undefined =>
     <table :class="{ scrolled: tableScroll > 0 }">
       <thead>
         <tr>
-          <th class="text-start">These</th>
-          <th class="text-center">Ihre Position</th>
+          <th class="text-start">Otázka</th>
+          <th class="text-center">Vaše odpověď</th>
           <th class="text-center" v-for="party in partyNames" :key="party">
             {{ party }}
           </th>
@@ -61,7 +60,7 @@ const getPartyAnswer = (question: Question, party: Party): Answer | undefined =>
   </div>
 
   <div class="bg-white p-4 md:p-8" aria-hidden="true">
-    <h3 class="mb-2 text-lg">Legende</h3>
+    <h3 class="mb-2 text-lg">Legenda</h3>
     <ul
       class="grid grid-cols-2 items-center gap-4 md:grid-cols-3 lg:grid-cols-5"
     >

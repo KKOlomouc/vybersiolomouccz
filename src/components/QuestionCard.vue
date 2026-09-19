@@ -94,18 +94,18 @@ onMounted(focusFirstButton)
     >
       <div :key="currentQuestionIndex" ref="button-container">
         <div v-if="hasAnswer" class="flex flex-wrap items-center gap-4">
-          Ihre Auswahl:
+          Váš výběr:
           <AnswerIndicator :answer="answers[currentQuestion.id].answer" />
           {{ answerOptions[answers[currentQuestion.id].answer].label }}
 
           <button class="btn-text" @click="editAnswer">
             <IconEdit aria-hidden="true" class="me-1" />
-            Ändern
+            Upravit
           </button>
 
           <div class="ms-auto self-center">
             <button @click="$emit('nextQuestion')" class="btn-outline">
-              Weiter
+              Pokračovat
               <IconForward aria-hidden="true" class="ms-1" />
             </button>
           </div>

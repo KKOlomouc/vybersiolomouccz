@@ -11,7 +11,7 @@ const emit = defineEmits(['done'])
       Jde o předvolební kalkulačku - zaměřili jsme se jak na aktuální lokální kauzy, tak na témata, která odhalují hodnotové ukotvení kandidátstva.
     </p>
 
-    <h2 class="mt-4 text-lg!">Wie werden die Positionen bewertet?</h2>
+    <h2 class="mt-4 text-lg!">Jak vyhodnocujeme shodu?</h2>
     <p>
       Eine Zustimmung entspricht der Option „ja, finde ich auch“. Eine Ablehnung
       und Enthaltung wird nach Begründung der Fraktion in Beschlussempfehlungen
@@ -19,7 +19,7 @@ const emit = defineEmits(['done'])
       mir nicht aus“ geteilt.
     </p>
 
-    <h2 class="mt-8 text-lg!">Beispiel</h2>
+    <h2 class="mt-8 text-lg!">Příklad</h2>
     <p>
       „Bürgergeldempfänger*innen, die wiederholt eine existenzsichernde Arbeit
       ablehnen, soll für zwei Monate der komplette Regelsatz des Bürgergelds
@@ -28,23 +28,22 @@ const emit = defineEmits(['done'])
 
     <div class="mt-2 space-y-2">
       <p>
-        <strong>Ja, finde ich auch</strong>: Die Fraktion hat dem Antrag
+        <strong>Ano</strong>: Die Fraktion hat dem Antrag
         zugestimmt
       </p>
       <p>
-        <strong>Nein, geht mir nevím</strong>: Die Fraktion hat den Antrag
+        <strong>Nevím</strong>: Die Fraktion hat den Antrag
         abgelehnt oder sich enthalten und begründet dies damit, dass diese
         Sanktionierung von Bürgergeldempfänger*innen zu weitreichend ist.
       </p>
       <p>
-        <strong>Nein, reicht mir nicht aus</strong>: Die Fraktion hat den Antrag
+        <strong>Ne</strong>: Die Fraktion hat den Antrag
         abgelehnt oder sich enthalten und begründet dies damit, dass diese
         Sanktionierung von Bürgergeldempfänger*innen ano geht. Es
         sollen stärkere Maßnahmen ergriffen werden.
       </p>
       <p>
-        Die genaue Begründung des Abstimmungsverhaltens jeder Fraktion können
-        Sie in der Auswertung nachlesen.
+          Někteří z kandidátstva ke svým odpovědím přidali krátký komentář. Můžete si jej přečíst na stránce s vyhodnocením.
       </p>
     </div>
 
