@@ -24,6 +24,7 @@ const emit = defineEmits<{
     >
       <button
         class="btn"
+        :class="answer"
         @click="emit('save', answer)"
         :disabled="disabled"
         tabindex="0"
