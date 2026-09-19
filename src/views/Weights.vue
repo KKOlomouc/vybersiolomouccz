@@ -30,23 +30,22 @@ const setWeight = (questionId: string, e: Event) => {
 
 <template>
   <div class="bg-white p-4" v-if="answerCount < 5">
-    <h2>Sie haben leider zu wenig Fragen beantwortet.</h2>
+    <h2>Bohužel jste neodpověděli na dostatek otázek.</h2>
     <p class="mt-4">
-      Beantworten Sie mindestens fünf Fragen, um Ihr Výsledek zu sehen.
+      Odpovězte alespoň na pět otázek, aby bylo možné vyhodnotit Váš výsledek.
     </p>
     <button @click="emit('previous')" class="btn mt-4">
-     Zpět zu den Fragen
+     Zpět k otázkám
     </button>
   </div>
   <form @submit.prevent="emit('done')" v-else>
     <div class="mb-4 bg-white p-4 md:p-8">
-      <h2>Welche Thesen sind Ihnen besonders wichtig?</h2>
+      <h2>Které otázky jsou pro Vás obzvláště důležité?</h2>
       <p>
-        Markieren Sie die Thesen, um diese mit doppelter Gewichtung in die
-        Berechnung einfließen zu lassen.
+          Označeným otázkám bude přiřazena dvojnásobná váha při výpočtu preferencí.
       </p>
       <button type="submit" class="btn mt-4">
-        Weiter <IconForward aria-hidden="true" class="ms-1" />
+        Pokračovat <IconForward aria-hidden="true" class="ms-1" />
       </button>
     </div>
 
@@ -78,7 +77,7 @@ const setWeight = (questionId: string, e: Event) => {
 
     <div class="mt-4 bg-white p-4">
       <button type="submit" class="btn">
-        Weiter <IconForward aria-hidden="true" class="ms-1" />
+        Pokračovat <IconForward aria-hidden="true" class="ms-1" />
       </button>
     </div>
 

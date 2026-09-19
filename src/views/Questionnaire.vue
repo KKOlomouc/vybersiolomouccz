@@ -98,7 +98,7 @@ const previousQuestion = () => {
         v-if="currentQuestionIndex > 0"
       >
         <IconRestart aria-hidden="true" class="me-1" />
-        Neustarten
+        Začít znovu
       </button>
     </div>
   </div>

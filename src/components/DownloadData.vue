@@ -21,6 +21,6 @@ const blob = computed(() => {
 <template>
   <a class="btn" :href="blob" download="real-o-mat.json">
     <IconDownload aria-hidden="true" class="me-1" />
-    Daten herunterladen
+    Stáhnout data
   </a>
 </template>

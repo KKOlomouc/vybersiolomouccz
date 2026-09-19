@@ -20,7 +20,7 @@ const emit = defineEmits<{
       :hover="true"
       arrow
       placement="top"
-      content="Diese Option ist nicht verfügbar, da keine Partei so abgestimmt hat."
+      content="Tato možnost není k dispozici, protože nikdo z kandidátstva tímto způsobem nehlasovalx."
     >
       <button
         class="btn"

@@ -26,7 +26,7 @@ const props = defineProps<{
 const { answers, currentQuestionIndex, currentStage, viewTransition } =
   useStore()
 
-console.log(answers);  
+console.log(answers);
 const restartDialog = ref(false)
 
 const reset = () => {
@@ -106,7 +106,7 @@ onMounted(() => updateBeforeUnload())
         </p>
         <div class="text:lg space-y-4 md:text-xl">
           <p>
-            Zodpovězením několika otázek můžete porovnat, nakolik se Vaše přání, požadavky a představy potkávají s názory kandidátstva. 
+            Zodpovězením několika otázek můžete porovnat, nakolik se Vaše přání, požadavky a představy potkávají s názory kandidátstva.
           </p>
 <!--           <p>
             Jetzt sind Sie an der Reihe: Vergleichen Sie Ihre Standpunkte mit
@@ -194,22 +194,22 @@ onMounted(() => updateBeforeUnload())
               class="w-full max-w-lg transform overflow-hidden rounded-2xl bg-white p-6 text-left align-middle shadow-xl transition-all"
             >
               <div class="flex">
-                <DialogTitle as="h3" class="text-lg"> Los geht's! </DialogTitle>
+                <DialogTitle as="h3" class="text-lg"> Jdu na to </DialogTitle>
 
                 <button @click="restartDialog = false" class="btn-text ms-auto">
-                  <IconClose aria-label="Schließen" />
+                  <IconClose aria-label="Zavřít" />
                 </button>
               </div>
               <div class="mt-2">
                 <p>
-                  Sie haben den Vyber si Olomouc bereits begonnen. Möchten Sie dort
-                  weitermachen, wo Sie bisher aufgehört haben?
+                    Již jste formulář částečně vyplnili.
+                    Chcete pokračovat tam, kde jste skončili?
                 </p>
               </div>
 
               <div class="mt-4 flex flex-wrap gap-4">
                 <button type="button" class="btn" @click="toLeftOff">
-                  Ja, weitermachen
+                  Ano, pokračovat
                 </button>
                 <button type="button" class="btn-outline" @click="startOver">
                   Nein, von vorne beginnen
