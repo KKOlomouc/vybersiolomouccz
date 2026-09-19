@@ -70,11 +70,11 @@ summary {
 }
 
 .btn.ano {
-  @apply bg-primary-green;
+  @apply bg-primary-green focus:ring-primary-green/50;
 }
 
 .btn.ne {
-  @apply bg-primary-red;
+  @apply bg-primary-red focus:ring-primary-red/50;
 }
 
 button {
