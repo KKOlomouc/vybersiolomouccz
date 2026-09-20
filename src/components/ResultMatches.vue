@@ -17,7 +17,12 @@ defineProps<{
             <div class="flex-1">
               <div class="overflow-hidden rounded-full bg-white">
                 <div
-                  class="progress-result h-3 bg-purple-900"
+                  class="progress-result h-3"
+                  v-bind:class="{
+                    'bg-primary-red': (percentage < 33),
+                    'bg-primary-orange': (percentage >= 33 && percentage < 66),
+                    'bg-primary-green': (percentage >= 66),
+                  }"
                   :style="{
                     width: `${percentage}%`,
                   }"
