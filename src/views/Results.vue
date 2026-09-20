@@ -38,7 +38,7 @@ const share = () => {
 <template>
   <div>
     <TabGroup>
-      <TabList class="flex space-x-1 rounded-t-lg bg-primary-purple/30 p-1">
+      <TabList class="flex space-x-1 rounded-t-lg bg-olomouc-red/30 p-1">
         <Tab as="template" v-slot="{ selected }">
           <button class="tab-button" :class="{ selected: selected }">
             <IconChart aria-hidden="true" />
@@ -88,7 +88,7 @@ const share = () => {
 .tab-button {
   @apply flex w-full flex-1 flex-col items-center justify-center py-2 md:flex-row;
   @apply rounded border-2 border-transparent bg-transparent text-xs text-white md:text-xl;
-  @apply duration-200 outline-none focus:ring-3 focus:ring-purple-900 motion-safe:transition;
+  @apply duration-200 outline-none focus:ring-3 focus:ring-olomouc-red motion-safe:transition;
 }
 
 .tab-button:deep(svg) {

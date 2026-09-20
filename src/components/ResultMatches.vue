@@ -17,7 +17,7 @@ defineProps<{
             <div class="flex-1">
               <div class="overflow-hidden rounded-full bg-white">
                 <div
-                  class="progress-result h-3 bg-purple-900"
+                  class="progress-result h-3 bg-olomouc-red"
                   :style="{
                     width: `${percentage}%`,
                   }"

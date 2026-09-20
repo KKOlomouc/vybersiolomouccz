@@ -68,7 +68,7 @@ const previousQuestion = () => {
     <article v-if="currentQuestion" class="overflow-hidden">
       <div class="bg-white/50" aria-hidden="true">
         <div
-          class="h-2 bg-purple-900 duration-300 ease-out motion-safe:transition-all"
+          class="h-2 bg-olomouc-red duration-300 ease-out motion-safe:transition-all"
           :style="{
             width: `${(currentQuestionProgress / questionsCount) * 100}%`,
           }"

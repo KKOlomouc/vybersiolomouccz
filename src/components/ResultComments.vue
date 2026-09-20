@@ -54,7 +54,7 @@ const props = defineProps<{
       </button>
       <div class="text-center">
         <select
-          class="w-24 rounded-md border-gray-300 bg-purple-100 px-4 py-1 shadow-sm outline-none focus:ring-3 focus:ring-purple-600/50 motion-safe:transition"
+          class="w-24 rounded-md border-gray-300 bg-olomouc-red/10 px-4 py-1 shadow-sm outline-none focus:ring-3 focus:ring-olomouc-red/50 motion-safe:transition"
           v-model="currentQuestionIndex"
           aria-label="Přejít na otázku"
           @change="transitionName = undefined"
@@ -92,19 +92,19 @@ const props = defineProps<{
             class="flex flex-col"
           >
             <DisclosureButton
-              class="flex w-full items-center justify-between rounded bg-purple-100 px-4 py-2 outline-none focus:ring-3 focus:ring-purple-600/50 motion-safe:transition"
+              class="flex w-full items-center justify-between rounded bg-olomouc-red/10 px-4 py-2 outline-none focus:ring-3 focus:ring-olomouc-red/50 motion-safe:transition"
               :class="{ 'rounded-b-none': open }"
             >
               <h4 class="text-lg">{{ partyNames[party] }}</h4>
               <IconChevron
                 aria-hidden="true"
-                class="h-5 w-5 transform text-purple-900 motion-safe:transition-transform"
+                class="h-5 w-5 transform text-olomouc-red motion-safe:transition-transform"
                 :class="{
                   'rotate-180': open,
                 }"
               />
             </DisclosureButton>
-            <DisclosurePanel class="flex-1 rounded-b-lg bg-purple-50 p-4">
+            <DisclosurePanel class="flex-1 rounded-b-lg bg-olomouc-red/5 p-4">
               <div class="comment" v-if="comment" v-html="comment" />
               <em v-else>Žádný komentář</em>
             </DisclosurePanel>
@@ -119,6 +119,6 @@ const props = defineProps<{
 @reference "../assets/style.css";
 
 .comment:deep(a) {
-  @apply text-purple-600 underline hover:text-purple-700;
+  @apply text-olomouc-red underline hover:text-olomouc-darker;
 }
 </style>

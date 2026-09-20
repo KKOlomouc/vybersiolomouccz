@@ -9,6 +9,9 @@
   --color-primary-yellow: #fae357;
   --color-primary-cyan: #b6eef2;
 
+  --color-olomouc-red: #f41e1f;
+  --color-olomouc-darker: #e21212;
+
   --color-gray-50: #f9fafb;
   --color-gray-100: #f3f4f6;
   --color-gray-200: #e5e7eb;
@@ -35,7 +38,7 @@
 }
 
 a {
-    @apply text-purple-900;
+    @apply text-olomouc-red;
 }
 
 summary {
@@ -44,7 +47,7 @@ summary {
 
 .btn {
   @apply inline-flex items-center rounded-full px-4 py-2 font-bold font-medium text-white;
-  @apply bg-purple-700 outline-none hover:bg-purple-800 focus:ring-3 focus:ring-purple-600/50 active:bg-purple-900;
+  @apply bg-olomouc-red outline-none hover:bg-olomouc-darker focus:ring-3 focus:ring-olomouc-red/50 active:bg-olomouc-red;
   @apply motion-safe:transition;
 }
 
@@ -57,12 +60,12 @@ summary {
 }
 
 .btn-outline {
-  @apply inline-flex items-center rounded-full px-4 py-2 font-bold text-purple-700 hover:text-white;
-  @apply border border-solid border-purple-700 outline-none hover:bg-purple-800 hover:text-white focus:ring-3 focus:ring-purple-600/50 motion-safe:transition;
+  @apply inline-flex items-center rounded-full px-4 py-2 font-bold text-olomouc-red hover:text-white;
+  @apply border border-solid border-olomouc-red outline-none hover:bg-olomouc-red hover:text-white focus:ring-3 focus:ring-olomouc-red/50 motion-safe:transition;
 }
 
 .btn-text {
-  @apply inline-flex items-center rounded text-purple-900 outline-none focus:ring-3 focus:ring-purple-600/50 focus:ring-offset-1 motion-safe:transition;
+  @apply inline-flex items-center rounded text-olomouc-red outline-none focus:ring-3 focus:ring-olomouc-red/50 focus:ring-offset-1 motion-safe:transition;
 }
 
 .btn-text:disabled {
@@ -151,7 +154,7 @@ h2 {
 
 .bg-right {
   /* background: url('bg-right2.svg') right / 1rem repeat-y; */
-  background: repeating-linear-gradient(180deg, #f41e1f, #f41e1f 0.5rem, #ffffff 0.5rem, #ffffff 1rem) right / 0.5rem repeat-y;
+  background: repeating-linear-gradient(180deg, var(--color-olomouc-red), var(--color-olomouc-red) 0.5rem, #ffffff 0.5rem, #ffffff 1rem) right / 0.5rem repeat-y;
 
 /*   background-image: url('bg-right.svg');
   background-repeat: repeat-y;
