@@ -212,7 +212,7 @@ onMounted(() => updateBeforeUnload())
                   Ano, pokračovat
                 </button>
                 <button type="button" class="btn-outline" @click="startOver">
-                  Nein, von vorne beginnen
+                  Ne, začít od začátku
                 </button>
               </div>
             </DialogPanel>
