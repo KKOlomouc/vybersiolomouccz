@@ -152,12 +152,12 @@ onMounted(() => updateBeforeUnload())
     class="mt-4 flex motion-safe:transition-all"
     v-if="[Stage.Weights, Stage.Results].includes(currentStage)"
   >
-    <button @click="previousStage" class="btn-text text-white!">
+    <button @click="previousStage" class="btn-text">
       <IconBack aria-hidden="true" class="me-1" />
       Zpět
     </button>
 
-    <button @click="confirmReset" class="btn-text ms-auto text-white!">
+    <button @click="confirmReset" class="btn-text ms-auto">
       <IconRestart aria-hidden="true" class="me-1" />
       Začít znovu
     </button>
