@@ -27,7 +27,7 @@ test('test', async ({ page }) => {
   await page.getByRole('button', { name: 'Pokračovat' }).first().click()
 
   await expect(page.getByLabel('Výsledek').getByRole('heading')).toContainText(
-    'Čí odpovědi se nejvíce shodují s Vašimi preferencemi?',
+    'Shoda s Vašimi preferencemi',
   )
 
   await page.getByRole('tab', { name: 'Přehled odpovědí' }).click()

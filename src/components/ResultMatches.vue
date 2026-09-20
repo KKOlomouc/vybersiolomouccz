@@ -6,7 +6,7 @@ defineProps<{
 
 <template>
   <div class="bg-white/75 p-4 backdrop-blur md:p-8">
-    <h2>Čí odpovědi se nejvíce shodují s Vašimi preferencemi?</h2>
+    <h2>Shoda s Vašimi preferencemi</h2>
     <div class="mt-6">
       <dl class="mt-2 grid items-center gap-x-4 gap-y-8">
         <template v-for="({ party, percentage }, index) in partyMatches" :key="party">
