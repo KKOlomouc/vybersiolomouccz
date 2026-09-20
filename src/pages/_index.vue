@@ -202,7 +202,7 @@ onMounted(() => updateBeforeUnload())
               </div>
               <div class="mt-2">
                 <p>
-                    Již jste formulář částečně vyplnili.
+                    Již jste kompas částečně vyplnili.
                     Chcete pokračovat tam, kde jste skončili?
                 </p>
               </div>

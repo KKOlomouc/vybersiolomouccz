@@ -38,7 +38,7 @@ const props = defineProps<{
   <div class="bg-white p-4 md:p-8">
     <h2>Komentáře k odpovědím</h2>
     <p class="mb-6">
-        Jak kandidátstvo zdůvodňují své postoje? Podívejte se na komentáře ke konkrétním otázkám.
+        Jak kandidátstvo zdůvodňuje své postoje? Podívejte se na komentáře ke konkrétním otázkám.
     </p>
 
     <hr class="border-gray-200" />
