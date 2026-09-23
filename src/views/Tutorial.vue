@@ -47,8 +47,8 @@ const emit = defineEmits(['done'])
       </p>
       <p>
           
-      </p> -->
-    </div>
+      </p> 
+    </div>-->
 
     <button class="btn mt-4" @click="$emit('done')">
       <IconForward aria-hidden="true" class="me-1" />
