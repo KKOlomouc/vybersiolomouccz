@@ -43,16 +43,6 @@ export enum Stage {
 }
 
 export const partyNames: Record<Party, string> = {
-  ano2011: 'ANO 2011',
-  milujeme_olomouc: 'Milujeme Olomouc - Piráti, Zelení, TOP09',
-  spd_trikolora_svobodni: 'SPD, Trikolora, Svobodní',
-  kducsl: 'KDU-ČSL',
-  ods: 'ODS',
-  spolecne: 'spOLečně',
-  proolomouc: 'ProOlomouc',
-  stan: 'Starostové a nezávislí',
-  koruna_ceska: 'Koruna česká',
-  levice: 'Levice',
 matous_pelikan:"Matouš Pelikán (KDU-ČSL)",
 josef_kastil:"Josef Kaštil (ODS)",
 otakar_bacak:"Otakar Bačák (spOLečně)",

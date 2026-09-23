@@ -11,16 +11,6 @@ export const answerSchema = z.enum([
 export type Answer = z.infer<typeof answerSchema>
 
 export const partySchema = z.enum([
-  'ano2011',
-  'milujeme_olomouc',
-  'spd_trikolora_svobodni',
-  'kducsl',
-  'ods',
-  'spolecne',
-  'proolomouc',
-  'stan',
-  'koruna_ceska',
-  'levice',
 'matous_pelikan',
 'josef_kastil',
 'otakar_bacak',
