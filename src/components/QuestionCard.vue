@@ -33,7 +33,7 @@ const answerButtons = computed(() => {
   const buttons: Record<string, any> = {
     'ano': { icon: IconRight },
     'ne': { icon: IconNo },
-    'nevím': { icon: IconEdit },
+    'nevim': { icon: IconEdit },
   }
 
   for (const button in buttons) {

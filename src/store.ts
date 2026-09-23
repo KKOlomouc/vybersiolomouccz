@@ -17,7 +17,7 @@ export const answerOptions = {
     icon: IconRight,
     class: 'bg-primary-green',
   },
-  'nevím': {
+  nevim: {
     label: 'nevím',
     // icon: IconLess,
     class: 'bg-primary-orange',

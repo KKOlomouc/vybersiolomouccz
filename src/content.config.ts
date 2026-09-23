@@ -5,7 +5,7 @@ import { z } from 'astro/zod';
 export const answerSchema = z.enum([
   'ano',
   'ne',
-  'nevím',
+  'nevim',
   '/', // unklar
 ])
 export type Answer = z.infer<typeof answerSchema>
