@@ -365,7 +365,7 @@
 - id: question-2
   index: 2
   thesis: |
-    Chcete, aby se investovalo alespoň 500 mil. Kč do výstavby souvislé sítě cyklostezek ve městě i za cenu, že nevzniknou 2 parkovací domy?
+    Chcete, aby město investovalo alespoň 500 mil. Kč do výstavby souvislé sítě cyklostezek ve městě i za cenu, že nevzniknou 2 parkovací domy?
   thesisContext: |
     Infrastruktura pro cyklisty začne pořádně fungovat až tehdy, pokud je souvislá bez přerušovaných úseků. Často je potřeba větších investic pro přetvoření celého uličního prostoru, včetně přeložek inženýrských sítí, výsadby stromů apod. Olomouc stále ani zdaleka nemá souvislou hlavní síť infrastruktury pro cyklisty. Plánuje však za stovky milionů Kč parkovací domy pro relativně málo automobilů. Za stejnou cenu lze vybudovat komfortní infrastrukturu pro cyklisty na všech důležitých trasách ve městě.
   category: Doprava a veřejná infrastruktura
@@ -466,6 +466,84 @@
       ale cítí stejně ohroženi i automobilisté.  Výsledkem pode mého nedobré cyklopolitiky
       je, že cyklisté potom raději jezdí po chodnících, čímž zase ohrožují chodce,
       obzvláště ty již méně pohyblivé.
+  - party: renata_konecna
+    answer: /
+    comment: ''
+  - party: radek_petrik
+    answer: /
+    comment: ''
+  - party: miroslava_ferancova
+    answer: /
+    comment: ''
+  - party: miroslav_tichy
+    answer: /
+    comment: ''
+  - party: tomas_sykora
+    answer: /
+    comment: ''
+  - party: jaromir_lostak
+    answer: /
+    comment: ''
+  - party: magdalena_vaneckova
+    answer: /
+    comment: ''
+  - party: jan_vasir
+    answer: /
+    comment: ''
+  - party: ivana_vyletalova
+    answer: /
+    comment: ''
+  - party: jan_holpuch
+    answer: /
+    comment: ''
+  - party: pavel_frysak
+    answer: /
+    comment: ''
+  - party: jaroslav_kratky
+    answer: /
+    comment: ''
+  - party: petra_bastanova
+    answer: /
+    comment: ''
+  - party: robert_srejma
+    answer: /
+    comment: ''
+  - party: eva_machova
+    answer: /
+    comment: ''
+  - party: josef_suchanek
+    answer: /
+    comment: ''
+  - party: karel_mesicek
+    answer: /
+    comment: ''
+  - party: pavel_andrs
+    answer: /
+    comment: ''
+  - party: pavel_jelinek
+    answer: /
+    comment: ''
+  - party: martin_jirotka
+    answer: /
+    comment: ''
+  - party: bohuslav_coufal
+    answer: /
+    comment: ''
+  - party: david_alt
+    answer: /
+    comment: ''
+  - party: katerina_dobrozemska
+    answer: /
+    comment: ''
+  - party: eva_lebedova
+    answer: /
+    comment: ''
+  - party: tomas_pejpek
+    answer: /
+    comment: ''
+  - party: jan_rytir
+    answer: /
+    comment: ''            
 - id: question-3
   index: 3
   thesis: |
