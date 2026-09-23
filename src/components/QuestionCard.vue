@@ -36,11 +36,11 @@ const answerButtons = computed(() => {
     'nevim': { icon: IconEdit },
   }
 
-  for (const button in buttons) {
-    buttons[button].disabled = !props.currentQuestion.answers.some(
-      (a) => a.answer === button,
-    )
-  }
+  // for (const button in buttons) {
+  //   buttons[button].disabled = !props.currentQuestion.answers.some(
+  //     (a) => a.answer === button,
+  //   )
+  // }
 
   return buttons as Record<Answer, any>
 })
