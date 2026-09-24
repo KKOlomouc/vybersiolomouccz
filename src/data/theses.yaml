@@ -167,8 +167,8 @@
     answer: /
     comment: ''
   - party: tomas_pejpek
-    answer: /
-    comment: ''
+    answer: ne
+    comment: Navrhujeme MHD zdarma pro přesuny žáků na školní akce.
   - party: jan_rytir
     answer: /
     comment: ''    
@@ -357,8 +357,9 @@
     answer: /
     comment: ''
   - party: tomas_pejpek
-    answer: /
-    comment: ''
+    answer: ne
+    comment: Plánujeme zavedení rezidenčního parkování postupně v celé zóně C z důvodu
+      zvýhodnění rezidentů.
   - party: jan_rytir
     answer: /
     comment: ''      
@@ -539,7 +540,7 @@
     answer: /
     comment: ''
   - party: tomas_pejpek
-    answer: /
+    answer: nevim
     comment: ''
   - party: jan_rytir
     answer: /
@@ -723,7 +724,7 @@
     answer: /
     comment: ''
   - party: tomas_pejpek
-    answer: /
+    answer: ano
     comment: ''
   - party: jan_rytir
     answer: /
@@ -892,8 +893,10 @@
     answer: /
     comment: ''
   - party: tomas_pejpek
-    answer: /
-    comment: ''
+    answer: ano
+    comment: Projekt PPO3 je nutné připravovat a o dotacích jednat s vedením ministerstev
+      zemědělství a životního prostředí. Protipovodňová opatření pro Chomoutov budeme
+      rovněž připravovat.
   - party: jan_rytir
     answer: /
     comment: ''    
@@ -1063,7 +1066,7 @@
     answer: /
     comment: ''
   - party: tomas_pejpek
-    answer: /
+    answer: ano
     comment: ''
   - party: jan_rytir
     answer: /
@@ -1222,7 +1225,7 @@
     answer: /
     comment: ''
   - party: tomas_pejpek
-    answer: /
+    answer: nevim
     comment: ''
   - party: jan_rytir
     answer: /
@@ -1384,7 +1387,7 @@
     answer: /
     comment: ''
   - party: tomas_pejpek
-    answer: /
+    answer: ano
     comment: ''
   - party: jan_rytir
     answer: /
@@ -1541,7 +1544,7 @@
     answer: /
     comment: ''
   - party: tomas_pejpek
-    answer: /
+    answer: ne
     comment: ''
   - party: jan_rytir
     answer: /
@@ -1707,7 +1710,7 @@
     answer: /
     comment: ''
   - party: tomas_pejpek
-    answer: /
+    answer: ano
     comment: ''
   - party: jan_rytir
     answer: /
@@ -1867,7 +1870,7 @@
     answer: /
     comment: ''
   - party: tomas_pejpek
-    answer: /
+    answer: ne
     comment: ''
   - party: jan_rytir
     answer: /
@@ -2043,7 +2046,7 @@
     answer: /
     comment: ''
   - party: tomas_pejpek
-    answer: /
+    answer: ano
     comment: ''
   - party: jan_rytir
     answer: /
@@ -2209,7 +2212,7 @@
     answer: /
     comment: ''
   - party: tomas_pejpek
-    answer: /
+    answer: ne
     comment: ''
   - party: jan_rytir
     answer: /
@@ -2390,7 +2393,7 @@
     answer: /
     comment: ''
   - party: tomas_pejpek
-    answer: /
+    answer: ne
     comment: ''
   - party: jan_rytir
     answer: /
@@ -2561,7 +2564,7 @@
     answer: /
     comment: ''
   - party: tomas_pejpek
-    answer: /
+    answer: ne
     comment: ''
   - party: jan_rytir
     answer: /
@@ -2727,7 +2730,7 @@
     answer: /
     comment: ''
   - party: tomas_pejpek
-    answer: /
+    answer: ano
     comment: ''
   - party: jan_rytir
     answer: /
@@ -2912,7 +2915,7 @@
     answer: /
     comment: ''
   - party: tomas_pejpek
-    answer: /
+    answer: ano
     comment: ''
   - party: jan_rytir
     answer: /
@@ -3101,7 +3104,7 @@
     answer: /
     comment: ''
   - party: tomas_pejpek
-    answer: /
+    answer: ano
     comment: ''
   - party: jan_rytir
     answer: /
