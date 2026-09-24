@@ -102,11 +102,11 @@ onMounted(() => updateBeforeUnload())
     <div v-if="currentStage === Stage.Intro">
       <div class="bg-white p-8 md:p-16 md:text-center">
         <p class="mb-4 text-xl font-medium md:text-2xl">
-          Není Vám jedno, jak bude vypadat Olomouc za čtyři roky? Nám také ne a proto jsme se zástupců politických stran zeptali, zda podpoří kroky, které mohou přispět k tomu, že uprostřed všech krizí bude Olomouc obyvatelná a snad i v něčem lepší než dnes.
+          Milí Olomoučané, těší nás, že se zajímáte o místní politiku! Chcete se v komunálních volbách co nejlépe rozhodnout, ale nemáte dost času sledovat všechna politická uskupení a jednotlivé kandidující, jejich minulé kroky nebo navrhovaný program na další 4 leté období?
         </p>
         <div class="text:lg space-y-4 md:text-xl">
           <p>
-            Zodpovězením několika otázek můžete porovnat, nakolik se Vaše přání, požadavky a představy potkávají s názory kandidátstva.
+            Zodpovězením 18 otázek můžete porovnat, nakolik se Vaše přání, požadavky a představy potkávají s názory kandidujících do zastupitelstva. Vyplnění Vám zabere přibližně 10-15 minut
           </p>
 <!--           <p>
             Jetzt sind Sie an der Reihe: Vergleichen Sie Ihre Standpunkte mit

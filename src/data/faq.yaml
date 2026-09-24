@@ -2,7 +2,11 @@
 # https://creativecommons.org/licenses/by-sa/4.0/
 # (c) 2025, Open Knowledge Foundation Deutschland e.V.
 - id: 0
-  question: 'Kdo jsme?'
+  question: 'Proč vznikl web Vyber si Olomouc?'
+  answer: |
+    Věříme, že se chcete v komunálních volbách co nejlépe rozhodnout, ale možná nemáte dost času sledovat všechna politická uskupení a jednotlivé kandidující, jejich minulé kroky nebo navrhovaný program na další 4 leté období. Proto jsme se rozhodli Vám největší námahu ulehčit a na důležité otázky jsme se zeptali kandidujících za Vás.
+- id: 1
+  question: 'Kdo tvoří Vyber si Olomouc?'
   answer: |
     Bydlíme, pracujeme, studujeme, žijeme v Olomouci a záleží nám na našem městě.   
     Jsme členstvo několika olomouckých hnutí, kolektivů a spolků:
@@ -12,7 +16,7 @@
     * Iniciativa nájemníků a nájemnic: [https://iniciativanajemniku.cz/](https://iniciativanajemniku.cz/)  
     * Mladí Zelení [https://mladi-zeleni.cz/](https://mladi-zeleni.cz/)  
     * eFko: [https://www.instagram.com/\_.efko?igsh=MWVsd29zYmhzZWxzaA==](https://www.instagram.com/_.efko?igsh=MWVsd29zYmhzZWxzaA==)
-- id: 1
+- id: 2
   question: Jak předvolební kompas funguje?
   answer: |
     Předvolební kompas je online nástroj porovnávající vaše postoje ke konkrétním otázkám s postoji kandidujících k nim. Srovnávají se odpovědi na témata, která se budou v následujících několika letech v Olomouci řešit. Pomáhá tak rozhodovat se ve volbách přesněji, než na základě politických programů, sloganů či reklam.
