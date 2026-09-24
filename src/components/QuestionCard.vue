@@ -87,7 +87,7 @@ onMounted(focusFirstButton)
       </Transition>
       <Transition mode="out-in" :name="transitionName">
         <div aria-live="assertive" :key="currentQuestionIndex">
-          <h2 class="my-4 text-xl font-medium max-md:hyphens-auto @md:text-4xl">
+          <h2 class="my-4 text-xl font-medium max-md:hyphens-auto @md:text-4xl whitespace-pre-wrap">
             {{ currentQuestion.thesis }}
           </h2>
           <details class="my-4">
