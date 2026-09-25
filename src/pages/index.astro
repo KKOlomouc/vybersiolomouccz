@@ -24,9 +24,7 @@ const partners = await getCollection('partners')
 
     <div class="mt-8 bg-white/50 p-8 text-center backdrop-blur-sm">
       <h2 class="text-lg mb-4">Na projektu se podílí:</h2>
-    <ul
-        class="partners grid grid-cols-2 md:grid-cols-4 lg:grid-cols-6 gap-4 md:gap-8"
-      >
+      <ul class="partners justify-items-center mt-8 grid grid-cols-2 md:grid-cols-4 lg:grid-cols-5 gap-4 md:gap-8">
         {
           partners.map((partner) => (
             <li>
@@ -36,12 +34,13 @@ const partners = await getCollection('partners')
                   alt={partner.data.name}
                   loading="eager"
                   class="w-full h-20 object-contain aspect-3/2"
-                />
+                  />
               </a>
             </li>
           ))
         }
       </ul>
-      </div>
-      </div>
+    </div>
+
+  </div>
 </Layout>
