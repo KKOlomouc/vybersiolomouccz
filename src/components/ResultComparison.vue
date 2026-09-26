@@ -16,8 +16,22 @@ onMounted(() => {
 })
 
 defineProps<{
-  questions: Question[]
+  questions: Question[],
+  partyMatches: { party: string; score: number; percentage: number }[]
 }>()
+
+const getPartyFromName = (partyName: string): Party => {
+
+  const party = parties.find((p) => partyNames[p] === partyName);
+
+  // This error should never come up, because parties is created out of partyNames in store.ts, but TypeScript is complaning about the type mismatch in undefined because of Array.prototype.find.
+  if (party === undefined) {
+    throw new TypeError('Nenalezená strana.');
+  }
+
+  return party;
+
+};
 
 const getPartyAnswer = (question: Question, party: Party): Answer | undefined =>
   question.answers.find((a) => a.party === party)?.answer
@@ -37,7 +51,7 @@ const getPartyAnswer = (question: Question, party: Party): Answer | undefined =>
         <tr>
           <th class="text-start">Otázka</th>
           <th class="text-center">Vaše odpověď</th>
-          <th class="text-center" v-for="party in partyNames" :key="party">
+          <th class="text-center" v-for="({ party, }) in partyMatches" :key="party">
             {{ party }}
           </th>
         </tr>
@@ -48,10 +62,10 @@ const getPartyAnswer = (question: Question, party: Party): Answer | undefined =>
           <td class="text-center">
             <AnswerIndicator :answer="answers[question.id]?.answer ?? '/'" />
           </td>
-          <td class="text-center" v-for="party in parties" :key="party">
+          <td class="text-center" v-for="({ party, }) in partyMatches" :key="party">
             <AnswerIndicator
-              v-if="getPartyAnswer(question, party)"
-              :answer="getPartyAnswer(question, party)!"
+              v-if="getPartyAnswer(question, getPartyFromName(party))"
+              :answer="getPartyAnswer(question, getPartyFromName(party))!"
             />
           </td>
         </tr>

@@ -63,7 +63,7 @@ const share = () => {
           <ResultMatches :partyMatches="partyMatches" />
         </TabPanel>
         <TabPanel :unmount="false">
-          <ResultComparison :questions="questions" />
+          <ResultComparison :partyMatches="partyMatches" :questions="questions" />
         </TabPanel>
         <TabPanel :unmount="false"
           ><ResultComments :questions="questions"
