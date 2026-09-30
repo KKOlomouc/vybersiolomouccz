@@ -2,7 +2,7 @@
 import { computed, onMounted, ref } from 'vue'
 import { TabGroup, TabList, Tab, TabPanels, TabPanel } from '@headlessui/vue'
 import type { Question } from '../content.config'
-import { partyNames, useStore } from '../store'
+import { parties, partyNames, useStore } from '../store'
 import { publicUrl, shareText } from '../const'
 import ResultMatches from '../components/ResultMatches.vue'
 import ResultComparison from '../components/ResultComparison.vue'
@@ -65,9 +65,12 @@ const share = () => {
         <TabPanel :unmount="false">
           <ResultComparison :partyMatches="partyMatches" :questions="questions" />
         </TabPanel>
-        <TabPanel :unmount="false"
-          ><ResultComments :questions="questions"
-        /></TabPanel>
+        <TabPanel :unmount="false">
+          <ResultComments
+            :questions="questions"
+            :partyMatches="partyMatches"
+            />
+        </TabPanel>
       </TabPanels>
     </TabGroup>
 
