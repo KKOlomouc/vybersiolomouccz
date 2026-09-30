@@ -1,8 +1,8 @@
 <script lang="ts" setup>
 import { computed, onMounted, ref } from 'vue'
 import { TabGroup, TabList, Tab, TabPanels, TabPanel } from '@headlessui/vue'
-import type { Question } from '../content.config'
-import { partyNames, useStore } from '../store'
+import type { Party, Question } from '../content.config'
+import { parties, partyNames, useStore } from '../store'
 import { publicUrl, shareText } from '../const'
 import ResultMatches from '../components/ResultMatches.vue'
 import ResultComparison from '../components/ResultComparison.vue'
@@ -33,11 +33,23 @@ onMounted(() => {
 const share = () => {
   navigator.share(shareData)
 }
+
+const selectedTab = ref(0);
+const changeTab = (index: number) => {
+  selectedTab.value = index;
+};
+
+const commentsPartyIndex = ref(0);
+const openCommentsForParty = (partyIndex: number) => {
+  commentsPartyIndex.value = partyIndex;
+  changeTab(2);
+};
+
 </script>
 
 <template>
   <div>
-    <TabGroup>
+    <TabGroup :selected-index="selectedTab" @change="changeTab">
       <TabList class="flex space-x-1 rounded-t-lg bg-primary-purple/30 p-1">
         <Tab as="template" v-slot="{ selected }">
           <button class="tab-button" :class="{ selected: selected }">
@@ -60,14 +72,20 @@ const share = () => {
       </TabList>
       <TabPanels>
         <TabPanel :unmount="false">
-          <ResultMatches :partyMatches="partyMatches" />
+          <ResultMatches
+            :partyMatches="partyMatches"
+            @openComments="openCommentsForParty" />
         </TabPanel>
         <TabPanel :unmount="false">
           <ResultComparison :partyMatches="partyMatches" :questions="questions" />
         </TabPanel>
-        <TabPanel :unmount="false"
-          ><ResultComments :questions="questions"
-        /></TabPanel>
+        <TabPanel :unmount="false">
+          <ResultComments
+            v-model="commentsPartyIndex"
+            :questions="questions"
+            :partyMatches="partyMatches"
+            />
+        </TabPanel>
       </TabPanels>
     </TabGroup>
 

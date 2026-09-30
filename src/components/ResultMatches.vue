@@ -1,7 +1,16 @@
 <script setup lang="ts">
-defineProps<{
+const props = defineProps<{
   partyMatches: { party: string; score: number; percentage: number }[]
 }>()
+
+const emit = defineEmits(['openComments']);
+
+const openCommentsForParty = (e: Event) => {
+  const target = e.currentTarget as HTMLButtonElement;
+  const partyIndex = Number(target.getAttribute('data-partyIndex')) || 0;
+  emit('openComments', partyIndex);
+};
+
 </script>
 
 <template>
@@ -10,9 +19,18 @@ defineProps<{
     <div class="mt-6">
       <dl class="mt-2 grid items-center gap-x-4 gap-y-8">
         <template v-for="({ party, percentage }, index) in partyMatches" :key="party">
-          <dt class="font-medium whitespace-nowrap md:text-xl">
-            {{index + 1}}. {{ party }}
-          </dt>
+          <div>
+            <dt class="font-medium whitespace-nowrap md:text-xl">
+              {{index + 1}}. {{ party }}
+            </dt>
+            <button
+              @click="openCommentsForParty"
+              :data-partyIndex="index"
+              class="btn-text"
+            >
+              Zobrazit komentáře k otázkám
+            </button>
+          </div>
           <dd class="flex items-center space-x-4">
             <div class="flex-1">
               <div class="overflow-hidden rounded-full bg-white">
