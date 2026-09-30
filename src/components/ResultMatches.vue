@@ -1,11 +1,14 @@
 <script setup lang="ts">
 const props = defineProps<{
   partyMatches: { party: string; score: number; percentage: number }[]
-  changeTab: Function
 }>()
 
-const openComments = (e: Event) => {
-  props.changeTab(2);
+const emit = defineEmits(['openComments']);
+
+const openCommentsForParty = (e: Event) => {
+  const target = e.currentTarget as HTMLButtonElement;
+  const partyIndex = Number(target.getAttribute('data-partyIndex')) || 0;
+  emit('openComments', partyIndex);
 };
 
 </script>
@@ -21,7 +24,8 @@ const openComments = (e: Event) => {
               {{index + 1}}. {{ party }}
             </dt>
             <button
-              @click="openComments"
+              @click="openCommentsForParty"
+              :data-partyIndex="index"
               class="btn-text"
             >
               Zobrazit komentáře k otázkám

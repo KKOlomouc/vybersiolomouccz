@@ -1,7 +1,7 @@
 <script lang="ts" setup>
 import { computed, onMounted, ref } from 'vue'
 import { TabGroup, TabList, Tab, TabPanels, TabPanel } from '@headlessui/vue'
-import type { Question } from '../content.config'
+import type { Party, Question } from '../content.config'
 import { parties, partyNames, useStore } from '../store'
 import { publicUrl, shareText } from '../const'
 import ResultMatches from '../components/ResultMatches.vue'
@@ -39,6 +39,12 @@ const changeTab = (index: number) => {
   selectedTab.value = index;
 };
 
+const commentsPartyIndex = ref(0);
+const openCommentsForParty = (partyIndex: number) => {
+  commentsPartyIndex.value = partyIndex;
+  changeTab(2);
+};
+
 </script>
 
 <template>
@@ -66,13 +72,16 @@ const changeTab = (index: number) => {
       </TabList>
       <TabPanels>
         <TabPanel :unmount="false">
-          <ResultMatches :partyMatches="partyMatches" :changeTab="changeTab" />
+          <ResultMatches
+            :partyMatches="partyMatches"
+            @openComments="openCommentsForParty" />
         </TabPanel>
         <TabPanel :unmount="false">
           <ResultComparison :partyMatches="partyMatches" :questions="questions" />
         </TabPanel>
         <TabPanel :unmount="false">
           <ResultComments
+            v-model="commentsPartyIndex"
             :questions="questions"
             :partyMatches="partyMatches"
             />

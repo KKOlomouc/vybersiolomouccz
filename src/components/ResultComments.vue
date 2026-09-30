@@ -8,11 +8,6 @@ import IconChevron from '~icons/material-symbols/keyboard-arrow-down-rounded'
 import { parties, partyNames } from '../store'
 import AnswerIndicator from './AnswerIndicator.vue'
 
-const currentPartyIndex = ref(0);
-const currentParty = computed(
-  () => props.partyMatches[currentPartyIndex.value],
-);
-
 const getPartyFromName = (partyName: string): Party => {
 
   const party = parties.find((p) => partyNames[p] === partyName);
@@ -63,6 +58,12 @@ const props = defineProps<{
   questions: Question[]
   partyMatches: { party: string; score: number; percentage: number }[]
 }>();
+
+// defineModel creates a ref synchronized with the parent's v-model
+const currentPartyIndex = defineModel({ type: Number, default: 0 })
+const currentParty = computed(
+  () => props.partyMatches[currentPartyIndex.value],
+);
 
 </script>
 
