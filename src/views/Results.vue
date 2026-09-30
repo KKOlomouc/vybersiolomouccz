@@ -33,11 +33,17 @@ onMounted(() => {
 const share = () => {
   navigator.share(shareData)
 }
+
+const selectedTab = ref(0);
+const changeTab = (index: number) => {
+  selectedTab.value = index;
+};
+
 </script>
 
 <template>
   <div>
-    <TabGroup>
+    <TabGroup :selected-index="selectedTab" @change="changeTab">
       <TabList class="flex space-x-1 rounded-t-lg bg-primary-purple/30 p-1">
         <Tab as="template" v-slot="{ selected }">
           <button class="tab-button" :class="{ selected: selected }">
@@ -60,7 +66,7 @@ const share = () => {
       </TabList>
       <TabPanels>
         <TabPanel :unmount="false">
-          <ResultMatches :partyMatches="partyMatches" />
+          <ResultMatches :partyMatches="partyMatches" :changeTab="changeTab" />
         </TabPanel>
         <TabPanel :unmount="false">
           <ResultComparison :partyMatches="partyMatches" :questions="questions" />
