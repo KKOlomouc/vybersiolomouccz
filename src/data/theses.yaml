@@ -97,6 +97,12 @@
   - party: tomas_pejpek
     answer: ne
     comment: Navrhujeme MHD zdarma pro přesuny žáků na školní akce.
+  - party: robert_srejma
+    answer: ano
+    comment: ''
+  - party: eva_machova
+    answer: ano
+    comment: ''
 - id: question-1
   index: 1
   thesis: |
@@ -213,6 +219,12 @@
     answer: ne
     comment: Plánujeme zavedení rezidenčního parkování postupně v celé zóně C z důvodu
       zvýhodnění rezidentů.
+  - party: robert_srejma
+    answer: ano
+    comment: 'Zpoplatnění parkování v C zóně by především ulevilo lidem, kteří zde bydlí. 600kč za 1. auto si myslím, že je skvělým kompromisem, aby se lidé spolupodíleli na financování dopravní politiky, zároveň 20kč/h pro dojíždějící zajistí, že aut výrazně ubyde.'
+  - party: eva_machova
+    answer: ano
+    comment: ''      
 - id: question-2
   index: 2
   thesis: |
@@ -320,6 +332,12 @@
   - party: tomas_pejpek
     answer: nevim
     comment: ''
+  - party: robert_srejma
+    answer: nevim
+    comment: Cyklostezky jsou mezi našimi prioritami, avšak spíše než hodně cyklostezek, bych preferoval bezpečnější cyklostezky. Toho docílíme mimo jiné tím, že se postaráme o úbytek aut ve městě. Stavba záchytných parkovacích domů v dobrém napojení na MHD výrazně zredukuje počet aut v našich ulicích a tím pádem bude ve městě více místa pro cyklisty. Samozřejmě bych podpořil výstavbu klíčových cyklostezek, které využije dostatečné množství spoluobčanů.
+  - party: eva_machova
+    answer: ano
+    comment: ''        
 - id: question-3
   index: 3
   thesis: |

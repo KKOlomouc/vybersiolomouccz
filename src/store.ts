@@ -62,7 +62,9 @@ robert_pokorny:"Robert Pokorný (LOL)",
 marek_zelenka:"Marek Zelenka (STAN)",
 michal_langer:"Michal Langer (Milujeme Olomouc)",
 pavel_grasse:"Pavel Grasse (ProOlomouc)",
-tomas_pejpek:"Tomáš Pejpek (ProOlomouc)"
+tomas_pejpek:"Tomáš Pejpek (ProOlomouc)",
+robert_srejma:"Robert Šrejma (STAN)",
+eva_machova:"Eva Machová (STAN)"
 }
 
 export const parties = Object.keys(partyNames) as Party[]
@@ -106,7 +108,9 @@ robert_pokorny: 0,
 marek_zelenka: 0,
 michal_langer: 0,
 pavel_grasse: 0,
-tomas_pejpek: 0
+tomas_pejpek: 0,
+robert_srejma: 0,
+eva_machova: 0
     }
 
     let denominator = 0

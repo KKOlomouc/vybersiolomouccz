@@ -31,6 +31,8 @@ export const partySchema = z.enum([
 'michal_langer',
 'pavel_grasse',
 'tomas_pejpek',
+'robert_srejma',
+'eva_machova'
 ])
 export type Party = z.infer<typeof partySchema>
 
