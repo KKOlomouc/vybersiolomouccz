@@ -750,7 +750,7 @@
 - id: question-7
   index: 7
   thesis: |
-    Souhlasíte, aby město pokračovalo ve snižování emisí skleníkových plynů minimálně o 40 % do roku 2030 (oproti roku 2010), v souladu se schválenou Adaptační a mitigační strategií města Olomouce (SECAP), která zahrnuje využívání obnovitelných zdrojů energie, zateplování domů, výsadbu lesů, podporu veřejné dopravy, chůze a cyklistiky?
+    Souhlasíte, aby město pokračovalo ve snižování emisí skleníkových plynů minimálně o 40 % do roku 2030 (oproti roku 2010), v souladu se schválenou Adaptační a mitigační strategií města Olomouce (SECAP), která zahrnuje využívání obnovitelných zdrojů energie, zateplování domů, výsadbu lesů, podporu veřejné dopravy, chůze a cyklodopravy?
   thesisContext: |
     Statutární město Olomouc se oficiálně zapojilo do iniciativy Pakt starostů a primátorů dne 16. 11. 2020. Signatáři Paktu se zavazují ke splnění a překročení cíle Evropské unie o snížení emisí CO2 do roku 2030 o 40 %. Toho se má docílit např. zvýšením energetické účinnosti a používáním obnovitelných zdrojů energie na území, jež město spravuje. Údaje o plnění plánu má město vyhodnocovat každé 2 roky v dokumentu “Akční plán pro udržitelnou energii a klima (SECAP – Sustainable Energy and Climate Action Plan)”. Město Olomouc doposud snížilo emise o 25,5 %. Město má tudíž poslední 4 roky, aby srazilo emise CO2 o dalších 14,5 % a naplnilo tak vlastní závazky.
     https://www.olomouc.eu/administrace/repository/gallery/articles/24_/24763/adaptacni-a-mitigacni-strategie-20241213.cs.pdf?srsltid=AfmBOooOrDe73NbghvcjgT4beFMyKfEu7odYw_DR8JfPwoDy6vbZBOo5
@@ -770,7 +770,7 @@
       ale mělo by probíhat především prostřednictvím konkrétních a smysluplných opatření,
       nikoliv zákazů. Podporuji modernizaci MHD a její elektrifikaci, například nákup
       elektrobusů nebo rozvoj tramvajové dopravy, stejně jako energetické úspory,
-      výsadbu zeleně a podporu chůze a cyklistiky. K cíli snížit emise do roku 2030
+      výsadbu zeleně a podporu chůze a cyklodopravy. K cíli snížit emise do roku 2030
       se proto hlásím, pokud budou jednotlivá opatření ekonomicky a prakticky smysluplná.
   - party: otakar_bacak
     answer: ano
@@ -1748,7 +1748,7 @@
     answer: ano
     comment: ''    
 - id: question-17
-  index: 18
+  index: 17
   thesis: Souhlasíte s komplexním rozvojem péče o seniory, který zahrnuje rozšiřování i výstavbu domovů pro seniory (soběstačné i nesoběstačné) a zároveň posílení dostupnosti navazujících sociálních služeb (pečovatelská služba, mobilní hospic apod.) a jiné formy podpory (např. Senior Taxi)?
   thesisContext: |
     V Olomouci nejsou dostupné například následující možnosti podpory starších osob:
