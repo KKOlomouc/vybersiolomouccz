@@ -85,6 +85,19 @@ h2 {
   @apply mb-2 text-2xl font-medium md:text-4xl;
 }
 
+span.ano {
+  @apply text-primary-green;
+}
+
+span.ne {
+  @apply text-primary-red;
+}
+
+span.nevim {
+  color: var(--color-purple-700);
+}
+
+
 .bg-white\/75 {
   background-color: rgba(255, 255, 255, 0.75);
 }

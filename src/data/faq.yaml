@@ -4,23 +4,53 @@
 - id: 0
   question: 'Proč vznikl web Vyber si Olomouc?'
   answer: |
-    Věříme,  že se chcete v komunálních volbách co nejlépe rozhodnout,  ale možná nemáte dost času sledovat všechna politická uskupení a jednotlivé kandidující,  jejich minulé kroky nebo navrhovaný program na další 4 leté období. Proto jsme se rozhodli Vám největší námahu ulehčit a na důležité otázky jsme se zeptali kandidujících za Vás.
+    Věříme, že se chcete v komunálních volbách co nejlépe rozhodnout, ale možná nemáte dost času sledovat všechna politická uskupení a jednotlivé kandidující, jejich minulé kroky nebo navrhovaný program na další čtyřleté období. Proto jsme se rozhodli Vám největší námahu ulehčit a na důležité otázky jsme se zeptali kandidujících za Vás.
 - id: 1
   question: 'Kdo tvoří Vyber si Olomouc?'
   answer: |
-    Bydlíme,  pracujeme,  studujeme,  žijeme v Olomouci a záleží nám na našem městě.   
-    Jsme členstvo několika olomouckých hnutí,  kolektivů a spolků:
+    Bydlíme, pracujeme, studujeme, žijeme v Olomouci a záleží nám na našem městě.
+    Jsme členstvo několika olomouckých hnutí, kolektivů a spolků:
 
-    * Klimatická koalice Olomouc: [https://klimatickakoaliceolomouc.cz/](https://klimatickakoaliceolomouc.cz/)  
-    * Komunitní prostor Oáza: [https://oazaolomouc.cz/](https://oazaolomouc.cz/)  
-    * Iniciativa nájemníků a nájemnic: [https://iniciativanajemniku.cz/](https://iniciativanajemniku.cz/)  
-    * Mladí Zelení [https://mladi-zeleni.cz/](https://mladi-zeleni.cz/)  
+    * Klimatická koalice Olomouc: [https://klimatickakoaliceolomouc.cz/](https://klimatickakoaliceolomouc.cz/)
+    * Komunitní prostor Oáza: [https://oazaolomouc.cz/](https://oazaolomouc.cz/)
+    * Iniciativa nájemníků a nájemnic: [https://iniciativanajemniku.cz/](https://iniciativanajemniku.cz/)
+    * Mladí Zelení [https://mladi-zeleni.cz/](https://mladi-zeleni.cz/)
     * eFko: [https://www.instagram.com/\_.efko?igsh=MWVsd29zYmhzZWxzaA==](https://www.instagram.com/_.efko?igsh=MWVsd29zYmhzZWxzaA==)
 - id: 2
   question: Jak předvolební kompas funguje?
   answer: |
-    Předvolební kompas je online nástroj porovnávající vaše postoje ke konkrétním otázkám s postoji kandidujících k nim. Srovnávají se odpovědi na témata,  která se budou v následujících několika letech v Olomouci řešit. Pomáhá tak rozhodovat se ve volbách přesněji,  než na základě politických programů,  sloganů či reklam.
+    Předvolební kompas je online nástroj porovnávající vaše postoje ke konkrétním otázkám s postoji kandidujících k nim. Srovnávají se odpovědi na témata,  která se budou v následujících několika letech v Olomouci řešit. Pomáhá tak rozhodovat se ve volbách přesněji, než na základě politických programů, sloganů či reklam.
 - id: 3
   question: Kdo byl osloven a neodpověděl?
   answer: |
-    Renata Konečná (KDU-ČSL), Radek Petřík (KDU-ČSL), Miroslava Ferancová (ANO 2011), Miroslav Tichý (ANO 2011), Tomáš Sýkora (ANO 2011), Jaromír Lošťák (ANO 2011), Magdaléna Vanečková (ANO 2011), Jan Vašíř (ODS), Ivana Vyleťalová (ODS), Jan Holpuch (ODS), Pavel Fryšák (spOLečně), Jaroslav Krátký (spOLečně), Petra Baštanová (STAN), Robert Šrejma (STAN), Eva Machová (STAN), Josef Suchánek (STAN), Karel Měsíček (KČ), Pavel Andrš (KČ), Pavel Jelínek (SPD/Trikolora/Svobodní), Martin Jirotka (SPD/Trikolora/Svobodní), Bohuslav Coufal (SPD/Trikolora/Svobodní), David Alt (SPD/Trikolora/Svobodní), Kateřina Dobrozemská (ProOlomouc), Eva Lebedová (ProOlomouc), Jan Rytíř (LOL), Iveta Švancarová (SPD/Trikolora/Svobodní), Eva Štaflová (LOL), Marian Jašek (Přísaha), Pavel Balcárek (Přísaha), Lenka Bittnerová (Přísaha), Adam Hnízdil (Přísaha), Ida Riedlová (Přísaha), Václav Andrš (KČ), Dagmar Tichá (KČ), Pavla Pekárová (KČ)    
+    Z každé kandidující strany a uskupení jsme oslovili prvních 5 kandidátů a kandidátek, kteří v letošních volbách stojí v čele jejich stran. Někteří z kandidujících nám nezaslali odpovědi na otázky ani po opakovaných výzvách, a jejich odpovědi se tedy ve výsledcích kompasu nevyskytují. Odpovědí pro kompas se nám nedostalo od následujících kandidujících:
+
+    **KDU-ČSL** \
+    Renata Konečná, Radek Petřík
+
+    **ANO 2011** \
+    Miroslava Ferancová, Miroslav Tichý, Tomáš Sýkora, Jaromír Lošťák, Magdaléna Vanečková
+
+    **ODS** \
+    Jan Vašíř, Ivana Vyleťalová, Jan Holpuch
+
+    **spOLečně** \
+    Pavel Fryšák, Jaroslav Krátký
+
+    **STAN** \
+    Petra Baštanová, Robert Šrejma, Eva Machová, Josef Suchánek
+
+    **KČ** \
+    Václav Andrš, Dagmar Tichá, Karel Měsíček, Pavla Pekárová, Pavel Andrš
+
+    **SPD/Trikolora/Svobodní** \
+    Pavel Jelínek, Martin Jirotka, Bohuslav Coufal, David Alt, Iveta Švancarová
+
+    **ProOlomouc** \
+    Kateřina Dobrozemská, Eva Lebedová
+
+    **LOL** \
+    Jan Rytíř, Eva Štaflová
+
+    **Přísaha** \
+    Marian Jašek, Pavel Balcárek, Lenka Bittnerová, Adam Hnízdil, Ida Riedelová

@@ -7,11 +7,14 @@ const emit = defineEmits(['done'])
 <template>
   <div class="bg-white p-4 md:p-8">
     <h2 class="text-lg!">Jak funguje web Vyber si Olomouc?</h2>
-    <p>
-      Předvolební kompas je online nástroj, který porovnává vaše postoje ke konkrétním otázkám s postoji kandidujících. Srovnávají se odpovědi (ano, ne či nevím) na otázky, které se budou v následujícím volebním období v Olomouci řešit. Někteří z kandidátstva ke svým odpovědím přidali krátký komentář. Můžete si jej přečíst na stránce s vyhodnocením. Kompas tak nabízí další možnost, jak se před volbami seznámit s postoji kandidujících.</p>
-<p>Z každé kandidátní listiny jsme k vyplnění kompasu vyzvali prvních pět kandidujících. Za některá uskupení neodpověděl nikdo, za jiná jsme získali jednu či více odpovědí.</p>
-<p>Kompas nemá ambici postihnout názory všech kandidujících ani nahrazovat volební programy jednotlivých uskupení. Výsledky zachycují pouze postoje těch, kteří na dotazník odpověděli. Nástroj má voličkám a voličům nabídnout další zdroj informací, který mohou využít vedle volebních programů, veřejných debat a dalších dostupných informací.
-
+    <p class="mt-2">
+      Předvolební kompas je online nástroj, který porovnává vaše postoje ke konkrétním otázkám s postoji kandidujících. Srovnávají se odpovědi (<span class="ano"><strong>ano</strong></span>, <span class="ne"><strong>ne</strong></span> či <span class="nevim"><strong>nevím</strong></span>) na otázky, které se budou v následujícím volebním období v Olomouci řešit. Někteří z kandidátstva ke svým odpovědím přidali krátký komentář. Můžete si jej přečíst na stránce s vyhodnocením. Kompas tak nabízí další možnost, jak se před volbami seznámit s postoji kandidujících.
+    </p>
+    <p class="mt-2">
+      Z každé kandidátní listiny jsme k vyplnění kompasu vyzvali prvních pět kandidujících. Za některá uskupení neodpověděl nikdo, za jiná jsme získali jednu či více odpovědí.
+    </p>
+    <p class="mt-2">
+      Kompas nemá ambici postihnout názory všech kandidujících ani nahrazovat volební programy jednotlivých uskupení. Výsledky zachycují pouze postoje těch, kteří na dotazník odpověděli. Nástroj má voličkám a voličům nabídnout další zdroj informací, který mohou využít vedle volebních programů, veřejných debat a dalších dostupných informací.
     </p>
 
     <!-- <h2 class="mt-4 text-lg!">Jak vyhodnocujeme shodu?</h2>
@@ -45,9 +48,6 @@ const emit = defineEmits(['done'])
         Sanktionierung von Bürgergeldempfänger*innen ano geht. Es
         sollen stärkere Maßnahmen ergriffen werden.
       </p>
-      <p>
-          
-      </p> 
     </div>-->
 
     <button class="btn mt-4" @click="$emit('done')">
