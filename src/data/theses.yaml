@@ -447,6 +447,12 @@
   - party: tomas_pejpek
     answer: ano
     comment: ''
+  - party: robert_srejma
+    answer: ano
+    comment: ''
+  - party: eva_machova
+    answer: ano
+    comment: ''     
 - id: question-4
   index: 4
   thesis: |
@@ -543,6 +549,12 @@
     comment: Projekt PPO3 je nutné připravovat a o dotacích jednat s vedením ministerstev
       zemědělství a životního prostředí. Protipovodňová opatření pro Chomoutov budeme
       rovněž připravovat.
+  - party: robert_srejma
+    answer: ano
+    comment: Musíme udělat vše pro to, abychom dotaci dostali.
+  - party: eva_machova
+    answer: ano
+    comment: ''      
 - id: question-5
   index: 5
   thesis: |
@@ -639,6 +651,12 @@
   - party: tomas_pejpek
     answer: ano
     comment: ''
+  - party: robert_srejma
+    answer: ano
+    comment: Tohle plně podporuji, akorát musíme mít vybudované náhradní parkovací místa, například na okraji města nebo v podzemí.
+  - party: eva_machova
+    answer: ano
+    comment: ''    
 - id: question-6
   index: 6
   thesis: |
@@ -723,6 +741,12 @@
   - party: tomas_pejpek
     answer: nevim
     comment: ''
+  - party: robert_srejma
+    answer: ano
+    comment: Tohle je skvělý krok jak pozitivně motivovat spoluobčany k zelené energetice, která našemu městu prospěje. 
+  - party: eva_machova
+    answer: ano
+    comment: ''    
 - id: question-7
   index: 7
   thesis: |
@@ -810,6 +834,12 @@
   - party: tomas_pejpek
     answer: ano
     comment: ''
+  - party: robert_srejma
+    answer: ano
+    comment: ''
+  - party: eva_machova
+    answer: ano
+    comment: ''    
 - id: question-8
   index: 8
   thesis: Chcete, aby město zprovoznilo alespoň jeden objekt ve svém vlastnictví jako kreativní centrum s cenově dostupnými sdílenými ateliéry, dílnami a zkušebnami?
@@ -892,6 +922,12 @@
   - party: tomas_pejpek
     answer: ne
     comment: ''
+  - party: robert_srejma
+    answer: ano
+    comment: Olomouc musí být městem umění a sdílené ateliéry jsou základem úspěchu nových generací umělců. 
+  - party: eva_machova
+    answer: ano
+    comment: ''    
 - id: question-9
   index: 9
   thesis: |
@@ -983,6 +1019,12 @@
   - party: tomas_pejpek
     answer: ano
     comment: ''
+  - party: robert_srejma
+    answer: ano
+    comment: Určitě Nové Sady by si něco takového zasloužily 
+  - party: eva_machova
+    answer: ano
+    comment: ''    
 - id: question-10
   index: 10
   thesis: Chcete, aby se podíl neinvestičních výdajů města určených na kulturu snížil a raději byly podpořeny jiné oblasti?
@@ -1068,6 +1110,12 @@
   - party: tomas_pejpek
     answer: ne
     comment: ''
+  - party: robert_srejma
+    answer: ne
+    comment: ''
+  - party: eva_machova
+    answer: ne
+    comment: ''    
 - id: question-11
   index: 11
   thesis: Je pro vás důležité rozšíření možností amatérského sportování formou výstavby nových sportovišť a zlepšení přístupu ke stávajícím městským a školním sportovištím ve všech městských částech?
@@ -1169,6 +1217,12 @@
   - party: tomas_pejpek
     answer: ano
     comment: ''
+  - party: robert_srejma
+    answer: ano
+    comment: Určitě jsem pro výstavbu nových cvičišť, protože dostupný sport je základem zdravé populace. Jako lékárník vím, že sport prodlužuje dobu kdy je člověk zdravý, kdy ho nebolí záda nebo celkově dobu jeho života. Dostupný sport je oblast, která si zaslouží větší financování. Zdroje financí nemusí však být pouze od města, můžou se sehnat dotace od EU, NSA či soukromých subjektů. 
+  - party: eva_machova
+    answer: ano
+    comment: ''    
 - id: question-12
   index: 12
   thesis: Souhlasíte s tím, aby město mělo jasná a veřejně dostupná pravidla, která určují, kdy a jak se může veřejnost zapojit do rozhodování o důležitých investicích a rozvoji města?
@@ -1260,6 +1314,12 @@
   - party: tomas_pejpek
     answer: ne
     comment: ''
+  - party: robert_srejma
+    answer: ano
+    comment: ''
+  - party: eva_machova
+    answer: ano
+    comment: ''    
 - id: question-13
   index: 13
   thesis: Souhlasíte s výstavbou nové multifunkční haly v Olomouci na Velkomoravské ul. i za nyní sjednaných podmínek?
@@ -1366,6 +1426,12 @@
   - party: tomas_pejpek
     answer: ne
     comment: ''
+  - party: robert_srejma
+    answer: nevim
+    comment: ''
+  - party: eva_machova
+    answer: ne
+    comment: ''    
 - id: question-14
   index: 14
   thesis: Souhlasíte s tím, aby při sestavování městského rozpočtu bylo upřednostňováno financování soukromých investičních projektů před veřejnými službami (např. školství, kultura, zdravotnictví, sociální služby a také opravy, údržba, úklid města apod.)?
@@ -1462,6 +1528,12 @@
   - party: tomas_pejpek
     answer: ne
     comment: ''
+  - party: robert_srejma
+    answer: ne
+    comment: ''
+  - party: eva_machova
+    answer: ne
+    comment: ''    
 - id: question-15
   index: 15
   thesis: Souhlasíte se systémovou pomocí lidem bez domova? Může jít například o zapojení městských bytů (v případě, že by jimi město disponovalo) do programu Housing First, zavedení chráněných pracovních míst (např. u TSMO s denní výplatou) nebo navýšení financí pro terénní a zdravotní péči.
@@ -1553,6 +1625,12 @@
   - party: tomas_pejpek
     answer: ano
     comment: ''
+  - party: robert_srejma
+    answer: ano
+    comment: Odmítám názory některých politiků, že odvézt bezdomovce za město problém vyřeší. Musíme se inspirovat finským modelem housing-first, která je sice nákladná, ale má největší šanci vyřešit problém bezdomovectví. 
+  - party: eva_machova
+    answer: ano
+    comment: ''    
 - id: question-16
   index: 16
   thesis: Souhlasíte se systematickým rozšiřováním bytového fondu (například výkup, výstavba nemovitostí nebo zvýhodněné odkoupení bytů z developerských projektů) za účelem poskytování cenově dostupného nájemního, sociálního i bezbariérového bydlení?
@@ -1663,6 +1741,12 @@
   - party: tomas_pejpek
     answer: ano
     comment: ''
+  - party: robert_srejma
+    answer: ano
+    comment: ''
+  - party: eva_machova
+    answer: ano
+    comment: ''    
 - id: question-17
   index: 18
   thesis: Souhlasíte s komplexním rozvojem péče o seniory, který zahrnuje rozšiřování i výstavbu domovů pro seniory (soběstačné i nesoběstačné) a zároveň posílení dostupnosti navazujících sociálních služeb (pečovatelská služba, mobilní hospic apod.) a jiné formy podpory (např. Senior Taxi)?
@@ -1777,3 +1861,9 @@
   - party: tomas_pejpek
     answer: ano
     comment: ''
+  - party: robert_srejma
+    answer: ano
+    comment: ''
+  - party: eva_machova
+    answer: ano
+    comment: ''    
