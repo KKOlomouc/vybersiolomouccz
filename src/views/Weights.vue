@@ -2,6 +2,7 @@
 import { computed } from 'vue'
 import type { Question } from '../content.config'
 import IconForward from '~icons/material-symbols/arrow-forward'
+import AnswerIndicator from '../components/AnswerIndicator.vue';
 import { useStore } from '../store'
 
 const props = defineProps<{
@@ -55,13 +56,14 @@ const setWeight = (questionId: string, e: Event) => {
         :key="questionId"
         class="flex items-start space-x-2 bg-white p-4"
       >
-        <div>
+        <div class="flex flex-col items-center justify-between h-full mr-3">
           <input
             type="checkbox"
             :checked="weight === 2"
             @change="(e) => setWeight(questionId, e)"
             :aria-labelledby="`label-${questionId}`"
           />
+          <AnswerIndicator popup-prefix="Vaše odpověď: " :answer small class="my-2" />
         </div>
 
         <div>
