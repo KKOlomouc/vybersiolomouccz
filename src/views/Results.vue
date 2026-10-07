@@ -16,7 +16,7 @@ const props = defineProps<{
   questions: Question[]
 }>()
 
-const { getPartyMatches } = useStore()
+const { getPartyMatches, answers } = useStore()
 
 const canShare = ref(false)
 const shareData = {
@@ -83,6 +83,7 @@ const openCommentsForParty = (partyIndex: number) => {
           <ResultComments
             v-model="commentsPartyIndex"
             :questions="questions"
+            :userAnswers="answers"
             :partyMatches="partyMatches"
             />
         </TabPanel>

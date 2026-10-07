@@ -5,7 +5,7 @@ import type { Party, Position, Question } from '../content.config'
 import IconBack from '~icons/material-symbols/arrow-back'
 import IconForward from '~icons/material-symbols/arrow-forward'
 import IconChevron from '~icons/material-symbols/keyboard-arrow-down-rounded'
-import { parties, partyNames } from '../store'
+import { parties, partyNames, type UserPosition } from '../store'
 import AnswerIndicator from './AnswerIndicator.vue'
 
 const getPartyFromName = (partyName: string): Party => {
@@ -56,6 +56,7 @@ const nextSlide = () => {
 
 const props = defineProps<{
   questions: Question[]
+  userAnswers: Record<string, UserPosition>,
   partyMatches: { party: string; score: number; percentage: number }[]
 }>();
 
@@ -71,7 +72,7 @@ const currentParty = computed(
   <div class="bg-white p-4 md:p-8">
     <h2>Komentáře k odpovědím</h2>
     <p class="mb-6">
-        Jak kandidátstvo zdůvodňuje své postoje? Podívejte se na komentáře ke konkrétním otázkám.
+        Jak kandidátstvo zdůvodňuje své postoje? Podívejte se na komentáře ke konkrétním otázkám. Vaše odpovědi jsou zobrazeny v menším kolečku.
     </p>
 
     <hr class="border-gray-200" />
@@ -128,7 +129,10 @@ const currentParty = computed(
               class="flex flex-1 h-full w-full items-center justify-between rounded bg-purple-100 px-4 py-2 outline-none focus:ring-3 focus:ring-purple-600/50 motion-safe:transition"
               :class="{ 'rounded-b-none': open }"
             >
-              <AnswerIndicator :answer="answer ?? '/'" />
+              <div class="flex flex-col items-center">
+                <AnswerIndicator :answer="answer ?? '/'" popup-prefix="Odpověď kandidstva: " class="my-4"/>
+                <AnswerIndicator :answer="userAnswers[questions[i].id]?.answer ?? '/'" small popup-prefix="Vaše odpověď: "/>
+              </div>
               <h4 class="text-lg text-left w-3/4">Otázka {{ i + 1 }}: {{ questions[i].thesis }}</h4>
               <IconChevron
                 aria-hidden="true"
