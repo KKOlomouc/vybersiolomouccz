@@ -78,7 +78,7 @@ onMounted(focusFirstButton)
         mode="out-in"
       >
         <div
-          class="flex text-gray-700 @md:mt-4 @md:text-2xl"
+          class="flex text-gray-700 @md:mt-4 @md:text-xl @lg:text-2xl"
           :key="currentQuestionIndex"
         >
           {{ currentQuestionProgress }} / {{ questionsCount }}
@@ -87,7 +87,7 @@ onMounted(focusFirstButton)
       </Transition>
       <Transition mode="out-in" :name="transitionName">
         <div aria-live="assertive" :key="currentQuestionIndex">
-          <h2 class="my-4 text-xl font-medium max-md:hyphens-auto @md:text-4xl whitespace-pre-wrap">
+          <h2 class="my-4 font-medium max-md:hyphens-auto whitespace-pre-wrap">
             {{ currentQuestion.thesis }}
           </h2>
           <details class="my-4">

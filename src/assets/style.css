@@ -82,7 +82,7 @@ button {
 }
 
 h2 {
-  @apply mb-2 text-2xl font-medium md:text-4xl;
+  @apply mb-2 text-xl font-medium md:text-4xl;
 }
 
 span.ano {
